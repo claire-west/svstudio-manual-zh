@@ -5,7 +5,7 @@ theme:
     scheme: default
 plugins:
     - with-pdf:
-        author: 'https://manual.synthv.info'
+        author: 'https://zh.synthv.info'
         copyright: ' '
         cover_subtitle: ' '
         output_path: ../synthv-unofficial-user-manual.pdf
