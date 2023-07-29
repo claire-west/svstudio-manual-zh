@@ -1,0 +1,28 @@
+:root {
+  --md-primary-fg-color: #7db235;
+  --md-primary-fg-color--light: #7db235;
+  --md-primary-fg-color--dark: #7db235;
+  --md-accent-fg-color: #85BC38;
+  --md-accent-fg-color--light: #85BC38;
+  --md-accent-fg-color--dark: #85BC38;
+}
+
+/* hide github button in mobile navbar */
+.md-nav__source {
+    display: none;
+}
+
+.keys {
+  padding-left: 0.12em;
+  padding-right: 0.12em;
+}
+
+.keys .key-mouse-wheel:before {
+  content: "🖱";
+  padding-right: 0.4em
+}
+
+.md-typeset dd {
+  margin-top: 0;
+  margin-bottom: 1em;
+}

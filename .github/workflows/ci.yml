@@ -1,0 +1,45 @@
+name: ci
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+env:
+  GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video mkdocs-exclude-search pillow cairosvg mkdocs-with-pdf
+      - name: deploy-pages
+        run: mkdocs gh-deploy --force
+      - name: build-offline-light
+        env:
+          OFFLINE: true
+        run: mkdocs build -f offline-light.yml -d offline-light
+      - run: cd offline-light && zip -r -q ../synthv-unofficial-user-manual-light.zip * -x google*.html CNAME sitemap*
+      - name: build-offline-dark
+        env:
+          OFFLINE: true
+        run: mkdocs build -f offline-dark.yml -d offline-dark
+      - run: cd offline-dark && zip -r -q ../synthv-unofficial-user-manual-dark.zip * -x google*.html CNAME sitemap*
+      - name: build-pdf-document
+        run: mkdocs build -f pdf.yml -d pdf
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Offline Version"
+          files: |
+            synthv-unofficial-user-manual-light.zip
+            synthv-unofficial-user-manual-dark.zip
+            synthv-unofficial-user-manual.pdf

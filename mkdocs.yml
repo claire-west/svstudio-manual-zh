@@ -1,0 +1,166 @@
+site_name: Synthesizer V Studio Unofficial User Manual
+site_url: https://zh.synthv.info/
+site_description: The unofficial user manual for SynthV Studio
+site_author: Claire West
+repo_url: https://github.com/claire-west/svstudio-manual-zh
+copyright: <a href="#__consent">Change cookie settings</a>
+nav:
+  - Welcome: index.md
+  - Quickstart Guide:
+    - Setup and Activation: setup.md
+    - The Workspace: workspace/layout.md
+    - The Arrangement Panel: workspace/arrangement.md
+    - The Piano Roll: workspace/piano-roll.md
+    - Side Panels: workspace/side-panels.md
+    - Singer Selection: quickstart/singer-selection.md
+    - Setting Up the Score: quickstart/setting-up-the-score.md
+    - Adding Notes: quickstart/creating-notes.md
+    - Editing Notes: quickstart/editing-notes.md
+    - Entering Lyrics: quickstart/entering-lyrics.md
+    # - Introduction to Instant Mode: quickstart/instant-mode.md
+    - Playback: quickstart/playback.md
+    - Managing Tracks: quickstart/managing-tracks.md
+    - Saving the Audio: quickstart/saving-the-audio.md
+  - Note Properties:
+    - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
+    - Editing Phonemes: note-properties/editing-phonemes.md
+    - Note and Phoneme Timing: note-properties/note-and-phoneme-timing.md
+    - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
+    - Expression Groups: note-properties/expression-groups.md
+  - Parameters:
+    - Parameters Panel: parameters/parameters-panel.md
+    - Editing Parameters: parameters/editing-parameters.md
+    - Direct Pitch Editing: parameters/direct-pitch-editing.md
+    - Tone Shift: parameters/tone-shift.md
+    - Vocal Modes: ai-functions/vocal-modes.md
+  - AI Functions:
+    - "Pitch Mode: Sing": ai-functions/pitch-mode-sing.md
+    - "Pitch Mode: Rap": ai-functions/pitch-mode-rap.md
+    # - Instant Mode: ai-functions/instant-mode.md
+    - AI Retakes: ai-functions/ai-retakes.md
+    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+  - Intermediate and Advanced Usage:
+    - Manual Pitch Mode: advanced/pitch-mode-manual.md
+    - Batch Lyric Input: advanced/batch-lyrics.md
+    - User Dictionaries: advanced/user-dictionaries.md
+    - Groups: advanced/groups.md
+    - Note Ornamentation: advanced/note-ornamentation.md
+    - Note Detuning: advanced/note-detuning.md
+    - MIDI Controller Support: advanced/midi-controller.md
+    - VSTi/AU Plugin: daw-integration/plugin.md
+    - The Top Menus in Detail: advanced/top-menus.md
+    - The Side Panels in Detail: advanced/side-panels.md
+    - The Context Menus in Detail: advanced/right-click-menus.md
+    - Scripting: advanced/scripting.md
+  - Other Topics:
+    - FAQs: faq.md
+    - Phoneme Reference: phonemes.md
+    - Default Keybinds: keybinds.md
+    - Help & Support: support.md
+    - About: about.md
+theme:
+  name: material
+  favicon: img/icon.ico
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - content.tabs.link
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/theme.css
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - exclude-search:
+      exclude:
+        - ai-functions/instant-mode.md
+        - quickstart/instant-mode.md
+  - social:
+      cards_layout_options:
+        background_color: "#2A2A2A"
+        color: "#7DB235"
+  - glightbox
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - macros
+  - mkdocs-video:
+      is_video: true
+      css_style:
+        width: "initial"
+        height: "initial"
+  - offline:
+      enabled: !ENV [OFFLINE, false]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys:
+      key_map:
+        mouse-wheel: "Mouse wheel"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  alternate:
+    - name: 中文
+      link: /
+      lang: zh
+    - name: English
+      link: https://manual.synthv.info
+      lang: en
+  social:
+    - icon: fontawesome/regular/comments
+      link: https://forum.synthesizerv.com/t/topic/7524
+      name: Discuss This Website on the Official Forums
+    - icon: fontawesome/brands/github
+      link: https://github.com/claire-west/svstudio-manual
+      name: This Website on GitHub
+    - icon: simple/kofi
+      link: https://ko-fi.com/claaaire
+      name: Support This Project
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize repeated visits and preferences, as well as to measure traffic to each page and collect feedback with the "Was this page helpful?" buttons on each page. With your consent, you are helping us to make this documentation better.
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve by providing feedback on the <a href="https://forum.synthesizerv.com/t/topic/7524" target="_blank" rel="noopener">official forums</a>.
