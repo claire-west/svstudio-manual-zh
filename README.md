@@ -13,7 +13,7 @@ This works with WSL, so there is no plan for a Windows setup.
 
 ## Translation
 
-If you would like to contribute translations for a language, refer to the respective repository. If the language you are translating to does not have a repository yet, [create an Issue](https://github.com/claire-west/svstudio-manual/issues/new) in this repository to have it created.
+If you would like to contribute translations for a language, refer to the respective repository. If the language you are translating to does not have a repository yet, [create an Issue](https://github.com/claire-west/svstudio-manual/issues/new) in the original English repository to have a new repository created for your language.
 
 |Language|Repository|URL|Primary Contributor or Translator|
 |---|---|---|---|
