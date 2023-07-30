@@ -1,63 +1,63 @@
-site_name: Synthesizer V Studio Unofficial User Manual
+site_name: Synthesizer V Studio 非官方用户手册
 site_url: https://zh.synthv.info/
-site_description: The unofficial user manual for SynthV Studio
-site_author: Claire West
+site_description: SynthV Studio的非官方用户手册
+site_author: Claire West,Blathroat
 repo_url: https://github.com/claire-west/svstudio-manual-zh
 copyright: <a href="#__consent">Change cookie settings</a>
 nav:
-  - Welcome: index.md
-  - Quickstart Guide:
-    - Setup and Activation: setup.md
-    - The Workspace: workspace/layout.md
-    - The Arrangement Panel: workspace/arrangement.md
-    - The Piano Roll: workspace/piano-roll.md
-    - Side Panels: workspace/side-panels.md
-    - Singer Selection: quickstart/singer-selection.md
-    - Setting Up the Score: quickstart/setting-up-the-score.md
-    - Adding Notes: quickstart/creating-notes.md
-    - Editing Notes: quickstart/editing-notes.md
-    - Entering Lyrics: quickstart/entering-lyrics.md
+  - 欢迎: index.md
+  - 快速入门指南:
+    - 安装和激活: setup.md
+    - 工作区: workspace/layout.md
+    - 编曲栏: workspace/arrangement.md
+    - 钢琴卷帘: workspace/piano-roll.md
+    - 侧面板: workspace/side-panels.md
+    - 选择歌手: quickstart/singer-selection.md
+    - 设置拍数和bpm: quickstart/setting-up-the-score.md
+    - 添加音符: quickstart/creating-notes.md
+    - 编辑音符: quickstart/editing-notes.md
+    - 输入歌词: quickstart/entering-lyrics.md
     # - Introduction to Instant Mode: quickstart/instant-mode.md
-    - Playback: quickstart/playback.md
-    - Managing Tracks: quickstart/managing-tracks.md
-    - Saving the Audio: quickstart/saving-the-audio.md
-  - Note Properties:
-    - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
-    - Editing Phonemes: note-properties/editing-phonemes.md
-    - Note and Phoneme Timing: note-properties/note-and-phoneme-timing.md
-    - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
-    - Expression Groups: note-properties/expression-groups.md
-  - Parameters:
-    - Parameters Panel: parameters/parameters-panel.md
-    - Editing Parameters: parameters/editing-parameters.md
-    - Direct Pitch Editing: parameters/direct-pitch-editing.md
-    - Tone Shift: parameters/tone-shift.md
-    - Vocal Modes: ai-functions/vocal-modes.md
-  - AI Functions:
-    - "Pitch Mode: Sing": ai-functions/pitch-mode-sing.md
-    - "Pitch Mode: Rap": ai-functions/pitch-mode-rap.md
+    - 播放: quickstart/playback.md
+    - 管理音轨: quickstart/managing-tracks.md
+    - 导出音乐: quickstart/saving-the-audio.md
+  - 音符属性:
+    - 音高过渡和颤音: note-properties/pitch-transition-and-vibrato.md
+    - 编辑音素: note-properties/editing-phonemes.md
+    - 音素和音符时长: note-properties/note-and-phoneme-timing.md
+    - 备用音素和音素力度: note-properties/alternate-phonemes.md
+    - 表现力分组: note-properties/expression-groups.md
+  - 参数:
+    - 参数面板: parameters/parameters-panel.md
+    - 编辑参数: parameters/editing-parameters.md
+    - 直接编辑音高偏差: parameters/direct-pitch-editing.md
+    - 音调偏移: parameters/tone-shift.md
+    - 声线参数: ai-functions/vocal-modes.md
+  - 自动调校:
+    - "音高模式：歌唱": ai-functions/pitch-mode-sing.md
+    - "音高模式：说唱": ai-functions/pitch-mode-rap.md
     # - Instant Mode: ai-functions/instant-mode.md
-    - AI Retakes: ai-functions/ai-retakes.md
-    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-  - Intermediate and Advanced Usage:
-    - Manual Pitch Mode: advanced/pitch-mode-manual.md
-    - Batch Lyric Input: advanced/batch-lyrics.md
-    - User Dictionaries: advanced/user-dictionaries.md
-    - Groups: advanced/groups.md
-    - Note Ornamentation: advanced/note-ornamentation.md
-    - Note Detuning: advanced/note-detuning.md
-    - MIDI Controller Support: advanced/midi-controller.md
-    - VSTi/AU Plugin: daw-integration/plugin.md
-    - The Top Menus in Detail: advanced/top-menus.md
-    - The Side Panels in Detail: advanced/side-panels.md
-    - The Context Menus in Detail: advanced/right-click-menus.md
-    - Scripting: advanced/scripting.md
-  - Other Topics:
-    - FAQs: faq.md
-    - Phoneme Reference: phonemes.md
-    - Default Keybinds: keybinds.md
-    - Help & Support: support.md
-    - About: about.md
+    - AI重录: ai-functions/ai-retakes.md
+    - 自动音高调校: ai-functions/auto-pitch-tuning.md
+  - 中高级用法:
+    - 手动音高模式: advanced/pitch-mode-manual.md
+    - 批量输入歌词: advanced/batch-lyrics.md
+    - 用户词典: advanced/user-dictionaries.md
+    - 音符组: advanced/groups.md
+    - 自动修饰音符: advanced/note-ornamentation.md
+    - 音符偏移: advanced/note-detuning.md
+    - MIDI设备支持: advanced/midi-controller.md
+    - VSTi/AU插件: daw-integration/plugin.md
+    - 顶部菜单: advanced/top-menus.md
+    - 侧面板: advanced/side-panels.md
+    - 右键菜单: advanced/right-click-menus.md
+    - 脚本: advanced/scripting.md
+  - 其他:
+    - 常见问题: faq.md
+    - 音素表: phonemes.md
+    - 快捷键: keybinds.md
+    - 帮助与支持: support.md
+    - 关于: about.md
 theme:
   name: material
   favicon: img/icon.ico
@@ -76,14 +76,14 @@ theme:
       primary: custom
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切换至亮色模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换至暗色模式
 extra_css:
   - stylesheets/theme.css
 plugins:
@@ -137,30 +137,30 @@ extra:
   social:
     - icon: fontawesome/regular/comments
       link: https://forum.synthesizerv.com/t/topic/7524
-      name: Discuss This Website on the Official Forums
+      name: 在论坛上讨论此网站
     - icon: fontawesome/brands/github
       link: https://github.com/claire-west/svstudio-manual
-      name: This Website on GitHub
+      name: Github上的源代码
     - icon: simple/kofi
       link: https://ko-fi.com/claaaire
-      name: Support This Project
+      name: 为此项目提供支持
   consent:
-    title: Cookie consent
+    title: Cookie设定
     description: >-
-      We use cookies to recognize repeated visits and preferences, as well as to measure traffic to each page and collect feedback with the "Was this page helpful?" buttons on each page. With your consent, you are helping us to make this documentation better.
+      我们使用cookies来跟踪并记录您的偏好，记录统计信息。我们通过每个页面上的“这个页面有用吗？”按钮收集反馈。在您同意的情况下帮助我们改进此文档。
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
-      title: Was this page helpful?
+      title: 此页面有帮助吗？
       ratings:
         - icon: material/emoticon-happy-outline
-          name: This page was helpful
+          name: 这个页面很有用ヾ(•ω•`)o
           data: 1
           note: >-
-            Thanks for your feedback!
+            感谢反馈ヾ(^▽^*)))
         - icon: material/emoticon-sad-outline
-          name: This page could be improved
+          name: 这个页面有待改进
           data: 0
           note: >-
-            Thanks for your feedback! Help us improve by providing feedback on the <a href="https://forum.synthesizerv.com/t/topic/7524" target="_blank" rel="noopener">official forums</a>.
+            感谢反馈！您可以在<a href="https://forum.synthesizerv.com/t/topic/7524" target="_blank" rel="noopener">论坛</a>帮助我们改进。
