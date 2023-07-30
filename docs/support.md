@@ -8,4 +8,4 @@ Dreamtonics is located in Japan (UTC+9) and offers support in Japanese, English,
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Support])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Support])

@@ -52,4 +52,4 @@ If you would like to help cover the cost of the domain or just show appreciation
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: About])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: About])

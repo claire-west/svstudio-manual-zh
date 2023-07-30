@@ -24,4 +24,4 @@ Tempo markers can only be created at quarter-measure intervals, and time signatu
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Setting up the Score])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Setting up the Score])

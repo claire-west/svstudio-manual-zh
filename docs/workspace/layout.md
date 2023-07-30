@@ -56,4 +56,4 @@ The workspace panels can be rearranged by clicking and dragging the respective l
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Workspace])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Workspace])

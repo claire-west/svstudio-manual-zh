@@ -57,4 +57,4 @@ After completing the Quickstart section it is recommended to familiarize yoursel
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Entering Lyrics])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Entering Lyrics])

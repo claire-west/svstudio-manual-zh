@@ -16,4 +16,4 @@ You can also select the singer from the Voice panel. This also allows you to cho
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Singer Selection])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Singer Selection])

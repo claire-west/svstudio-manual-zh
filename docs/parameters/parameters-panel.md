@@ -43,4 +43,4 @@ Unneeded parameter panels can also be removed by clicking the ✖ icon on the fa
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Parameters Panel])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Parameters Panel])

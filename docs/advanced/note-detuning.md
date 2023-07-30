@@ -10,4 +10,4 @@ Notes can be detuned in increments of 25 cents by dragging them while holding bo
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Note Detuning])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Note Detuning])

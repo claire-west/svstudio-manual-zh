@@ -72,4 +72,4 @@ A preview of the waveform for the note, as well as timing indicators for the ind
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Piano Roll])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Piano Roll])

@@ -126,4 +126,4 @@ Find more information about switching pitch modes on the [Sing Pitch Mode](../ai
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Manual Pitch Mode])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Manual Pitch Mode])

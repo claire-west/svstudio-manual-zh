@@ -53,4 +53,4 @@ For a detailed look at the options within each side panel, see [The Side Panels 
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Side Panels])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Side Panels])

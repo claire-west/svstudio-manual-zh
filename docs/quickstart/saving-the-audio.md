@@ -20,4 +20,4 @@ Additional format settings are also available, such as bit depth and sample rate
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Saving the Audio])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Saving the Audio])

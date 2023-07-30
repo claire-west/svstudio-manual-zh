@@ -98,4 +98,4 @@ Disband, dissociate, or delete the instance of the group (see [Groups](groups.md
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Context Menus in Detail])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Context Menus in Detail])

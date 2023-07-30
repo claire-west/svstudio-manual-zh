@@ -25,4 +25,4 @@ Vocal Modes can be selected in the [parameters panel](../parameters/editing-para
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Vocal Modes])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Vocal Modes])

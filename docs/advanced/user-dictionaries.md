@@ -68,4 +68,4 @@ For easy access, the dictionaries folder is located in the same location as the 
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: User Dictionaries])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: User Dictionaries])

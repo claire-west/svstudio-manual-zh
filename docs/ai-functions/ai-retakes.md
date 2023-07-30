@@ -90,4 +90,4 @@ This same concept also applies to other aspects of the vocals, such as transitio
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: AI Retakes])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: AI Retakes])

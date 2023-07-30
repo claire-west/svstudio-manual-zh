@@ -20,4 +20,4 @@ Phoneme strength (AI voice databases only) will modify the dynamics and emphasis
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Alternate Phonemes])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Alternate Phonemes])

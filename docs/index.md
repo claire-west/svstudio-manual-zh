@@ -14,13 +14,13 @@ hide:
 
 <!-- ![Synthesizer V Logo](/img/synthesizer-v.png) -->
 
-Synthesizer V Studio is a singing synthesizer released in July 2020, with AI synthesis functions added in December of 2020.
+Synthesizer V Studio是一款于2020年7月发布的一款歌声合成器,并在2020年12月增加了AI歌声合成功能。
 
-The software is developed by Dreamtonics in association with AH-Software, with compatible voice databases ("virtual singers") also created by licensed third-party developers such as Eclipsed Sounds.
+本软件由Dreamtonics与AH-Software联合开发, 支持的歌声数据库由Eclipsed Sounds等许可的第三方开发人员创建。
 
 ---
 
-This website serves as an unofficial user manual for Synthesizer V Studio, since the [official manual](https://synthesizerv.com/manual/) refers to the legacy version of the software from 2018.
+本网站是Synthesizer V Studio的非官方用户手册, 因为[官方手册](https://synthesizerv.com/manual/) 是2018年本软件的旧版本手册。
 
 For official instructional content for SynthV Studio, check the Dreamtonics [video tutorial series](https://www.youtube.com/playlist?list=PLmYtpIFKN5iKaUlB6mRGzFJ0SGRJgRIPz).
 
@@ -77,4 +77,4 @@ In some situations you will want to surround your search term in double quotes i
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Home])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Home])

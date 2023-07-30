@@ -21,4 +21,4 @@ With the pencil tool (++alt+2++) selected, drag anywhere in the note area to cre
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Creating Notes])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Creating Notes])

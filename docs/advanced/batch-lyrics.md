@@ -18,4 +18,4 @@ If the "Pattern Fill" option is selected and there are more notes selected than 
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Batch Lyric Input])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Batch Lyric Input])

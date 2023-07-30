@@ -32,4 +32,4 @@ This function reduces the number of points in a selection to smooth a curve, at 
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Direct Pitch Editing])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Direct Pitch Editing])

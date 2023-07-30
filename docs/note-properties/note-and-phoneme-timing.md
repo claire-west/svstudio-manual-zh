@@ -34,4 +34,4 @@ Keep in mind that this may result in an unnatural and over-quantized sound if al
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Phoneme Timing])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Phoneme Timing])

@@ -60,4 +60,4 @@ Instant Mode will be enabled for new projects by default. To create new projects
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Instant Mode])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Instant Mode])

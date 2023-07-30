@@ -84,4 +84,4 @@ Affects the intensity of pitch deviations extending past the note before and aft
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Auto Pitch Tuning])
+[报告问题](https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&title=[Page: Auto Pitch Tuning])
