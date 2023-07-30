@@ -1,27 +1,27 @@
-# The Arrangement Panel
+# 编曲栏
 
-![The Arrangement Panel](../img/workspace/arrangement.png)
+![编曲栏](../img/workspace/arrangement.png)
 
-### 1. Track Type
-Indicates whether the track contains vocals or instrumentals, and functions as a handle for drag-and-drop reordering with the mouse.
+### 1. 轨道类型
+标明轨道是人声轨道还是伴奏轨道，并用作使用鼠标进行拖放重新排序的句柄。
 
-### 2. Transport Controls
-When the arrangement panel is focused by user input, the [transport controls](../quickstart/playback.md) will be displayed.
+### 2. 播放控件
+当焦点在编曲轨道时，将显示[播放控件](../quickstart/playback.md) will be displayed.
 
-### 3. Note Preview
-An overview of the notes and groups within a track.
+### 3. 音符预览
+轨道中音符和音符组的概览
 
-### 4. Track Name and Singer
-The name of the track and currently selected singer. For instrumental tracks, this will indicate the file name instead of a singer.
+### 4. 曲名和歌手
+轨道名称和当前选择的歌手。对于伴奏轨道，此处显示的是伴奏文件名而不是歌手。
 
-### 5. Basic Mixer Controls
-Volume, panning, mute, and solo controls for each track.
+### 5. 基本混音器控制
+控制每个轨道的音量、平移、静音和独奏。
 
-### 6. Time Axis
-Measure (bar) numbers, as well as time signature and tempo (BPM) markers.
+### 6. 时间轴
+此处显示小节数，拍号和速度（BPM）。
 
-### 7. Instrumental Waveform Preview
-A preview of the instrumental waveform to assist with synchronization and timing.
+### 7. 伴奏音频波形
+伴奏的音频波形预览，可用于对齐轨道。
 
 ---
 

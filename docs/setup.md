@@ -1,124 +1,124 @@
-# Setup and Activation
+# 安装和激活
 
-## Download
+## 下载
 
-Download links for Synthesizer V Studio Basic Edition and purchase links for the Pro Edition can be found on the official [Dreamtonics website](https://dreamtonics.com/en/synthesizerv/).
+Synthesizer V Studio Basic版和Pro版的下载链接可以在[Dreamtonics官方网站](https://dreamtonics.com/en/synthesizerv/)找到。
 
-After purchasing the Pro edition your order confirmation email will include download instructions which may vary based on the vendor you purchased from.
+购买Pro版后，您将会收到一封包含下载说明的邮件，这些说明可能因您购买的供应商而异。
 
-!!! warning
+!!! 警告
 
-    Always save your order confirmation emails and keep your product activation codes in a safe place. The vendor you purchase from will not always be able to help recover lost or compromised activation codes.
+    请始终保存您的此封邮件，并妥善保存您的产品激活码，您的供应商并不保证能恢复丢失或泄露的激活码。
 
-## Installation (Windows & Mac)
+## 安装 (Windows & Mac)
 
-Execute the installer (.exe format on Windows, .pkg format on Mac) by double-clicking it, or by selecting it in your file browser and pressing ++enter++. Follow the on-screen instructions.
+双击运行安装程序（在Windows 上为.exe格式，在 Mac 上为.pkg格式，或选中文件并按 ++enter++。然后按照屏幕上的说明操作。
 
-If installing the Pro edition you will be prompted for your product activation code upon launching the application.
+如果成功安装专业版，则应用程序启动时将提示您输入产品激活码。
 
-Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
+成功安装（并激活）后，您将看到以下的应用程序窗口。
 
 ![Synthesizer V Studio](img/synthv-studio.png)
 
-### Installing a Voice Database
+### 安装歌声数据库
 
-To install a voice database, double-click the .svpk file or drag-and-drop it from your file browser into the Synthesizer V Studio window. A voice database installation dialog will be displayed. Follow the on-screen instructions.
+要安装语音数据库，请双击 .svpk 文件或将其从文件浏览器拖放到 Synthesizer V Studio 窗口中。然后将显示语音数据库安装对话框，请按照屏幕上的说明操作。
 
-If installing a paid voice database product you will be prompted for your product activation code.
+如果安装付费歌声数据库，安装后系统将提示您输入产品激活码。
 
-Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
+成功安装（并激活）后，您将可以在歌手选择下拉列表中找到此歌手。
 
-![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
+![歌手选择下拉列表](img/quickstart/singer-dropdown-arrangement.png)
 
-## Installation (Linux)
+## 安装 (Linux)
 
-Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`) such as in this example where Synthesizer V Studio is being extracted to `/opt`:
+切换到将要安装的目录并解压缩下载的压缩文件 (`~`)，您可能需要以root身份运行`unzip`(即使用`sudo`) 在此示例中，Synthesizer V Studio将被解压到`/opt`:
 
-=== "Pro Edition"
+=== "Pro版"
     ```
     cd /opt
     sudo unzip ~/Downloads/svstudio-pro-linux64.zip
     ```
 
-=== "Basic Edition"
+=== "Basic版"
     ```
     cd /opt
     sudo unzip ~/Downloads/svstudio-basic-linux64.zip
     ```
 
-If extracting to a location outside your home directory you may also need to modify the ownership or permissions of the files. This example will work for most situations:
+如果解压缩到主目录之外的位置，则可能还需要修改文件权限。此示例适用于大多数情况：
 
-=== "Pro Edition"
+=== "Pro版"
     ```
     sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Pro"
     ```
 
-=== "Basic Edition"
+=== "Basic版"
     ```
     sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Basic"
     ```
 
-Launch the application by running the synthv-studio executable from the terminal.
+您可从终端运行synthv-studio来启动程序。
 
-=== "Pro Edition"
+=== "Pro版"
     ```
     cd "Synthesizer V Studio Pro"
     ./synthv-studio
     ```
 
-=== "Basic Edition"
+=== "Basic版"
     ```
     cd "Synthesizer V Studio Basic"
     ./synthv-studio
     ```
 
-If installing the Pro edition you will be prompted for your product activation code.
+如果成功安装专业版，则应用程序启动时将提示您输入产品激活码。
 
-Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
+成功安装（并激活）后，您将看到以下的应用程序窗口。
 
 ![Synthesizer V Studio](img/synthv-studio.png)
 
-### Installing a Voice Database
+### 安装歌声数据库
 
-To install a voice database, run the synthv-studio executable from the terminal and provide the .svpk file as an argument. The exact file name will vary depending on the voice database you are installing.
+要安装语音数据库，请从终端运行 synthv-studio 可执行文件并提供 .svpk 文件作为参数，实际的文件名将根据要安装的语音数据库而有所不同。
 
 `./synthv-studio ~/Downloads/saki-ai-lite-install-101.svpk`
 
-The application will launch and a voice database installation dialog will be displayed. Follow the on-screen instructions.
+应用程序将启动并显示语音数据库安装对话框，请按照屏幕上的说明操作。
 
-If installing a paid voice database product you will be prompted for your product activation code.
+如果安装付费歌声数据库，安装后系统将提示您输入产品激活码。
 
-Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
+成功安装（并激活）后，您将可以在歌手选择下拉列表中找到此歌手。
 
-![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
+![歌手选择下拉列表](img/quickstart/singer-dropdown-arrangement.png)
 
-## Updating the Software
+## 更新软件
 
-Open the License and Updates panel and click "Check for Updates" to search for updates.
+打开“许可证和更新”面板，然后单击“检查更新”以搜索更新。
 
-![Check for Updates](img/check-for-updates.png)
+![检查更新](img/check-for-updates.png)
 
-When an available update is shown under the product name, select the product and click the "Update" button below the list. The software will begin to download the update package and you will be guided through the installation process.
+当产品名称下显示有可用更新时，选择产品并单击列表下方的“更新”按钮。该软件将开始下载更新包，系统将指导您完成安装过程。
 
-![Update Available](img/update.png)
+![有可用更新](img/update.png)
 
-## Deactivating a Product
+## 取消激活产品
 
-When you need to transfer your license to a new device, perform hardware/firmware upgrades, or reinstall your operating system, you must first revoke the license by deactivating the product.
+当您需要将许可证转移到新设备、执行硬件/固件升级或重新安装操作系统时，必须先通过取消激活产品来停用许可证。
 
-To deactivate a product select it in the "License and Updates" panel and click the "Deactivate" button below. The activation on the current device will be revoked, and can be safely reactivated on the new or upgraded device.
+要停用产品，请在“许可证和更新”面板中选择该产品，然后单击下面的“取消激活”按钮。当前设备上的激活将被撤销，并且可以在新设备或升级后的设备上安全地重新激活。
 
-!!! note
+!!! 注意
 
-    Ensure that all voice databases are deactivated before deactivating or uninstalling Synthesizer V Studio. If you proceed with the uninstallation while activated voices remain on the system, you can recover the licensing status for the voices by reinstalling and reactivating Synthesizer V Studio.
+    确保在停用或卸载Synthesizer V Studio 之前停用所有歌声数据库，如果在声音数据库激活时卸载，则可以通过重新安装并激活Synthesizer V Studio 来恢复许可证。
 
-![Deactivate](img/deactivate.png)
+![取消激活](img/deactivate.png)
 
-## Troubleshooting
+## 故障排除
 
-If you encounter technical issues with the software, try removing the software and reinstalling to the default installation directory. Windows users may need to run the installer as administrator, and Linux users should verify the file permissions of the Synthesizer V Studio directory.
+如果遇到软件技术问题，请尝试删除软件并重新安装到默认安装目录，Windows 用户可能需要以管理员身份运行安装程序，Linux 用户应检查 Synthesizer V Studio 目录的文件权限。
 
-If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](support.md).
+如果问题仍然存在，您可以在[官方论坛](https://forum.synthesizerv.com/search)上搜索类似问题或联系[Dreamtonics支持](support.md).
 
 ---
 

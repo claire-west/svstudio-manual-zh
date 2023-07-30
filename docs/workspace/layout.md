@@ -1,56 +1,56 @@
-# The Workspace
+# 工作区
 
-Shown below is the workspace for a typical project with an instrumental track.
+下图是一般项目的工作区
 
 ![A High-level Overview of the Application GUI](../img/workspace/workspace.png)
 
-### 1. Arrangement
+### 1. 编曲栏
 
-Displays vocal and instrumental tracks with basic mixer controls, time axis information, and an overview of track contents. Also displays transport/playback controls when focused by user input.
+此处显示人声和伴奏轨道，包括基本的混音器控制、时间轴信息和轨道内容预览。当焦点在此窗口时还会显示播放控件
 
-### 2. Piano Roll
+### 2. 钢琴卷帘
 
-The main panel for note creation, editing, and pitch/timing visualization. Also displays transport/playback controls when focused by user input.
+此处是创建、编辑音符的主面板，当焦点在此窗口时还会显示播放控件。
 
-### 3. Parameters
+### 3. 参数面板
 
-A panel for viewing and modifying [parameter curves](../../parameters/parameters-panel) to influence vocal behavior over time.
+用于查看和修改[参数曲线](../../parameters/parameters-panel)来影响歌声表现。
 
-### 4. Launch Bar
+### 4. 启动栏
 
-Buttons for opening the various [side panels](side-panels.md).
+用于打开各种[侧面板](side-panels.md)。
 
-## Workspace Navigation
+## 调整工作区
 
-Aside from using the scrollbars on the bottom and right borders, you can conveniently navigate in all directions using ++"modifier key"+mouse-wheel++ combinations.
+除了使用底部和右侧边框上的滚动条外，您还可以使用++"modifier key"+mouse-wheel++组合。
 
-|Shortcut|Description|
+|快捷键|描述|
 |---|---|
-|++mouse-wheel++|Vertical scroll|
-|++shift+mouse-wheel++|Horizontal scroll|
-|++ctrl+mouse-wheel++|Horizontal zoom (mouse-centered)|
+|++mouse-wheel++|垂直滚动|
+|++shift+mouse-wheel++|水平滚动|
+|++ctrl+mouse-wheel++|水平缩放（以鼠标为中心）|
 
-There is no support for vertical zoom.
+不支持垂直缩放
 
-The modifier key used for each of these functions can be customized in the Settings panel.
+可以在“设置”面板中自定义用于每个功能的快捷键。
 
-![Changing the Naviation Controls](../img/workspace/navigation-settings.png)
+![更改缩放快捷键](../img/workspace/navigation-settings.png)
 
-## The Status Bar
+## 状态栏
 
-If the "Show status bar" option is enabled in the Settings panel, a status bar will be visible at the bottom of the application window.
+如果在“设置”面板中启用了“显示状态栏”选项，则状态栏将在应用程序窗口底部可见。
 
-The status bar shows contextual information depending on the current mouse cursor position.
+状态栏根据当前鼠标光标位置显示上下文信息。
 
-![The Status Bar](../img/workspace/status-bar.png)
+![状态栏](../img/workspace/status-bar.png)
 
-## Rearranging the Workspace
+## 重新排列工作区
 
-The workspace panels can be rearranged by clicking and dragging the respective label.
+可以通过单击并拖动相应的标签来重新排列工作区面板。
 
 ![type:video](../img/workspace/rearrange-panels.mp4)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5f50-Ircdvs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

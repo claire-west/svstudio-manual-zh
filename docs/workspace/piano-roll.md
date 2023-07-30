@@ -1,74 +1,74 @@
-# The Piano Roll
+# 钢琴卷帘
 
-## Piano Roll Toolbar
+## 钢琴卷帘工具栏
 
-![The Piano Roll](../img/workspace/piano-roll-controls-2.png)
+![钢琴卷帘](../img/workspace/piano-roll-controls-2.png)
 
-### 1. Tool Selection
-Allows changing between the pointer and pencil tools. The pointer (++alt+1++) is suited to selecting and modifying notes, while the pencil (++alt+2++) allows for quicker note creation and freehand pitch drawing.
+### 1. 工具切换
+用于切换选择工具和编辑工具。选择工具（(++alt+1++)用于选择和修改音符，编辑工具(++alt+2++)用于创建音符和修改音高。
 
-### 2. Visibility Toggles
-Toggles the visibility of various elements of the piano roll:
+### 2. 可见性切换
+切换钢琴卷帘各种元素的可见性：
 
-- Target pitch
-- Actual pitch (non-AI singers only)
-- Waveform preview
-- Phoneme timing
-- Retake indicators
+- 目标音高
+- 实际音高（仅限非AI歌手）
+- 波形预览
+- 音素
+- 重录标志
 
-### 3. Transport Controls
-When the piano roll is focused by user input, the [transport controls](../quickstart/playback.md) will be displayed.
+### 3. 播放控件
+当焦点在钢琴卷帘时，此处将显示[播放控件](../quickstart/playback.md)。
 
-### 4. Time Axis
-Measure (bar) numbers, as well as time signature and tempo (BPM) markers.
+### 4. 时间轴
+此处显示小节数，拍号和速度（BPM）。
 
-### 5. Editing Mode
-Toggles between note editing and pitch editing modes.
+### 5. 编辑模式
+在音符编辑和音高编辑模式之间切换。
 
-### 6. Snap Setting
-Sets the grid snap interval for the piano roll.
+### 6. 自动对齐间隔
+设置自动对齐网格间隔。
 
-### Tool/Mode Link
-The chain-link (:material-link:) icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
+### 工具/模式链接
+当任一选项发生更改时，可以点击链接(:material-link:)图标以切换所选工具和当前编辑模式。
 
-![Tool/Mode Link](../img/workspace/tool-mode-link.png)
+![工具/模式链接](../img/workspace/tool-mode-link.png)
 
-## Piano Roll Main Window
+## 钢琴卷帘主窗口
 
-![The Piano Roll](../img/workspace/piano-roll.png)
+![钢琴卷帘](../img/workspace/piano-roll.png)
 
-### 1. Notes
-Notes are displayed in the piano roll as colored rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
+### 1. 注意事项
+音符在钢琴卷中显示为彩色矩形，其垂直位置（音高）对应于左侧的钢琴键，其水平位置（时间）对应于上面的时间轴。
 
-Green notes represent [singing](../ai-functions/pitch-mode-sing.md), while red notes are for [rap](../ai-functions/pitch-mode-rap.md). A solid green or red note as shown below will have its pitch curve generated automatically based on the selected pitch mode ("Sing" or "Rap").
+绿色音符代表[歌唱](../ai-functions/pitch-mode-sing.md)而红色音符代表[说唱](../ai-functions/pitch-mode-rap.md)如下所示的绿色或红色音符将根据所选的音高模式（“歌唱”或“说唱”）自动生成其音高曲线。
 
-![Notes in Sing and Rap mode](../img/quickstart/pitch-mode-colors.png)
+![歌唱和说唱音符](../img/quickstart/pitch-mode-colors.png)
 
-If a small triangle is present in the upper-right corner of a note, this indicates that it has been set to [Manual Mode](../advanced/pitch-mode-manual.md), which allows the user full control over the note's pitch curve.
+如果音符的右上角存在一个小三角形，则表示它已设置为[手动模式](../advanced/pitch-mode-manual.md), 允许用户完全控制音符的音高曲线。
 
-When a note is set to Manual Mode, its color represents the mode it was assigned *prior to* the user taking manual control, however the pitch curve will no longer be generated automatically. The color of a note set to Manual Mode has no effect on the output, and is only used to visually delineate song and rap sequences within a project.
+当音符设置为手动模式时，其颜色表示在用户进行手动控制之前为其分配的模式，但是音高曲线将不再自动生成。设置为手动模式的音符的颜色对输出没有影响，仅用于直观地描绘项目中的歌曲和说唱部分。
 
-![Notes in Manual Mode](../img/quickstart/pitch-mode-indicator.png)
+![手动模式音符](../img/quickstart/pitch-mode-indicator.png)
 
-### 2. Phonemes
-Phonemes represent the actual sounds produced by a singer. Each lyric entered in a note will automatically be converted to phonemes.
+### 2. 音素
+音素代表歌手产生的实际声音。在音符中输入的每句歌词将自动转换为音素。
 
-### 3. Selected Note
-The currently selected note(s) will be highlighted.
+### 3. 被选中的音符
+被选中的音符将高亮显示
 
-### 4. Target Pitch Line
-The exact pitch that the synthesis engine will attempt to match when rendering audio output.
+### 4. 目标音高曲线
+合成引擎在渲染音频输出时将尝试匹配的音高。
 
-#### 4a. Actual Pitch Line
-When using a non-AI singer, a blue line will closely follow the target pitch line. This represents the actual rendered pitch of the synthesized vocals.
+#### 4a. 实际音高曲线
+使用非AI歌手时，蓝线将紧随目标音高线。这表示合成人声的实际渲染音高。
 
-### 5. Retake Indicator
-!!! note "Pro Feature - AI Retakes"
+### 5. 重录标志
+!!! note "Pro版功能 - AI重录"
 
-    If using AI Retakes, indicates which take is being used for the note.
+    如果使用AI重录，则显示正在使用的重录名称。
 
-### 6. Waveform Preview and Phoneme Timing
-A preview of the waveform for the note, as well as timing indicators for the individual phonemes associated with it.
+### 6. 波形预览和音素
+音符波形预览和音素发音位置。
 
 ---
 

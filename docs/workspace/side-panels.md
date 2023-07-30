@@ -1,55 +1,55 @@
-# The Side Panels
+# 侧面板
 
-Many different panels can be accessed from the menu at the side of the application window. This panel can be moved to either the left or right side of the layout by clicking and dragging the logo at the top.
+可以从应用程序窗口一侧的菜单访问许多不同的面板。通过单击并拖动顶部的徽标，可以将此面板移动到布局的左侧或右侧。
 
-The side panels can also be opened from the "View" menu at the top of the application.
+侧面板也可以从应用程序顶部的“视图”菜单中打开。
 
-## The Launch Bar
+## 启动栏
 
-![Each Icon in the Launch Bar](../img/workspace/side-panel.png)
+![侧面板启动图标](../img/workspace/side-panel.png)
 
-### 1. Voice
-General settings that apply to the entire track or group, such as which singer to use, which language to sing in, and default note settings.
+### 1. 语音
+适用于整个曲目或组的常规设置，例如要使用的歌手、演唱的语言以及默认音符设置。
 
-### 2. AI Retakes
+### 2. AI重录
 
-!!! note "Pro Feature - AI Retakes"
+!!! note "Pro版功能 - AI重录"
 
-    Allows the creation and selection of alternate "takes", both for pitch and timbre.
+    用于创建和选择新的重录，包括音高和音色。
 
-### 3. Note Properties
-Individual settings to customize the selected note(s), such as modifying pitch transitions, vibrato, or phoneme timing.
+### 3. 音符属性
+用于自定义所选音符的设置，例如修改音高过渡、颤音或音素计时。
 
-### 4. Library
-Management of note groups.
+### 4. 音符组
+用于音符组的管理
 
-### 5. Dictionary
-Management of dictionary entries which determine how a lyric is converted to phonemes.
+### 5. 词典
+管理字典条目，确定如何将歌词转换为音素。
 
-### 6. Render
-Render the audio output to a .wav file.
+### 6. 渲染
+将音频导出为.wav文件
 
-### 7. License & Updates
-License management and software update controls.
+### 7. 许可证和更新
+管理许可证和软件更新。
 
-### 8. Settings
-Application settings and keyboard shortcuts.
+### 8. 设置
+应用程序设置和键盘快捷键。
 
-## Detaching Side Panels
+## 分离侧面板
 
-Side panels can be detached by dragging their header.
+侧面板可以通过拖动其标题来分离。
 
 ![type:video](../img/workspace/side-panel-detach.mp4)
 
-## Collapsing Panel Headings
+## 折叠面板选项
 
-Each section within a side panel can be collapsed or expanded by clicking on its heading.
+侧面板中的每个部分都可以通过单击其标题来折叠或展开。
 
 ![type:video](../img/workspace/side-panel-section-collapse.mp4)
 
-## The Side Panels in Detail
+## 侧面板详情
 
-For a detailed look at the options within each side panel, see [The Side Panels in Detail](../advanced/side-panels.md).
+有关每个侧面板中选项的详细信息，请参阅[侧面板详情](../advanced/side-panels.md).
 
 ---
 

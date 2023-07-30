@@ -137,7 +137,7 @@ extra:
   social:
     - icon: fontawesome/regular/comments
       link: https://forum.synthesizerv.com/t/topic/7524
-      name: 在论坛上讨论此网站
+      name: 在官方论坛上讨论此网站
     - icon: fontawesome/brands/github
       link: https://github.com/claire-west/svstudio-manual
       name: Github上的源代码
