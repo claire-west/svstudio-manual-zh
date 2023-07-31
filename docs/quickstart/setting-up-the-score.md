@@ -14,7 +14,7 @@
 
 曲速标记最短只能以四分之一小节间隔创建，并且只能在小节开始时更改拍号。
 
-!!! warning
+!!! warning "警告"
 
     Synthesizer V Studio 和 MIDI 文件格式都不支持曲速渐变。
 

@@ -6,7 +6,7 @@ Synthesizer V Studio Basic版和Pro版的下载链接可以在[Dreamtonics官方
 
 购买Pro版后，您将会收到一封包含下载说明的邮件，这些说明可能因您购买的供应商而异。
 
-!!! warning
+!!! warning "警告"
 
     请始终保存您的此封邮件，并妥善保存您的产品激活码，您的供应商并不保证能恢复丢失或泄露的激活码。
 

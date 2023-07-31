@@ -1,91 +1,91 @@
-# Editing Phonemes
+# 编辑音素
 
-Phonemes are the individual components that lyrics and syllables are made up of. Each phoneme represents a specific sound that Synthesizer V Studio is capable of producing (along with transition sounds between each phoneme).
+音素是构成歌词和音节的发音单元。每个音素代表Synthesizer V Studio能够产生的具体声音（以及每个音素间的过渡声音）。
 
-All lyrics entered into notes are automatically converted to phonemes. When rendering the synthesized output, the phonemes are used to determine the appropriate pronunciation and timing.
+所有输入到音符中的歌词都会自动转换为音素。渲染合成输出时，音素用于确定适当的发音和时间。
 
-!!! info
+!!! info "提示"
 
-    The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word.
+    每个歌词的默认字典映射将为该单词生成最有可能的“正确”发音。
 
-    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments to achieve different pronunciation.
+    人类歌手很少能用完美的发音唱歌，所以要达到最自然的效果，经常需要进行音素调整以实现合适的发音。
 
-## Available Phonemes
+## 可用音素
 
-Each language has its own set of phonemes and notations.
+每种语言都有自己的一组音素和符号。
 
-A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
+每种语言的完整音素列表可以在[音素表](../phonemes.md)页面以及Synthesizer V Studio的安装目录中找到。
 
-|Language|Lyrical Notation|Phonetic Notation|
+|语言|语言表示法|音标|
 |---|---|---|
-|English|Words|Modified Arpabet|
-|Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
-|Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
-|Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
+|英语|单词|改良版Arpabet|
+|日语|平假名，片假名，罗马音|罗马音派生符号|
+|普通话|汉语（简体/繁体），拼音|X-SAMPA|
+|粤语|汉语（简体/繁体），粤拼|X-SAMPA|
 
-## Changing a Note's Phonemes
+## 更改音符的音素
 
-Phonemes are displayed above a note, as well as in the Note Properties panel when the note is selected.
+音素显示在音符上方，并在选择音符时显示在“音符属性”面板中。
 
-If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active [dictionary](../advanced/user-dictionaries.md) or by default phoneme conversion).
+如果音符上方的文本为白色，则表示音符的音素是从音符内输入的歌词自动转换而来的（从已激活的[词典](../advanced/user-dictionaries.md)或默认音素转换）。
 
-![Phonemes for a Note](../img/note-properties/phonemes-b.png)
+![音符音素](../img/note-properties/phonemes-b.png)
 
-There are times where the default pronunciation does not match your song. For example, `hh ax l ow` and `hh eh l ow` are both common pronunciations for the word "hello" depending on the speaker's accent.
+有时默认发音与您的歌曲不匹配。例如，根据说话者的口音，“hello”一词的常见发音有可能是`hh ax l ow` 或`hh eh l ow`
 
-Double click on the phoneme text above a note to enter a modified phoneme sequence. Press ++enter++ or click outside the note to confirm, or press ++esc++ to cancel the change.
+双击音符上方的音素文本以输入修改后的音素序列，按++enter++或点击其他区域确认更改，或按++esc++取消更改。
 
-Pressing ++tab++ will confirm the change and advance to the next note, while ++ctrl+tab++ will move to the previous note.
+按++tab++以确认更改并前进到下一个音符，按++ctrl+tab++将后退到上一个音符。
 
-![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-b.png)
+![编辑音素](../img/note-properties/phoneme-editing-b.png)
 
-You can also use the text input in the Note Properties panel instead of double-clicking above the note.
+您还可以在“音符属性”面板中输入音素，而不是双击音符上方。
 
-![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-2-b.png)
+![编辑音素](../img/note-properties/phoneme-editing-2-b.png)
 
-After manually modifying the phoneme sequence the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.
+手动修改音素序列后，音符上方的文本将为绿色而不是白色。以这种方式手动输入音符的音素时，音符内的歌词将不会对输出产生影响。
 
-![A Note With Modified Phonemes](../img/note-properties/phoneme-edited-b.png)
+![已编辑音素](../img/note-properties/phoneme-edited-b.png)
 
-To revert the phoneme sequence to the automatic lyric-based conversion, set the phoneme sequence to an empty value.
+若要将音素序列还原为基于歌词的自动转换音素序列，请将音素序列设置为空。
 
-![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset-b.png)
+![重置音素](../img/note-properties/phoneme-reset-b.png)
 
-A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
+音素序列也可以通过在音符歌词前面加上字符 `.` 来输入音素序列。此格式主要用于向后兼容 .s5p 项目文件，建议在使用 Synthesizer V Studio 时在音符上方输入音素而不是使用此方式。
 
-This format may interfere with the software's ability to infer syllable breaks when using `+`, since there will no longer a word within the note.
+这种格式可能会干扰软件使用分割音节（`+`）的能力，因为音符中将不再有单词。
 
-![Phonemes in the Note Body](../img/note-properties/phonemes-in-note-b.png)
+![歌词中音素](../img/note-properties/phonemes-in-note-b.png)
 
-## Separating Words in Unique Ways
+## 手动分割音素
 
-While the `+` and `-` characters [allow words to span multiple notes](../quickstart/entering-lyrics.md) on their vowels and  syllable boundaries, there may be situations in which you want to separate a note in a more precise manner.
+虽然`+`和`-`[允许单词在其元音和音节边界上跨越多个音符](../quickstart/entering-lyrics.md)但在某些情况下，您可能希望以更精确的方式分割音符。
 
-Manually allocating a word's phonemes in different ways can be a useful method of [adjusting timing](note-and-phoneme-timing.md#more-precise-timing-adjustments) or articulation. Since human vocalists most often perform transitions at vowel and syllable breaks, care should be taken not to create a halting or unnatural sound using this technique.
+手动分配单词的音素可能是[调整时间](note-and-phoneme-timing.md#more-precise-timing-adjustments)或发音的不错方法，由于人类歌手最常在元音和音节分隔处进行过渡，使用此方法时产生请注意避免产生不自然的声音。
 
-This example demonstrates the same lyric as above – "hello" – allocated to notes in a variety of ways using manual phoneme entry.
+此示例演示了与上述相同的歌词 “hello” 使用手动音素输入分配音素给音符。
 
-Notice that in the last example, the `hh` phoneme is no longer treated as a [preutterance](note-and-phoneme-timing.md#note-offset) (which normally occurs before the start of the note) because it is the only phoneme allocated to its respective note.
+请注意，在下图第四个示例中，音素不再被视为[音头](note-and-phoneme-timing.md#note-offset)（通常出现在音符开始之前），因为它是分配给其音符的唯一音素。
 
-Keep in mind that if a phoneme sequence has been manually set, the lyric inside the note no longer has any effect on the output.
+请记住，如果手动设置了音素序列，则音符内的歌词不再对输出产生任何影响。
 
-![Phoneme allocation](../img/note-properties/phoneme-allocation.png)
+![音素序列](../img/note-properties/phoneme-allocation.png)
 
-## Custom Lyric-to-Phoneme Conversion
+## 自定义歌词到音素转换
 
-If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
+如果项目中有许多相同单词，则可能需要覆盖该歌词所有位置的默认音素转换。这可以通过创建[用户词典](../advanced/user-dictionaries.md)来实现。
 
-## Cross-lingual Synthesis
+## 跨语言合成
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    Cross-lingual Synthesis requires Synthesizer V Studio Pro.
+    跨语言合成功能需要Synthesizer V Studio Pro。
 
-Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Japanese, Mandarin Chinese, and Cantonese Chinese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
+无论其默认语言为何，跨语言合成允许 AI 歌声数据库使用英语、日语、普通话和粤语的音素表，虽然 AI 歌声数据库仍然具有“母语”，但这使他们能够近乎流利地用其他语言演唱。
 
-Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
+语言设置可以在“歌声”和“音符属性”面板下找到，分别用于曲目/音符组和单个音符。
 
-![Cross-lingual Settings](../img/ai-functions/cross-lingual.png)
+![跨语言合成功能](../img/ai-functions/cross-lingual.png)
 
 ---
 

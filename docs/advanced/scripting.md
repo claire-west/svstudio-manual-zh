@@ -61,7 +61,7 @@ The Tone Shift and Vocal Mode Automation definitions are as follows:
 
 For example, when fetching a `NoteGroup`'s Automation object for the "Soft" vocal mode, the function would be `noteGroup.getParameter("vocalMode_Soft")`.
 
-!!! warning
+!!! warning "警告"
 
     Using `getParameter()` for a vocal mode will automatically initialize it for the track, even if the provided vocal mode name does not exist.
 

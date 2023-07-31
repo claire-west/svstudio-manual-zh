@@ -81,7 +81,7 @@ This expression-based curve is separate from any vibrato-shaped curves introduce
 : The amplitude (in semitones) of the sine-like curve.
 : A depth of zero will result in a flat line (no vibrato).
 
-!!! warning
+!!! warning "警告"
 
     Executing [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) will set the vibrato depth of the selected notes to zero, except for notes which have already had their vibrato depth set manually in the Note Properties panel. Once this has happened the vibrato depth will no longer be inherited from the default set in the Voice panel.
 

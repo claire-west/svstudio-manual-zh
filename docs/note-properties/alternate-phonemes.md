@@ -1,22 +1,22 @@
-# Alternate Phonemes and Phoneme Strength
+# 备用音素和音素力度
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    以下功能需要Synthesizer V Studio Pro。
 
-Alternate Phonemes and Phoneme Strength are found in the "Timing and Phonemes" section of the Note Properties panel and can be used to customize each individual sound.
+备用音素和音素力度位于“音符属性”面板的“时间和音素”部分，可用于自定义每个音素的声音。
 
-## Alternate Phonemes
+## 备用音素
 
-When an alternate phoneme is selected, a different articulation or pronunciation will be used during rendering. The results of this setting will vary with each voice database.
+选择备用音素时，渲染过程中将使用不同的发音。此设置的输出因不同歌声数据库而异。
 
-![Alternate Phonemes](../img/note-properties/alternate-phonemes.png)
+![备用音素](../img/note-properties/alternate-phonemes.png)
 
-## Phoneme Strength
+## 音素力度
 
-Phoneme strength (AI voice databases only) will modify the dynamics and emphasis of individual phonemes within a note.
+音素力度（仅限 AI 歌声数据库）将修改音符中单个音素的发音力度。
 
-![Phoneme Strength](../img/note-properties/phoneme-strength.png)
+![音素力度](../img/note-properties/phoneme-strength.png)
 
 ---
 

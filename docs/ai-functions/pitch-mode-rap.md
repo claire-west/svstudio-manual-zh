@@ -2,7 +2,7 @@
 
 "Rap" Pitch Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter.
 
-!!! warning
+!!! warning "警告"
 
     Rap Mode is only available for English and Mandarin Chinese. Japanese support is currently in development.
 

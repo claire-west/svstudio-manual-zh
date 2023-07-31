@@ -1,21 +1,21 @@
-# Expression Groups
+# 表现力分组
 
-The Expression Group dropdown can be found at the bottom of the Note Properties panel.
+表现力分组下拉列表位于“音符属性”面板的底部。
 
-!!! info "Expression Groups are only applicable to non-AI singers."
+!!! info "表现力分组仅适用于非AI歌手"
 
-![Expression Groups](../img/note-properties/expression-groups.png)
+![表现力分组](../img/note-properties/expression-groups.png)
 
-## Expression Group Selection
-Non-AI voice database include the same set of samples recorded at different voice registers, and sometimes with different vocal styles.
+## 选择表现力分组
+非AI歌声数据库包括在不同音阶上录制的同一组样本，有时具有不同的声线。
 
-By default the most appropriate sample will be selected for each note, but you can manually override the selection by selecting the desired expression group. The available expression groups will be different for each voice database.
+默认情况下，将自动为每个音符选择最合适的分组，但您可以手动选择所需的表现力分组。每个歌声数据库的可用表现力分组将有所不同。
 
-![Genbu's Expression Groups](../img/note-properties/expression-group-dropdown-genbu.png)
+![Genbu的表现力分组](../img/note-properties/expression-group-dropdown-genbu.png)
 
-When an expression group is selected for a note, it will be indicated below the note in the piano roll.
+当手动选择表现力分组时，它将在钢琴卷帘中的音符下方显示。
 
-![Maki's Expression Groups](../img/note-properties/expression-groups-maki.png)
+![Maki的表现力分组](../img/note-properties/expression-groups-maki.png)
 
 ---
 

@@ -24,7 +24,7 @@ nav:
   - 音符属性:
     - 音高转变和颤音: note-properties/pitch-transition-and-vibrato.md
     - 编辑音素: note-properties/editing-phonemes.md
-    - 音素和音符时长: note-properties/note-and-phoneme-timing.md
+    - 时间和音素: note-properties/note-and-phoneme-timing.md
     - 备用音素和音素力度: note-properties/alternate-phonemes.md
     - 表现力分组: note-properties/expression-groups.md
   - 参数:
@@ -155,10 +155,10 @@ extra:
       title: 此页面有帮助吗？
       ratings:
         - icon: material/emoticon-happy-outline
-          name: 这个页面很有用ヾ(•ω•`)o
+          name: 这个页面很有用~
           data: 1
           note: >-
-            感谢反馈ヾ(^▽^*)))
+            感谢反馈~
         - icon: material/emoticon-sad-outline
           name: 这个页面有待改进
           data: 0

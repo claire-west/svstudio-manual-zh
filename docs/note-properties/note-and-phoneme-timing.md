@@ -1,36 +1,36 @@
-# Note and Phoneme Timing
+# 时间和音素
 
-Note Timing properties allow you to adjust the distribution or duration of phonemes within a note, or entire notes relative to their neighbors.
+“时间和音素”属性允许您调整音符内音素的分布或持续时间，或者调整整个音符相对于其相邻音符的分布或持续时间。
 
-## Note Offset
+## 音符偏移
 
-The note offset slider will move the beginning of the selected note(s) earlier or later by up to 0.1 second, and will adjust the neighboring phoneme timing appropriately.
+音符偏移滑块会将所选音符的开头提前或推迟最多 0.1 秒，并将适当调整相邻音素时长。
 
-!!! note
+!!! note "注意"
 
-    It is normal for a note's first phoneme to begin before the note itself if the note begins with a consonant sound. This is done to replicate how human vocalists transition between lyrics and is referred to as a "preutterance".
+    如果音符以辅音开头，则音符的第一个音素可能会在音符本身之前开始。这样做是为了模仿人类歌手在歌词之间的过渡方式，被称为“音头”。
 
 ![Note Offset Side-by-side](../img/note-properties/note-offset-crop.png)
 
-## Phoneme Timing
+## 音素时长
 
-Default phoneme timing is determined based on the phoneme's type (vowel, stop, fricative, etc). The timing distribution of phonemes within a note (and relative to its neighbors) can be modified between 20% and 180% of this default.
+默认音素计时根据音素的类型（元音、停止音、摩擦音等）确定。音符内音素（以及相对于其相邻音素）的时长分布可以在此默认值的 20% 到 180% 之间修改。
 
-!!! note
+!!! note "注意"
 
-    It will generally be easier to accomplish a desirable timing if you do not include multiple syllables within the same note. Use the `+` character to [allocate a lyric's syllables](../quickstart/entering-lyrics.md) across multiple notes, or [manually allocate](editing-phonemes.md#separating-words-in-unique-ways) the phonemes to multiple notes.
+    一般来说，不在同一音符中包含多个音节更容易控制时间。使用`+`将[歌词的音节分割](../quickstart/entering-lyrics.md)，或[手动分配音素](editing-phonemes.md#separating-words-in-unique-ways)给多个音符。
 
-![Phoneme Timing Side-by-side](../img/note-properties/phoneme-timing-crop.png)
+![音素时长](../img/note-properties/phoneme-timing-crop.png)
 
-### More Precise Timing Adjustments
+### 更精确的定时
 
-If the phoneme timing sliders do not offer enough precision, or the timing needs to be adjusted beyond the 20-180% range, it can be helpful to separate each phoneme into its own note.
+如果音素时长滑块不能提供足够的精度，或者需要将计时调整到 20%-180% 范围之外，则需要将每个音素分离到独自的音符中。
 
-If a note only has a single phoneme, the phoneme's duration will align with the note boundaries regardless of the usual preutterance or automatic timings that would normally apply to a note with a longer phoneme sequence.
+如果音符只有一个音素，则音素的持续时间将与音符边界对齐，并不与于具有较长音素序列的音符的音头或时长相似。
 
-Keep in mind that this may result in an unnatural and over-quantized sound if all notes are snapped to the grid.
+请记住，如果所有音符都对齐到网格，可能会导致声音不自然且过度量化。
 
-![A single phoneme per note](../img/note-properties/one-phoneme-per-note.png)
+![简易音素分割](../img/note-properties/one-phoneme-per-note.png)
 
 ---
 

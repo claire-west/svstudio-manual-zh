@@ -15,7 +15,7 @@
 
     Synthesizer V Studio Basic最多只能同时存在3个轨道，Pro版取消了该限制。
 
-!!! warning
+!!! warning "警告"
 
     使用mp3格式的乐器文件可能会导致音频不同步。
 
@@ -66,7 +66,7 @@
 
 !!! info "某些 DAW 和制谱程序在导出 MIDI 文件时不包含速度或拍号信息。"
 
-!!! warning
+!!! warning "警告"
 
     Synthesizer V Studio 和 MIDI 文件格式都不支持曲速渐变。
 

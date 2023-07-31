@@ -1,26 +1,26 @@
-# Pitch Transition and Vibrato
+# 音高转变和颤音
 
-Transitions and vibrato are used to create a more natural flow between notes which does not adhere to the notes' exact pitch.
+音高转变和颤音用于在音符间创建更自然的过渡，而不严格遵守音符的音高。
 
-The selected Pitch Mode will determine which tools are available for modifying pitch transitions and vibrato.
+根据所选音高模式的不同，修改音高转变和颤音的选项也将有所不同。
 
-## Pitch Modes
+## 音高模式
 
-The Pitch Mode setting has three options, which can be selected from the Note Properties panel while at least one note is selected.
+“音高模式”设置有三个选项，可以在至少选择一个音符时从“音符属性”面板中选择这些选项。
 
-See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
+有关使用快捷键一次选择多个音符的方法，请参阅[编辑音符](../quickstart/editing-notes.md#selecting-notes)。
 
-![Pitch Mode settings](../img/note-properties/pitch-modes.png)
+![音高模式设置](../img/note-properties/pitch-modes.png)
 
-**Sing**
-: Adds AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato. [More about Sing Pitch Mode](../ai-functions/pitch-mode-sing.md).
+**歌唱**
+: 将 AI 生成的音高偏差添加到音符中，这些音符经过建模产生逼真的过渡，延音和颤音。[更多关于音高模式：歌唱](../ai-functions/pitch-mode-sing.md)。
 
-**Rap**
-: Adds AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter. [More about Rap Pitch Mode](../ai-functions/pitch-mode-rap.md).
+**说唱**
+: 将 AI 生成的音高偏差添加到您的音符中，这些音符经过建模以模仿人类说唱，并允许使用“说唱音高”参数。[更多关于音高模式：说唱](../ai-functions/pitch-mode-rap.md).
 
-**Manual**
-: Gives full manual control over the pitch. Notes will have no pitch deviation by default, so it is up to the user to enter the desired patterns from scratch.
-: When the button is darkened, Manual mode is disabled. When it is light, Manual mode is enabled. [More about Manual Pitch Mode](../advanced/pitch-mode-manual.md).
+**手动**
+: 提供对音高的完全手动控制。默认情况下，音符不会有音高偏差，因此需要用户手动控制。
+: 当按钮为暗色时，说明手动模式已关闭。当它为亮色时，说明手动模式已启用。[更多关于手动音高模式](../advanced/pitch-mode-manual.md)
 
 ---
 
