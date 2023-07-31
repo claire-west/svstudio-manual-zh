@@ -1,72 +1,72 @@
-# Editing Notes
+# 编辑音符
 
-Note editing varies based on the selected tool. Ensure you are in Note Edit Mode before trying to modify notes.
+音符的编辑因所选工具而异，请在修改音符之前确认您处于音符编辑模式。
 
-![Piano Roll Tools](../img/quickstart/piano-roll-tools.png)
+![钢琴卷帘工具](../img/quickstart/piano-roll-tools.png)
 
-## Selecting Notes
+## 选择音符
 
-Notes can be selected by clicking on them.
+音符可以通过单击被选中。
 
-To select multiple notes at once, use the pointer tool (++alt+1++) to drag a bounding box around them.
+要一次选择多个音符，请使用多功能编辑工具(++alt+1++)以在要选择的音符周围拖动一个边界框。
 
-Select all notes in the current track or group with ++ctrl+a++.
+可使用 ++ctrl+a++ 选择当前轨道中的所有音符。
 
-![Selecting Multiple Notes](../img/quickstart/pencil-bounding-box.png)
+![框选音符](../img/quickstart/pencil-bounding-box.png)
 
-Multiple notes can also be selected or deselected by clicking on them individually while holding ++ctrl++.
+还可以在已选中多个音符的同时按住++ctrl++，并单击已选中的音符来取消选中。
 
-A continuous sequence of notes can be selected by clicking the first note, holding ++shift++, and clicking the last note.
+可以通过选中一个音符后按住++shift++，并单击另外一个音符以选中在这之间的所有音符。
 
-You can also use bounding box selection with the pencil tool (++alt+2++) by double clicking (without releasing the left button after the second click) and dragging with the mouse, similar to how [new notes](creating-notes.md#pointer-tool) are added with the pointer tool.
+还可以在使用多功能手绘工具(++alt+2++)时，双击（第二次点击后不松开左键）并拖动框选来选择音符。这类似于使用多功能编辑工具添加[音符](creating-notes.md#pointer-tool)的操作。
 
-## Modifying Notes
+## 修改音符
 
-Notes can be moved by clicking and dragging them. If multiple notes are selected, the entire selection will be moved.
+可以通过单击并拖动音符来移动音符。如果选择了多个音符，则将整体拖动。
 
 ![type:video](../img/quickstart/note-move.mp4)
 
-To change a note's duration, click and hold on the head or tail (left or right edge of the note) and drag to the desired length.
+要更改音符的时长，请单击并按住音符的头部或尾部（左边缘或右边缘），然后拖动到所需的长度。
 
 ![type:video](../img/quickstart/note-resize.mp4)
 
-### Note Movement Modifiers
+### 音符移动快捷键
 
-Modifier keys can be held to change the behavior of dragging note(s) with the mouse.
+可以按住快捷键来更改拖动音符时的行为。
 
-|Held Modifier|Behavior|
+|快捷键|行为|
 |---|---|
-|++shift++|Vertical movement only|
-|++ctrl++|Horizontal movement only|
-|++ctrl+alt++|Do not snap to grid|
+|++shift++|仅垂直移动|
+|++ctrl++|仅水平移动|
+|++ctrl+alt++|不与网格对齐|
 
-## Overlapping Notes
+## 音符重叠
 
-Output cannot be synthesized for notes that overlap. Overlapping notes will be disabled and will not produce any sound.
+重叠的音符不会输出且将被禁用，并不会产生任何声音。
 
-![Overlapping Notes](../img/quickstart/overlapping-notes.png)
+![重叠音符](../img/quickstart/overlapping-notes.png)
 
-Resize the notes so that they do not overlap, and synthesized output will be restored.
+调整音符大小，使其不重叠，输出将会恢复。
 
-![Overlapping Notes](../img/quickstart/overlapping-notes-fixed.png)
+![重叠音符](../img/quickstart/overlapping-notes-fixed.png)
 
-## Short Silences
+## 短间隙
 
-The end of one note should generally meet with the start of the next note unless there is intended to be silence between them.
+一个音符的结尾通常应与下一个音符的开头相吻合，除非在其间有意保持沉默。
 
-If there is a small gap between two notes (1/16 quarter or smaller) a `sil` (silence) indicator will be displayed.
+如果两个音符之间存在较小的间隙（1/16拍或更小），将会显示`SIL`（静音）指示器。
 
-![Overlapping Notes](../img/quickstart/sil.png)
+![短间隙](../img/quickstart/sil.png)
 
-Clicking the `sil` indicator will close the gap between the notes.
+单击`SIL`指示器将自动填补间隙。
 
 ![type:video](../img/quickstart/sil-click.mp4)
 
-Short silences can also be removed from many notes at once via the "Modify" top menu.
+也可以通过顶部“修改”菜单一次从多个音符间删除短间隙。
 
-![Remove Short Silences](../img/quickstart/remove-short-silences.png)
+![移除短间隙](../img/quickstart/remove-short-silences.png)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_s1gITI3vbA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

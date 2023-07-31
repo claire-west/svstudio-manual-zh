@@ -1,26 +1,26 @@
-# Setting Up the Score
+# 设置拍号和曲速
 
-The time axis displays time signature and tempo markers above the arrangement and piano roll.
+拍号和曲速（BPM）标记显示在编曲栏和钢琴卷帘上方的时间轴。
 
-![The Time Axis](../img/quickstart/time-axis.png)
+![时间轴](../img/quickstart/time-axis.png)
 
-To modify a marker, double click on it. To delete a marker (not including markers at measure 1), right click on it and select "Delete".
+要修改标记，请双击它。要删除标记（不包括第一小节处的标记），请右键单击它并选择“删除”。
 
-![Modify Time Signature](../img/quickstart/time-signature.png)
+![更改拍号](../img/quickstart/time-signature.png)
 
-![Modify Tempo](../img/quickstart/tempo.png)
+![更改曲速](../img/quickstart/tempo.png)
 
-New markers of either type can be added by right clicking along the time axis. Tempo markers can also be added by double-clicking along the time axis.
+可以通过右键时间轴单击来添加任一类型的新标记。也可以通过双击时间轴来添加曲速标记。
 
-Tempo markers can only be created at quarter-measure intervals, and time signature changes can only occur at the start of a measure.
+曲速标记最短只能以四分之一小节间隔创建，并且只能在小节开始时更改拍号。
 
 !!! warning
 
-    Neither Synthesizer V Studio nor the MIDI file format support gradual ("ramp") tempo changes.
+    Synthesizer V Studio 和 MIDI 文件格式都不支持曲速渐变。
 
-    When synchronizing with an accompanying instrumental, ensure all tempo changes are applied in an instantaneous or stepwise manner in both programs, and that all tempo changes occur at the start of a quarter.
+    要与伴奏同步，请确保在两个轨道中以瞬时或逐步方式应用曲速变化，并且所有曲速变化都在一拍的开始。
 
-![Add Time Change](../img/quickstart/time-axis-add-marker.png)
+![增加曲速标记](../img/quickstart/time-axis-add-marker.png)
 
 ---
 

@@ -1,76 +1,78 @@
-# Managing Tracks
+# 管理音轨
 
-Tracks are displayed in the [arrangement](../workspace/arrangement.md) panel.
+音轨显示在[编曲](../workspace/arrangement.md)面板中。
 
-## Creating Tracks
+## 创建轨道
 
-There are multiple ways to add a new track:
+有多种方法可以添加新音轨：
 
-- Click the three-bars (:fontawesome-solid-bars:) icon to the left of the time axis
-- Right click empty space below the existing tracks
-- From the "Project" menu at the top of the application window
-- Drag an instrumental (wav or flac) file into the arrangement
+- 点击时间轴左侧(:fontawesome-solid-bars:)图标
+- 右键单击现有轨道下方的空白区域
+- 从应用程序窗口顶部的“项目”菜单
+- 将伴奏(wav 或 flac 格式)文件拖进编曲栏
 
-!!! note "Pro Feature - Track Limit"
+!!! note "Pro版功能 - 轨道数量限制"
 
-    Synthesizer V Studio Basic is limited to 3 tracks. The pro edition removes this limitation.
+    Synthesizer V Studio Basic最多只能同时存在3个轨道，Pro版取消了该限制。
 
 !!! warning
 
-    Using an instrumental file in mp3 format may result in desynchronized audio.
+    使用mp3格式的乐器文件可能会导致音频不同步。
 
-Selecting "Create a New Track" will add a new vocal track to the bottom of the list, with no voice database selected by default. The track color will be automatically assigned based on which colors are already in use.
+选择“创建新的音轨”会将新的人声轨道添加到列表底部，默认情况下不会选择歌声数据库。轨道颜色将根据已使用的颜色自动分配。
 
-Creating a new instrumental track will automatically prompt for an audio file to be selected. Each instrumental track can only contain one audio file.
+选择“创建新的伴奏轨”将自动提示选择音频文件。每个伴奏轨道只能包含一个音频文件。
 
-![Create a Track](../img/quickstart/new-track.png)
+![新建音轨](../img/quickstart/new-track.png)
 
-Double-click on a track's name to rename it.
+双击轨道名称以重命名。
 
 ![type:video](../img/quickstart/track-rename.mp4)
 
-Right click on a track to duplicate or delete it. Unlike new tracks, duplicated tracks will have the same track color as the original they were cloned from.
+右键轨道以复制或删除它，与新轨道不同，复制的轨道将具有与原轨道相同的轨道颜色。
 
-![Create a Track](../img/quickstart/duplicate-track.png)
+![创建音轨](../img/quickstart/duplicate-track.png)
 
-Notes from other tracks will be shown in the piano roll as colored lines. This can be disabled with the "Show Melody from Other Tracks" option in the "View" menu at the top of the application window.
+其他音轨的音符将在钢琴卷中显示为彩色线条。这可以通过应用程序窗口顶部“查看”菜单中的“显示其他音轨的旋律”选项禁用。
 
 ![Create a Track](../img/quickstart/show-other-tracks.png)
 
-## Importing Tracks
+## 导入音轨
 
-There are two options in the "File" menu at the top of the application that allow importing of tracks.
+应用程序顶部的“文件”菜单中有两个选项允许导入音轨。
 
 ![Import Options](../img/quickstart/import.png)
 
-"Import" (++ctrl+shift+i++) will open the selected file as a new project in Synthesizer V Studio. "Import as Tracks" will create new tracks in the current project based on the selected file.
+"导入" (++ctrl+shift+i++)将在Synthesizer V Studio 中将所选文件作为新项目打开。“导入为音轨”将根据所选文件在当前项目中创建新轨道。
 
-You can use these functions to load a MIDI file containing the vocal melody for your song, or to import a project file from a different singing synthesizer.
+您可以使用这些方法加载包含歌曲的人声旋律的 MIDI 文件，或从其他歌声合成器导入项目文件。
 
-Supported file types are MIDI, UST, VSQx, VPR, and CCS.
+支持的文件类型包括 MIDI、UST、VSQx、VPR 和 CCS。
 
-The "Import as Tracks" function also supports SVP and S5P files to allow merging of Synthesizer V projects.
+“导入为音轨”功能还支持SVP和S5P文件，以允许合并Synthesizer V项目。
 
-### Importing Tempo and Time Signature Markers
+### 导入曲速和拍号标记
 
-The "Import" function will also apply tempo and time signature markers based on the original file.
+“导入”功能还将根据原始文件应用速度和拍号标记。
 
-"Import as Tracks" will not modify the tempo or time signature markers of the current project.
+“导入为音轨”不会修改当前项目的速度或拍号标记。
 
-To apply a MIDI tempo map to an existing project:
+要将 MIDI 速度图应用于现有项目：
 
-1. Save your work if you have any unsaved changes.
-2. Use "Import" to create a new project based on your MIDI file. The new project's tempo and time signature markers will reflect those of the MIDI file.
-3. Use "Import as Tracks" to merge your existing SVP file into the new project.
-4. Save the new project under a new name.
+1. 如果您有任何未保存的更改，请保存您的工作。
+2. 使用“导入”基于您的 MIDI 文件创建新项目。新项目的速度和拍号标记将对映 MIDI 文件的速度和拍号标记。
+3. 使用“导入为音轨”将现有的 SVP 文件合并到新项目中。
+4. 使用新名称保存新项目。
 
-!!! info "Some DAWs and music notation programs do not include tempo or time signature information when exporting a MIDI file."
+!!! info "某些 DAW 和制谱程序在导出 MIDI 文件时不包含速度或拍号信息。"
 
 !!! warning
 
-    Neither Synthesizer V Studio nor the MIDI format support gradual ("ramp") tempo changes. Ensure all tempo changes are applied in an instantaneous or stepwise manner, and that all tempo changes occur at the start of a quarter.
+    Synthesizer V Studio 和 MIDI 文件格式都不支持曲速渐变。
 
-## Video Demonstration
+    要与伴奏同步，请确保在两个轨道中以瞬时或逐步方式应用曲速变化，并且所有曲速变化都在一拍的开始。
+
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sz1TwwXmMJA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

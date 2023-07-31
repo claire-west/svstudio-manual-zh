@@ -1,21 +1,21 @@
-# Adding Notes
+# 添加音符
 
-Note creation varies based on the selected tool. Generally, the pointer tool will be preferable for editing while the pencil tool is more suited to adding new notes. Ensure you are in Note Edit Mode before trying to add notes.
+音符的添加因所选工具而行为不同。通常，多功能编辑工具更适合编辑音符，而自由手绘工具更适合添加新音符。在添加音符之前，请确保您选择的是音符编辑模式。
 
-![Piano Roll Tools](../img/quickstart/piano-roll-tools.png)
+![钢琴卷帘工具](../img/quickstart/piano-roll-tools.png)
 
-## Pointer Tool
-With the pointer tool (++alt+1++) selected, double click (without releasing the left button after the second click) and drag in the piano roll to create a note of the desired length.
+## 多功能编辑工具
+当使用多功能编辑工具(++alt+1++)时，双击（第二次点击后不松开左键）并在钢琴卷帘中拖动以创建所需长度的音符。
 
-![Adding Notes With the Pointer Tool](../img/quickstart/add-note-pointer.png)
+![使用多功能编辑工具添加音符](../img/quickstart/add-note-pointer.png)
 
-## Pencil Tool
+## 自由手绘工具
 
-With the pencil tool (++alt+2++) selected, drag anywhere in the note area to create a note of the desired length.
+当使用自由手绘工具(++alt+2++)时，在钢琴卷帘中的任意位置拖动以创建所需长度的音符。
 
-![Adding Notes With the Pencil Tool](../img/quickstart/add-note-pencil.png)
+![使用自由手绘工具添加音符](../img/quickstart/add-note-pencil.png)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_s1gITI3vbA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

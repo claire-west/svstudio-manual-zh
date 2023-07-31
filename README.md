@@ -1,21 +1,21 @@
 # svstudio-manual
-An unofficial user manual for Synthesizer V Studio.
+Synthesizer V Studio的非官方用户手册。
 
-## Dev Environment
+## 运行环境
 
-1. Run `setup.sh` to install prerequisites (may need to run with `sudo`)
-2. Run `mkdocs serve` in the root directory (future runs can use `mkdocs serve --dirtyreload` for faster rebuilds during development)
-3. Navigate to http://localhost:8000
+1. 运行`setup.sh`以安装所需软件环境（可能需要`sudo`权限）
+2. 在安装目录下运行`mkdocs serve`(未来可以使用`mkdocs serve --dirtyreload`来更快构建软件环境)
+3. 访问http://localhost:8000
 
-This assumes you already have `pip`. Some of the packages added in `setup.sh` will be named/aliased differently based on your package manager or linux distribution, so you might have to install them one-by-one or with a different command (for example, `zlib1g-dev` might need to be installed as `libz-dev`).
+以上过程已默认您安装了`pip`，在`setup.sh`中安装的软件包可能因包管理器或Linux发行版的不同而有别名，所以您可能需要逐个安装它们或使用不同的命令(比如`zlib1g-dev`可能需要使用`libz-dev`安装)。
 
-This works with WSL, so there is no plan for a Windows setup.
+这适用于 WSL，因此没有为 Windows 安装的计划。
 
-## Translation
+## 翻译
 
-If you would like to contribute translations for a language, refer to the respective repository. If the language you are translating to does not have a repository yet, [create an Issue](https://github.com/claire-west/svstudio-manual/issues/new) in the original English repository to have a new repository created for your language.
+如果您想为某种语言提供翻译，请参阅相应的仓库。如果您要翻译的语言还没有仓库，请在原英文仓库中创建[Issue](https://github.com/claire-west/svstudio-manual/issues/new)以便为您的语言创建新的仓库。
 
-|Language|Repository|URL|Primary Contributor or Translator|
+|语言|仓库|网址|主要贡献者或翻译者|
 |---|---|---|---|
 |English|[svstudio-manual](https://github.com/claire-west/svstudio-manual)|https://manual.synthv.info|[Claire](https://github.com/claire-west)|
-|Chinese (中文)|[svstudio-manual-zh](https://github.com/claire-west/svstudio-manual-zh)|https://zh.synthv.info|[Blathroat](https://github.com/Blathroat)|
+|Chinese (中文)|[svstudio-manual-zh](https://github.com/claire-west/svstudio-manual-zh)|https://zh.synthv.info|[Blathroat](https://github.com/Blathroat)[（B站账号）](https://space.bilibili.com/259233243)|

@@ -13,16 +13,16 @@ nav:
     - 钢琴卷帘: workspace/piano-roll.md
     - 侧面板: workspace/side-panels.md
     - 选择歌手: quickstart/singer-selection.md
-    - 设置拍数和bpm: quickstart/setting-up-the-score.md
+    - 设置拍号和曲速: quickstart/setting-up-the-score.md
     - 添加音符: quickstart/creating-notes.md
     - 编辑音符: quickstart/editing-notes.md
     - 输入歌词: quickstart/entering-lyrics.md
     # - Introduction to Instant Mode: quickstart/instant-mode.md
-    - 播放: quickstart/playback.md
+    - 播放控件: quickstart/playback.md
     - 管理音轨: quickstart/managing-tracks.md
     - 导出音乐: quickstart/saving-the-audio.md
   - 音符属性:
-    - 音高过渡和颤音: note-properties/pitch-transition-and-vibrato.md
+    - 音高转变和颤音: note-properties/pitch-transition-and-vibrato.md
     - 编辑音素: note-properties/editing-phonemes.md
     - 音素和音符时长: note-properties/note-and-phoneme-timing.md
     - 备用音素和音素力度: note-properties/alternate-phonemes.md

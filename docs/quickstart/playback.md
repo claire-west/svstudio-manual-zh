@@ -1,43 +1,43 @@
-# Playback
+# 播放控件
 
-![Playback Controls](../img/quickstart/playback-controls.png)
+![播放控件](../img/quickstart/playback-controls.png)
 
-### 1. Loop Marker
-When looping playback is enabled, two loop markers will be shown on the time axis indicating the start and end of the looping section.
+### 1. 循环标记
+启用循环播放后，时间轴上将显示两个循环标记，指示循环部分的开始和结束。
 
-These loop markers can be dragged with the mouse or moved to any point on the time axis by right clicking. Creating a loop marker while looping is disabled will enable looping.
+这些循环标记可以用鼠标拖动，也可以通过右键单击移动到时间轴上的任意点。在禁用循环时创建循环标记将启用循环。
 
 ![Moving Loop Markers](../img/quickstart/create-loop-marker.png)
 
-### 2. Playhead
-The current playback position. The playhead can be moved by left clicking on the time axis.
+### 2. 播放头
+当前播放位置，可以通过左键单击时间轴来移动播放头。
 
-### 3. Loop Mode
-Enables or disables looping playback, and shows or hides the loop markers appropriately.
+### 3. 循环模式
+启用或禁用循环播放，并相应地显示或隐藏循环标记。
 
-### 4. Transport Controls
-Controls for play, stop, skip to start, and skip to end.
+### 4. 播放控制
+用于播放、停止、跳到开始和跳到结束的控件。
 
-Playback can be triggered with spacebar. If playback is already in progress, spacebar will instead stop or pause the playback.
+可以使用空格键触发播放。如果播放正在进行，空格键将停止或暂停播放。
 
-If looping playback is enabled, skip to start/end will navigate to the loop markers instead of the track start/end.
+如果启用了循环播放，则跳到开始/结束将导航到循环标记，而不是轨道开始/结束。
 
 
-!!! note "Pro Feature - MIDI Recording"
+!!! note "Pro版功能 - MIDI录音"
 
-    The transport controls also contain a record button, which allows notes to be entered to the piano roll with a MIDI controller.
+    播放控件还包含一个录制按钮，该按钮允许使用 MIDI 控制器将音符输入钢琴卷帘。
 
-### 5. Stop/Pause
-When disabled (dark) uses "stop" behavior, where the playhead returns to the original position.
+### 5. 停止/暂停
+禁用（深色）时，使用“停止”行为，停止播放时播放头返回到原位置
 
-When enabled (light) uses "pause" behavior, where the playhead will remain at the current location instead of returning to where it was at the start of playback.
+启用后（浅色）使用“暂停”行为，停止播放时播放头将保留在当前位置，而不是返回到播放开始时的位置。
 
-### 6. Metronome
-!!! note "Pro Feature - MIDI Recording"
+### 6. 节拍器
+!!! note "Pro版功能 - MIDI录音"
 
-    Enables or disables a metronome to be played during MIDI recording.
+    启用或禁用在 MIDI 设备录制期间播放节拍。
 
-    Normally the metronome sound will only play during MIDI recording, but it can be made audible during regular playback with the "Disable metronome during playback" option in the Settings panel.
+    通常节拍器声音只会在 MIDI 录制期间播放，但可以使用“设置”面板中的“播放期间禁用节拍器”选项在常规播放时发出声音。
 
 ---
 

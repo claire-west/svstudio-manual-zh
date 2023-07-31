@@ -1,20 +1,20 @@
-# Saving the Audio
+# 导出音乐
 
-The audio output can be exported to a wav file via the Render panel, accessible from the launch bar.
+音频输出可以通过“渲染”面板导出到 wav 文件，该面板可从侧面板访问。
 
-Give your files a name, select the tracks to render, and press "Bounce to Files" to export in wav format.
+为您的文件命名，选择要渲染的轨道，然后点击“导出为文件”以 wav 格式导出。
 
-Additional format settings are also available, such as bit depth and sample rate.
+您可更改其他格式设置，例如位深度和采样率。
 
-!!! note "Pro Feature - Aspiration Output"
+!!! note "Pro版功能 - 气声输出"
 
-    Synthesizer V Studio Pro can isolate and export separate files for aspiration (the sounds produced by airflow). The aspiration can then be mixed differently in your DAW, or used as a reference when de-essing.
+    Synthesizer V Studio Pro 可以分离并以单独的文件导出气声。然后，可以在您的 DAW 中以不同的方式对气声混音，或者在使用 DAW 时作为参考。
 
-    Selecting an "isolated" aspiration option will remove the aspirant sounds from the main channel/file, resulting in a base file that only contains phonation (the sounds produced by the vocal cords). In this case the files must be recombined in the mixing process to have a complete result.
+    选择“分离气声”选项将从音轨/文件中删除气声，从而生成仅包含发声（声带产生的声音）的音频文件。在这种情况下，必须重新合成文件才能获得完整歌声。
 
-![Create a Track](../img/quickstart/render.png)
+![创建轨道](../img/quickstart/render.png)
 
-## Video Demonstration
+## 导出
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/upBn5tuzBg0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

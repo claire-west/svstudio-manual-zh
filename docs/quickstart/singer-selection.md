@@ -1,18 +1,18 @@
-# Singer Selection
+# 选择歌手
 
-By default no singer will be selected for new tracks.
+默认情况下，不会为新轨道选择任何歌手。
 
-Select a singer from the dropdown in the arrangement panel.
+请从编曲面板的下拉列表中选择一个歌手。
 
-![The Singer Dropdown](../img/quickstart/singer-dropdown-arrangement.png)
+![歌手选择下拉列表](../img/quickstart/singer-dropdown-arrangement.png)
 
-You can also select the singer from the Voice panel. This also allows you to choose a specific version of the voice database, if multiple are installed.
+您也可以从“歌声”面板中选择歌手。在此处您可以选择特定版本的语音数据库（如果安装了多个）。
 
-!!! note "Pro Feature - Cross-lingual Synthesis"
+!!! note "Pro版功能 - 跨语言合成"
 
-    If an AI singer is selected, you may also need to select the appropriate language for your song. AI voice databases have a default ("native") language, but can leverage cross-lingual synthesis to sing in other languages as well. Japanese, English, Mandarin Chinese, and Cantonese Chinese are currently supported.
+    如果选择了 AI 歌手，您可以为歌曲选择适当的语言。AI歌声数据库具有默认语言，但也可以利用跨语言合成功能来使用其他语言，目前支持日语、英语、普通话和粤语。
 
-![The Singer Dropdown](../img/quickstart/singer-dropdown-voice.png)
+![歌手选择下拉列表](../img/quickstart/singer-dropdown-voice.png)
 
 ---
 
