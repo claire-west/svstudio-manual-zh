@@ -25,7 +25,7 @@
     
     
       
-        <title>音调偏移 - Synthesizer V Studio 非官方用户手册</title>
+        <title>音区偏移 - Synthesizer V Studio 非官方用户手册</title>
       
     
     
@@ -71,7 +71,7 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="音调偏移 - Synthesizer V Studio 非官方用户手册" >
+        <meta  property="og:title"  content="音区偏移 - Synthesizer V Studio 非官方用户手册" >
       
         <meta  property="og:description"  content="SynthV Studio的非官方用户手册" >
       
@@ -87,7 +87,7 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="音调偏移 - Synthesizer V Studio 非官方用户手册" >
+        <meta  name="twitter:title"  content="音区偏移 - Synthesizer V Studio 非官方用户手册" >
       
         <meta  name="twitter:description"  content="SynthV Studio的非官方用户手册" >
       
@@ -128,7 +128,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tone-shift" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -163,7 +163,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              音调偏移
+              音区偏移
             
           </span>
         </div>
@@ -747,7 +747,7 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        音调偏移
+        音区偏移
       </a>
       
     </li>
@@ -1216,21 +1216,25 @@
   
 
 
-<div><h1 id="tone-shift">Tone Shift</h1>
+<div><h1 id="_1">音区偏移</h1>
 <div class="admonition note">
-<p class="admonition-title">Pro Feature</p>
-<p>The features described below require Synthesizer V Studio Pro.</p>
+<p class="admonition-title">Pro版功能</p>
+<p>以下功能需要Synthesizer V Studio Pro.</p>
 </div>
-<p>Tone Shift is a <a href="../editing-parameters/">parameter</a> that allows modifying the tone of a note without changing its pitch.</p>
-<p>The rendered output will have a tone as if the note were <code>x</code> cents different from the pitch line, where <code>x</code> is the value of the Tone Shift parameter at that point in time. Tone Shift is only applicable to AI voice databases.</p>
-<p>In the example below, the pitches of the notes are C4, E4, and F4, with tone shift settings aligned exactly with the notes. The first two notes are 400 cents apart, and the second two are 100 cents apart. To match this, the tone shift settings used are approximately +400 cents, 0, and -100 cents.</p>
-<p>During rendering, pitches of the notes are C4, E4, and F4 (as shown by the pitch line in the piano roll, with some minor variation due to vibrato), however the <i>tone</i> is calculated as if all three notes were E4 due to the tone shift values.</p>
-<p>This can help mitigate any tonal inconsistency (or introduce more tonal variation) without modifying the pitch of the rendered output.</p>
 <div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>The effects of Tone Shift will vary based on the selected  voice database and pitch of the notes, because each vocalist's tone is different at different ranges.</p>
+<p class="admonition-title">译者注</p>
+<p>以下内容可简要理解为此参数越低，歌手越偏向于使用假声，参数越高，越偏向于使用真声。</p>
 </div>
-<p><a class="glightbox" href="../../img/parameters/tone-shift.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Tone Shift Example" src="../../img/parameters/tone-shift.png"></a></p>
+<p>音区偏移是一个<a href="../editing-parameters/">参数</a>，允许在不改变音高的情况下修改音符的音调。</p>
+<p>渲染的输出将具有一种音调，就好像音符与音高线不同一样，其偏移量为音区偏移参数在该时间点的值。音区偏移仅适用于AI歌声数据库。</p>
+<p>在下面的示例中，音符的音高为 C4、E4 和 F4，音区偏移参数与音符完全对齐。前两个音符相隔400音分，后两个音符相距100音分。为了匹配这一点，使用的音区偏移设置约为 +400 音分、0 和 -100 音分。</p>
+<p>在渲染过程中，音符的音高为 C4、E4 和 F4（如钢琴卷帘中的音高线所示，由于颤音而有一些细微的变化），但是由于音区偏移，三个音符都按照 E4 的音调计算。</p>
+<p>这有助于缓解任何音调不一致（或引入更多音调变化）的情况，而无需修改渲染输出的音高。</p>
+<div class="admonition info">
+<p class="admonition-title">提示</p>
+<p>音区偏移的效果将根据所选的歌声数据库和音符的音高而有所不同，因为每个歌手的音调在不同的范围内是不同的。</p>
+</div>
+<p><a class="glightbox" href="../../img/parameters/tone-shift.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="音区偏移示例" src="../../img/parameters/tone-shift.png"></a></p>
 <hr>
 <p><a href="https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&amp;title=%5BPage:%20Tone%20Shift%5D">报告问题</a></p></div>
 
@@ -1239,7 +1243,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-30T03:03:00+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-08-01T12:59:31+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-08-01</span>
       
         <br>
         创建日期:
