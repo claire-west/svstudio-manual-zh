@@ -1,24 +1,28 @@
-# Tone Shift
+# 音区偏移
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    以下功能需要Synthesizer V Studio Pro.
 
-Tone Shift is a [parameter](editing-parameters.md) that allows modifying the tone of a note without changing its pitch.
+!!! info "译者注"
 
-The rendered output will have a tone as if the note were `x` cents different from the pitch line, where `x` is the value of the Tone Shift parameter at that point in time. Tone Shift is only applicable to AI voice databases.
+    以下内容可简要理解为此参数越低，歌手越偏向于使用假声，参数越高，越偏向于使用真声。
 
-In the example below, the pitches of the notes are C4, E4, and F4, with tone shift settings aligned exactly with the notes. The first two notes are 400 cents apart, and the second two are 100 cents apart. To match this, the tone shift settings used are approximately +400 cents, 0, and -100 cents.
+音区偏移是一个[参数](editing-parameters.md)，允许在不改变音高的情况下修改音符的音调。
 
-During rendering, pitches of the notes are C4, E4, and F4 (as shown by the pitch line in the piano roll, with some minor variation due to vibrato), however the <i>tone</i> is calculated as if all three notes were E4 due to the tone shift values.
+渲染的输出将具有一种音调，就好像音符与音高线不同一样，其偏移量为音区偏移参数在该时间点的值。音区偏移仅适用于AI歌声数据库。
 
-This can help mitigate any tonal inconsistency (or introduce more tonal variation) without modifying the pitch of the rendered output.
+在下面的示例中，音符的音高为 C4、E4 和 F4，音区偏移参数与音符完全对齐。前两个音符相隔400音分，后两个音符相距100音分。为了匹配这一点，使用的音区偏移设置约为 +400 音分、0 和 -100 音分。
 
-!!! info
+在渲染过程中，音符的音高为 C4、E4 和 F4（如钢琴卷帘中的音高线所示，由于颤音而有一些细微的变化），但是由于音区偏移，三个音符都按照 E4 的音调计算。
 
-    The effects of Tone Shift will vary based on the selected  voice database and pitch of the notes, because each vocalist's tone is different at different ranges.
+这有助于缓解任何音调不一致（或引入更多音调变化）的情况，而无需修改渲染输出的音高。
 
-![Tone Shift Example](../img/parameters/tone-shift.png)
+!!! info "提示"
+
+    音区偏移的效果将根据所选的歌声数据库和音符的音高而有所不同，因为每个歌手的音调在不同的范围内是不同的。
+
+![音区偏移示例](../img/parameters/tone-shift.png)
 
 ---
 

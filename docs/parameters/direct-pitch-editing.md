@@ -1,32 +1,32 @@
-# Direct Pitch Editing
+# 直接编辑音高偏差
 
-The [Pitch Deviation](editing-parameters.md) parameter can be edited directly in the Piano Roll.
+[音高偏差](editing-parameters.md)参数可以直接在钢琴卷帘中编辑。
 
-While modifying pitch deviation via the parameters panel normally allows drawing curves that are added to the base pitch line, editing directly in the piano roll lets you modify the actual pitch values instead of just the additive layer.
+虽然可以通过参数面板修改音高偏差，但直接在钢琴卷帘中进行编辑可以让您修改实际的音高值，而不仅仅是附加层。
 
-## Modifying the Pitch Line
+## 更改到直接编辑音高模式
 
-Select Pitch Edit mode from the top of the Piano Roll.
+从钢琴卷帘的顶部选择直接音高编辑模式。
 
-![Pitch Edit Mode](../img/parameters/pitch-edit-mode.png)
+![音高编辑模式](../img/parameters/pitch-edit-mode.png)
 
-The pencil tool can be used to draw pitch deviations directly on the piano roll.
+自由手绘工具可用于直接在钢琴卷帘上绘制音高偏差。
 
 ![type:video](../img/parameters/direct-freehand.mp4)
 
-Selecting the pointer tool allows creating and dragging of points, just like in the parameters panel.
+选择多功能编辑工具可以像在参数面板中一样创建和拖动点。
 
 ![Pitch Edit Mode with Pointer Tool](../img/parameters/pointer-tool-piano-roll.png)
 
-### Simplify Parameters
+### 简化参数
 
-The Simplify Parameters option can be found under the "Modify" top menu (default ++alt+s++).
+简化参数选项可以在“修改”顶部菜单下找到（默认 ++alt+s++）.
 
-This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
+此选项可减少选区中的点数以使曲线平滑，但生成的曲线可能与原始曲线不完全匹配。
 
 ![type:video](../img/parameters/simplify-parameter-piano-roll.mp4)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KwIWwpoxTiY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

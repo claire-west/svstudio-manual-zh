@@ -1,45 +1,45 @@
-# The Parameters Panel
+# 参数面板
 
-![Parameters Panel](../img/parameters/parameters-panel.png)
+![参数面板](../img/parameters/parameters-panel.png)
 
-### 1. Window Range
-The minimum and maximum range indicators for the currently selected parameter.
+### 1. 窗口范围
+当前选定参数的最小和最大范围指示器。
 
-### 2. Tool Selection
-Swap between the pointer, pencil, and line tools.
+### 2. 工具选择
+在多功能编辑工具，自由手绘工具和直线工具间切换
 
-### 3. Zoom
-Multiplies the window range by 2 or 4 times. Not all parameters can be zoomed.
+### 3. 缩放
+将窗口范围乘以 2 或 4 倍。并非所有参数都可以缩放。
 
-Disabled is the most "zoomed in", while 4x is the largest multiplier of the visible range, and is therefore more "zoomed out".
+都为暗色（即为一倍）是值域最小的，而4倍是值域最大的。
 
-### 4. Editing Parameter
-The current parameter being edited in the foreground of the parameters panel.
+### 4. 当前正在编辑的参数
+在参数面板中正在编辑的参数。
 
-### 5. Display Parameter
-A parameter to display for reference behind the current editing parameter.
+### 5. 对照参数
+显示在当前编辑参数后面以供参考的参数。
 
-### 6. Display Parameter Curve
-The curve associated with the selected display (background) parameter.
+### 6. 对照参数曲线
+所选对照参数的曲线。
 
-### 7. Editing Parameter Curve
-The curve associated with the selected editing (foreground) parameter.
+### 7. 编辑参数曲线
+当前正在编辑的参数曲线。
 
-### 8. Curve Type
-Select different behaviors for interpolating the curve between points.
+### 8. 曲线类型
+选择在关键点间的曲线类型。
 
-### 9. Swap Editing and Display
-Swap the editing (foreground) and display (background) parameters.
+### 9. 交换编辑参数和对照参数
+交换编辑参数（亮色）和对照参数（暗色）。
 
-## Multiple Parameter Panels
+## 多个参数面板
 
-Additional parameter panels can be added to the workspace with the three-bars icon in the upper right of the Piano Roll.
+可以使用钢琴卷帘右上角的图标增加参数面板。
 
-![Add Parameter Panel](../img/parameters/add-parameter-panel.png)
+![增加参数面板](../img/parameters/add-parameter-panel.png)
 
-Unneeded parameter panels can also be removed by clicking the ✖ icon on the far right side.
+也可以点击 ✖ 来关闭不需要的参数面板
 
-![Multiple Parameter Panels](../img/parameters/multiple-parameter-panels.png)
+![多个参数面板](../img/parameters/multiple-parameter-panels.png)
 
 ---
 

@@ -31,7 +31,7 @@ nav:
     - 参数面板: parameters/parameters-panel.md
     - 编辑参数: parameters/editing-parameters.md
     - 直接编辑音高偏差: parameters/direct-pitch-editing.md
-    - 音调偏移: parameters/tone-shift.md
+    - 音区偏移: parameters/tone-shift.md
     - 声线参数: ai-functions/vocal-modes.md
   - 自动调校:
     - "音高模式：歌唱": ai-functions/pitch-mode-sing.md

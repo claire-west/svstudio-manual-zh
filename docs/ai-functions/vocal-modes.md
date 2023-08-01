@@ -1,25 +1,25 @@
-# Vocal Modes
+# 声线参数
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    以下功能需要Synthesizer V Studio Pro。
 
-## Using Vocal Modes
-Vocal modes can be found in the Voice panel. Each AI voice database has a number of presets which can be used to customize vocal timbre, articulation, and dynamics. The presets available vary between each AI voice database.
+## 使用不同声线
+声线可以在“歌声”面板中找到。每个 AI 歌声数据库都有许多预设，可用于自定义人声音色、发音和力度。不同 AI 歌声数据库声线设置一般不同。
 
-Vocal modes can be used individually or in combination, and different settings can be used for each track or group.
+声线可以单独使用，也可以组合使用，每个轨道或音符组可以使用不同的设置。
 
-The slider for each vocal mode can be set to values from 0% to 150%.
+每种声线可以设置为 0% 到 150% 之间的值。
 
-![SOLARIA Vocal Modes](../img/ai-functions/vocal-modes.png)
+![SOLARIA声线设置](../img/ai-functions/vocal-modes.png)
 
-## Modifying Vocal Modes Over Time
+## 随时间更改的声线
 
-Vocal Modes can be selected in the [parameters panel](../parameters/editing-parameters.md). The vocal mode setting will deviate from the base value set in the Voice panel based on the parameter curve.
+声线还可以在[参数面版](../parameters/editing-parameters.md)中调整。若设置了参数曲线，声线可能会偏离“歌声”面板中设定的基值。
 
-![Vocal Modes as Parameters](../img/ai-functions/vocal-modes-as-parameters.png)
+![声线参数](../img/ai-functions/vocal-modes-as-parameters.png)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
