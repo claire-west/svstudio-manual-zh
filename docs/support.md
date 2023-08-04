@@ -1,10 +1,10 @@
-# Help & Support
+# 帮助与支持
 
-For questions about operation of the software, use the search tool at the top of this website or check the [official forums](https://forum.synthesizerv.com/search) for existing information. If you cannot find an answer, consider creating a new forum topic.
+有关软件操作的问题，请使用本网站顶部的搜索工具或查看[官方论坛](https://forum.synthesizerv.com/search)以获取信息。如果找不到解决方法，请考虑在论坛创建新的帖子。
 
-If you experience issues with a purchase or need to report a bug in the software, contact Dreamtonics at [support@dreamtonics.com](mailto:support@dreamtonics.com).
+如果您在购买时遇到问题或需要报告软件中的错误，请联系[support@dreamtonics.com](mailto:support@dreamtonics.com)。
 
-Dreamtonics is located in Japan (UTC+9) and offers support in Japanese, English, and Mandarin Chinese.
+Dreamtonics 位于日本 （UTC+9），提供日语、英语和中文支持。
 
 ---
 

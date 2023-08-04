@@ -1,10 +1,10 @@
-# Note Detuning
+# 音符失谐
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    This feature requires Synthesizer V Studio Pro.
+    此功能需要Synthesizer V Studio Pro.
 
-Notes can be detuned in increments of 25 cents by dragging them while holding both ++ctrl+shift++.
+音符可以以 25 音分的分度值失谐，方法是在按住++ctrl+shift++的同时拖动它们。
 
 ![type:video](../img/advanced/note-detuning.mp4)
 

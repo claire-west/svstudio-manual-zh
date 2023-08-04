@@ -45,8 +45,8 @@ nav:
     - 用户词典: advanced/user-dictionaries.md
     - 音符组: advanced/groups.md
     - 自动修饰音符: advanced/note-ornamentation.md
-    - 音符偏移: advanced/note-detuning.md
-    - MIDI设备支持: advanced/midi-controller.md
+    - 音符失谐: advanced/note-detuning.md
+    - MIDI控制器支持: advanced/midi-controller.md
     - VSTi/AU插件: daw-integration/plugin.md
     - 顶部菜单: advanced/top-menus.md
     - 侧面板: advanced/side-panels.md
@@ -55,7 +55,7 @@ nav:
   - 其他:
     - 常见问题: faq.md
     - 音素表: phonemes.md
-    - 快捷键: keybinds.md
+    - 默认快捷键: keybinds.md
     - 帮助与支持: support.md
     - 关于: about.md
 theme:

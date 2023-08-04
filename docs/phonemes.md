@@ -1,11 +1,11 @@
-# Phoneme Reference
+# 音素表
 
-=== "All Languages"
+=== "全部语言"
 
     ![TiredBee's Phoneme Chart](./img/Synthesizer_V_Studio_Phoneme_Refsheet_by_TiredBee.png)
     *Source: [TiredPcholka on GitHub](https://github.com/TiredPcholka/Synthesizer-V-Studio-Phoneme-Reference-Sheet)*
 
-=== "English"
+=== "英语"
 
     ```
     aa   vowel       p[a]lm
@@ -57,7 +57,7 @@
     br   breath
     ```
 
-=== "Japanese"
+=== "日语"
 
     ```
     a    vowel
@@ -102,7 +102,7 @@
     br   breath
     ```
 
-=== "Mandarin"
+=== "普通话"
 
     ```
     a    vowel
@@ -165,7 +165,7 @@
     br   breath
     ```
 
-=== "Cantonese"
+=== "粤语"
 
     ```
     ts   affricate

@@ -1,62 +1,62 @@
-# DAW Integration
+# DAW集成
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    此功能需要Synthesizer V Studio Pro.
 
-You can use Synthesizer V Studio Pro in a DAW (digital audio workstation) software as a VSTi or AudioUnit plugin.
+您可以在DAW（数字音频工作站）软件中使用Synthesizer V Studio Pro作为VSTi或AudioUnit插件。
 
-Refer to your DAW's user manual for instructions on adding a plugin to your DAW and routing plugin output.
+有关将插件添加到 DAW 和管理插件输出的说明，请参阅 DAW 的用户手册。
 
-## Project Saving
+## 保存项目
 
-When Synthesizer V Studio is used as an instrument in a DAW, an additional setting is added under the "File" top menu.
+当Synthesizer V Studio用作 DAW 中的乐器时，会在“文件”顶部菜单下添加其他设置。
 
-If "Save Inside Host" is selected, the Synthesizer V Studio project (SVP) file will be embedded within the DAW project.
+如果选择“保存在宿主内部”，则Synthesizer V Studio项目 （SVP） 文件将嵌入到 DAW 项目中。
 
-To save an external SVP file separate from your DAW project, select "Save to External File" instead.
+要将外部 SVP 文件与您的 DAW 项目分开保存，请选择“保存到外部文件”。
 
-![Save Inside Host option](../img/daw-integration/save-inside-host.png)
+![保存在宿主内](../img/daw-integration/save-inside-host.png)
 
-!!! warning "Saving to an External File"
+!!! warning "保存到外部文件"
 
-    Synthesizer V Studio cannot differentiate between a user-initiated save and an autosave performed by the host DAW. When saving to an external SVP, the SVP file will be updated any time the host performs a save of any kind. This is a limitation of the VST plugin standard.
+    Synthesizer V Studio 无法区分用户手动的保存和 DAW 执行的自动保存。保存到外部 SVP 时，每当宿主执行任何类型的保存时，SVP 文件都会更新。这是 VST 插件标准的限制。
 
-## Synchronize Tempo with Host
+## 与宿主同步曲速
 
-An additional setting is added under the "Project" top menu.
+在“项目”顶部菜单下添加了其他设置。
 
-![Sync Tempo option](../img/daw-integration/sync-tempo.png)
+![曲速选项](../img/daw-integration/sync-tempo.png)
 
-By selecting "Synchronize Tempo with Host", tempo markers will be added to the Synthesizer V Studio project matching those of the DAW's project. Due to DAWs handling tempo changes in a variety of ways, this function may behave differently depending on the host software.
+通过选择“与宿主同步曲速”，速度标记将被添加到Synthesizer V Studio 项目中，与 DAW 项目相匹配。由于 DAW 以多种方式处理曲速变化，因此此功能的行为可能因宿主软件而异。
 
-## Output Channels
+## 通道布局
 
-The output of Synthesizer V Studio can be routed to one or many channels based on the option chosen in the Settings Panel. This allows you to apply different effects to each track while using Synthesizer V Studio as a plugin.
+Synthesizer V Studio 的输出可以根据在设置面板中选择的选项输出到一个或多个通道。这允许您在使用Synthesizer V Studio 作为插件时对每个轨道应用不同的效果。
 
-![Output Channels option](../img/daw-integration/output-channels.png)
+![通道布局选项](../img/daw-integration/output-channels.png)
 
-Master Combined
-: A single channel is used for all audio output.
+主通道 - 合并
+: 所有的音频输出均使用单通道。
 
-Master Aspiration Isolated
-: Two channels are used, one for the main output of all tracks and a second for the isolated aspiration of all tracks.
+主通道 - 气声分离
+: 使用两个通道，一个用于所有轨道的主输出，另一个用于所有轨道的气声隔离。
 
-Track Combined
-: One channel is used for each track.
+各音轨 - 合并
+: 每个轨道使用一个通道。
 
-Track Aspiration Isolated
-: Two output channels are used for each track, one for the main output and the other for the isolated aspiration.
+各音轨 - 气声分离
+: 每个轨道使用两个输出通道，一个用于主输出，另一个用于气声隔离。
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMm7piaJ0ss" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-## Troubleshooting
+## 故障排除
 
-If you encounter technical issues with the plugin, try removing the software and reinstalling to the default installation directory.
+如果插件遇到技术问题，请尝试删除软件并重新安装到默认安装目录。
 
-If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](../support.md).
+如果问题仍然存在，请在[官方论坛](https://forum.synthesizerv.com/search)上搜索类似问题或联系[Dreamtonics支持](../support.md).
 
 ---
 

@@ -1,100 +1,100 @@
-# The Context (Right-Click) Menus in Detail
+# 右键菜单
 
-Contextual menus will appear when right clicking various elements of the user interface. The options will be different based on the type of UI element being clicked.
+右键单击用户界面的各种元素时，将显示上下文菜单。这些选项将根据所单击的UI元素的类型而有所不同。
 
-Mac users with a single-button mouse can "right click" by holding ++ctrl++ when clicking. Some users may need to enable this feature in System Settings.
+使用单键鼠标的Mac用户可以通过按住++ctrl++键进行“右键单击”操作，某些用户可能需要在系统设置中启用此功能。
 
-The headings on this page are organized first by the section of the UI, followed by the UI element that is being right-clicked.
+此页面上的标题首先按 UI 部分进行排列，然后按右键单击的 UI 元素进行排列。
 
-## The Arrangement Panel
+## 编曲栏
 
-See [The Arrangement Panel](../workspace/arrangement.md) for an overview of UI elements.
+有关 UI 元素的概述，请参阅[编曲栏](../workspace/arrangement.md)。
 
-### Existing Track
+### 现有轨道
 
-Delete or duplicate the track (see [Managing Tracks](../quickstart/managing-tracks.md)).
+删除或复制轨道（请参阅[管理音轨](../quickstart/managing-tracks.md)）。
 
-### Blank Space Below Tracks
+### 轨道下方的空白区域
 
-Create a new vocal or instrumental track (see [Managing Tracks](../quickstart/managing-tracks.md)).
+创建新的人声或伴奏轨道（请参阅[管理音轨](../quickstart/managing-tracks.md)）。
 
-### Time Axis (measure number or unoccupied space)
+### 时间轴（小节号或空白部分）
 
-Creating tempo, time signature, or loop markers (see [Setting Up the Score](../quickstart/setting-up-the-score.md) and [Playback → Loop Marker](../quickstart/playback.md#1-loop-marker)).
+创建曲速、拍号或循环标记（请参阅[设置拍号和曲速](../quickstart/setting-up-the-score.md)和[播放控件 → 循环标记](../quickstart/playback.md#1-loop-marker)）。
 
-### Time Axis (existing marker)
+### 时间轴（现有标记）
 
-Delete a tempo or time signature marker (see [Setting Up the Score](../quickstart/setting-up-the-score.md).
+删除曲速或拍号标记（请参阅[设置拍号和曲速](../quickstart/setting-up-the-score.md)）。
 
-Loop markers can be hidden by clicking the Loop Mode button (see [Playback → Loop Mode](../quickstart/playback.md#3-loop-mode)).
+可以通过单击循环模式按钮隐藏循环标记（请参阅[播放控件 → 循环模式](../quickstart/playback.md#3-loop-mode)）。
 
-### Note Preview Area (note group)
+### 音符预览区域（音符组）
 
-There are multiple options which will affect the selected instance of a group (see [Groups](groups.md)):
+有多个选项会影响音符组的选定实例（请参阅[音符组](groups.md)）：
 
-* Copy, cut, or delete it
-* Disband the instance
-* Dissociate it from the parent group
-* Change the selected singer
+* 复制、剪切或删除它
+* 解散实例
+* 将其与父组取消关联
+* 更改所选歌手
 
-The same options will appear when right-clicking an instrumental preview, but only the "delete selection" option will have any effect.
+右键单击伴奏预览时将出现相同的选项，但只有“删除所选内容”选项会产生影响。
 
-### Note Preview Area (anywhere else)
+### 音符预览区域（其他位置）
 
-Paste a copied group to this point in the arrangement (see [Groups](groups.md)).
+将复制的音符组粘贴到编曲栏中的此点（请参阅[音符组](groups.md)）。
 
-## The Piano Roll
+## 钢琴卷帘
 
-See [The Piano Roll](../workspace/piano-roll.md) for an overview of UI elements.
+有关 UI 元素的概述，请参阅[钢琴卷帘](../workspace/piano-roll.md)。
 
-### Time Axis
+### 时间轴
 
-The same options as when right-clicking the time axis in the Arrangement Panel (see above).
+与在编曲面板中右键单击时间轴时的选项相同（见上文）。
 
-### Notes
+### 音符
 
-Multiple options are displayed for interacting with the selected note(s) in various ways:
+将显示多个选项，以各种方式与所选音符进行交互：
 
-* Split the note at the current mouse position
-* Merge the selected notes
-* Open the [Insert Lyrics](batch-lyrics.md) dialog for the selection
-* Reset various aspects of the notes
-* Generate or crop [AI Retakes](../ai-functions/ai-retakes.md)
-* Recompute pitch for the selection (force re-rendering when using [Sing](../ai-functions/pitch-mode-sing.md) or [Rap](../ai-functions/pitch-mode-rap.md) pitch mode)
-* Copy, cut, or delete the notes
-* Select all parameters for the notes (see [Editing Parameters → Additional Functions](../parameters/editing-parameters.md#select-parameters-for-notes))
-* Merge into group (no effect if the notes are already in a [Groups](groups.md))
-* Disband or dissociate group (if selecting notes for an entire [Groups](groups.md))
+* 在当前鼠标位置拆分音符
+* 合并所选音符
+* 打开所选内容的“[插入歌词](batch-lyrics.md)”对话框
+* 重置音符的各个方面
+* 生成或裁剪[AI重录](../ai-functions/ai-retakes.md)
+* 重新计算所选音符的音高（使用[歌唱](../ai-functions/pitch-mode-sing.md)或[说唱](../ai-functions/pitch-mode-rap.md)音高模式时强制重新渲染）
+* 复制、剪切或删除音符
+* 选择音符的所有参数（请参见[编辑参数 → 附加参数](../parameters/editing-parameters.md#select-parameters-for-notes)）
+* 合并到音符组中（如果音符已在[音符组](groups.md)中则不起作用）
+* 解散或分离音符组（如果选择整个[音符组](groups.md)）
 
-### Unoccupied Space
+### 空白位置
 
-* Paste the currently copied notes or group
-* Change which note group is currently being edited
+* 粘贴当前复制的音符或音符组
+* 更改当前正在编辑的音符组
 
-## The Parameters Panel
+## 参数面板
 
-See [The Parameters Panel](../parameters/parameters-panel.md) for an overview of UI elements.
+有关 UI 元素的概述，请参阅[参数面板](../parameters/parameters-panel.md)。
 
-Right-clicking anywhere within the main area of the parameters panel (not the toolbar) will present the following options:
+右键单击参数面板主区域（而不是工具栏）内的任意位置将显示以下选项：
 
-* Copy, cut, or delete the selected parameter points (see [Editing Parameters → Editing Parameter Curves](../parameters/editing-parameters.md#editing-parameter-curves)).
-* Paste the copied parameter points
+* 复制、剪切或删除选定的参数点（请参见[编辑参数 → 编辑参数曲线](../parameters/editing-parameters.md#editing-parameter-curves)）。
+* 粘贴复制的参数点。
 
-No options will be displayed if "Rap Intonation" is the current editing parameter.
+如果当前编辑的是“说唱音高”参数，则不会显示任何选项。
 
-## Side Panels and Other Menus
+## 侧面板和其他菜单
 
-### Text Inputs
+### 文本框
 
-Right-clicking a text box will provide options to copy, cut, delete, or select the text, as well as undo/redo changes before they are confirmed.
+右键单击文本框将提供用于复制、剪切、删除或选择文本的选项，以及在确认更改之前撤消/重做更改的选项。
 
-### Library Panel (group)
+### 音符组库面板（音符组）
 
-Delete a group and all instances of it (see [Groups](groups.md)).
+删除音符组及其所有实例（请参阅[音符组](groups.md)）。
 
-### Library Panel (group instance)
+### 音符组库面板（音符组实例）
 
-Disband, dissociate, or delete the instance of the group (see [Groups](groups.md)).
+解散、分离或删除音符组的实例（请参阅[音符组](groups.md)）。
 
 ---
 

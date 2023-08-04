@@ -1,70 +1,70 @@
-# User Dictionaries
+# 用户词典
 
-Dictionaries can be used to customize word-to-phoneme conversion.
+字典可用于自定义单词到音素的转换。
 
-When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a [modified phoneme sequence](../note-properties/editing-phonemes.md#changing-a-notes-phonemes).
+当音符的歌词转换为音素时，它将首先检查当前所选词典中的条目。如果没有自定义条目或未选择字典，则将使用默认音素转换。如果同一个单词在项目中多次出现，并且您希望该单词的所有实例都使用[修改后的音素序列](../note-properties/editing-phonemes.md#changing-a-notes-phonemes)，则这可能会有所帮助。
 
-The Dictionary panel can be accessed from the launch bar.
+可以从侧面板访问“词典”面板。
 
-![The Dictionary Panel](../img/advanced/dictionary-panel.png)
+![词典面板](../img/advanced/dictionary-panel.png)
 
-## Creating a Dictionary
+## 创建词典
 
-To create a dictionary, open the Dictionary panel and click "New".
+要创建词典，请打开词典面板并单击“新建”。
 
-Upon creating a dictionary, the currently active track will have the new dictionary selected. Other tracks will still be using the software defaults and must have their dictionary selected via the dropdown.
+创建词典后，当前所选轨道将使用新词典。其它轨道不受其影响。
 
-Each track/group can have a different active dictionary to suit different pronunciations or accents for each vocal layer or singer.
+每个轨道/音符组都可以使用不同的词典，以适应不同声库或歌手的不同发音或声线。
 
-![Creating a Dictionary](../img/advanced/dictionary-new.png)
+![新建词典](../img/advanced/dictionary-new.png)
 
-## Adding Dictionary Entries
+## 添加字典条目
 
-Add dictionary entries by entering the word and the desired phoneme sequence to be used.
+通过输入要使用的单词和所需的音素序列来添加字典条目。
 
-![Adding a Dictionary Entry](../img/advanced/dictionary-new-entry.png)
+![添加字典条目](../img/advanced/dictionary-new-entry.png)
 
-Once a word is present in the active dictionary, all instances of that word in the track/group will use the new phoneme sequence unless their phonemes have been set manually.
+一旦某个单词出现在正在使用的词典中，该单词在此轨道/音符组组中的所有实例都将使用新的音素序列，除非它们的音素是手动设置的。
 
-!!! note
+!!! note "注意"
 
-    The dictionary will only override word-to-phoneme conversion. For example, the entry above maps "hello" to `hh eh l ow` instead of the default `hh ax l ow`, since these are both common pronunciations of the word based on the speaker's accent.
+    字典只会覆盖单词到音素的转换。例如，上面的条目将“hello”映射到`hh eh l ow`而不使用默认的`hh ax l ow`，因为这些都是基于说话者不同口音的常见发音。
 
-    Attempting to enter the original phoneme sequence (`hh ax l ow`) in the first text box will not result in those phonemes being replaced for a note that has "hello" entered as the lyric.
+    尝试在“单词”文本框中输入原始音素序列(`hh ax l ow`)不会将输入的音素替换为输入了“hello”作为歌词的音符。
 
-Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry. Dictionary entries will not overwrite phonemes for notes that have had their phonemes manually set (green text).
+请注意，音符上方的音素文本为白色，表示它基于歌词到音素的自动转换，而不是手动输入。字典条目不会覆盖已手动设置音素的音符（绿色文本）。
 
-![Dictionary Phoneme Conversion](../img/advanced/dictionary-conversion.png)
+![字典音素转换](../img/advanced/dictionary-conversion.png)
 
-### Removing Dictionary Entries
+### 删除字典条目
 
-To remove a dictionary entry, select it from the list and select "Remove".
+要删除字典条目，请从列表中选择它，然后选择“删除”。
 
-![Dictionary Phoneme Conversion](../img/advanced/dictionary-remove.png)
+![删除字典条目](../img/advanced/dictionary-remove.png)
 
-## Dictionaries and Cross-lingual Synthesis
+## 词典和跨语言合成
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    Cross-lingual Synthesis requires Synthesizer V Studio Pro.
+    跨语言合成需要Synthesizer V Studio Pro。
 
-The dictionary list will always be loaded based on the current voice database's native language, even if that does not match the current language selected for cross-lingual synthesis.
+字典列表将始终基于当前歌声数据库的母语加载，即使该语言与当前选择的语言不匹配。
 
-For example, to use an English dictionary with a native-Japanese voice database you would first need to move or copy the dictionary file into the `dicts/japanese-romaji` folder, even though the phoneme notation being used via cross-lingual synthesis is arpabet.
+例如，要将英语词典与母语日语歌声数据库一起使用，您首先需要将词典文件移动或复制到`dicts/japanese-romaji`文件夹中，即使跨语言合成使用的音素标准是arpabet.
 
-The `dicts` folder can be found in the following locations for each operating system:
+可以在每个操作系统的以下位置找到`dicts`文件夹：
 
-|Operating System|Folder Location|
+|操作系统|文件夹位置|
 |---|---|
 |Windows|`Documents\Dreamtonics\Synthesizer V Studio\dicts`|
 |MacOS|`/Library/Application Support/Dreamtonics/dicts`|
-|Linux|`<your installation directory>/dicts`<br/>For example:<br/>`/opt/Synthesizer V Studio Pro/dicts`|
+|Linux|`<your installation directory>/dicts`<br/>例如：<br/>`/opt/Synthesizer V Studio Pro/dicts`|
 
-For easy access, the dictionaries folder is located in the same location as the [scripts]() folder, and can therefore be located in the same manner by selecting "Open Scripts Folder" from the "Scripts" top menu.
+字典文件夹与脚本文件夹位于同一位置，因此可以通过从“脚本”顶部菜单中选择“打开脚本文件夹”来找到该文件夹。
 
-![Scripts Folder](../img/advanced/scripts-open-folder.png)
+![脚本文件夹](../img/advanced/scripts-open-folder.png)
 
-![Dictionaries Folder](../img/advanced/dicts-folder.png)
+![字典文件夹](../img/advanced/dicts-folder.png)
 
 ---
 

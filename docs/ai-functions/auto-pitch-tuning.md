@@ -1,85 +1,85 @@
-# Auto Pitch Tuning
+# 自动音高调校
 
-Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(Customized Style)" option offers additional vibrato and overshoot sliders when using the Pro edition.
+自动音高调校是“自动处理”顶部菜单下的一项功能。使用专业版时，“（自定义风格）”选项提供了额外的颤音和衔接力度滑块。
 
-This function adds AI-generated pitch deviations similar to [Sing pitch mode](pitch-mode-sing.md), however in a more controlled and customizable manner, and without automatically being re-generated should the note's context change.
+此功能可添加 AI 生成的音高偏差，类似于[歌唱音高模式](pitch-mode-sing.md)，但更加可控和可自定义，并且在音符的上下文发生变化时不会自动改变。
 
-If there are no notes selected, or if the selected notes are not in Manual mode, these options will be unavailable.
+如果未选择任何音符，或者所选音符未处于手动模式，则这些选项将不可用。
 
-![Auto-Process Menu](../img/ai-functions/auto-pitch-tuning-option.png)
+![自动处理菜单](../img/ai-functions/auto-pitch-tuning-option.png)
 
-![Auto Pitch Tuning Dialog](../img/ai-functions/auto-pitch-tuning-dialog.png)
+![自动处理选项](../img/ai-functions/auto-pitch-tuning-dialog.png)
 
-## Executing Auto Pitch Tuning
+## 执行自动音高调校
 
-Executing auto pitch tuning will add pitch deviations to the parameters panel for the currently-selected notes. These pitch deviations will be different based on the currently selected voice database, and are based on machine learning analysis of the original voice provider's singing style.
+执行自动音高调校会将音高偏差添加到当前所选音符的参数面板中。这些音高偏差会因当前选择的歌声数据库而有所不同，并且会有声库提供商演唱风格的机器学习分析。
 
-!!! info "Auto Pitch Tuning can only be executed for notes that are set to [Manual Pitch Mode](../advanced/pitch-mode-manual.md)."
+!!! “自动音高调校”只能对设置为[手动音高模式](../advanced/pitch-mode-manual.md)的音符执行。
 
-See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
+有关使用快捷键一次选择多个音符的方法，请参阅[编辑音符](../quickstart/editing-notes.md#selecting-notes)。
 
-![Auto Pitch Tuning](../img/ai-functions/auto-pitch-tuning.png)
+![自动音高调校](../img/ai-functions/auto-pitch-tuning.png)
 
-The pitch deviations introduced by Auto Pitch Tuning are context-specific.
+自动音高调校引入的音高偏差是特定于上下文的。
 
-A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the results of auto pitch tuning will be different.
+音符的“上下文”基于其音高、持续时间和音素，以及前后音符的同种属性。如果这些因素中的任何一个发生变化，自动音高调校的结果就会有所不同。
 
-### Expressiveness
-The expressiveness slider determines how drastic the pitch deviations are and how far they deviate from the notes.
+### 表现力
+表现力滑块确定音高偏差的变化程度以及它们与音符的偏差程度。
 
 <figure markdown>
   ![Expressiveness Side-by-side](../img/ai-functions/auto-pitch-tuning-expressiveness-crop.png)
-  <figcaption>Expressiveness setting of 100 (left) and 25 (right)</figcaption>
+  <figcaption>表现力设置为100（左）和25（右）</figcaption>
 </figure>
 
-### Pitch Correction
+### 音高补正
 
-The "Enable Pitch Correction" checkbox will attempt to prevent AI-generated improvisations from being generally flat or sharp relative to the notes in the piano roll.
+启用音高补正将尝试防止 AI 生成的即兴创作相对于钢琴卷帘中的其他音符过于平坦或尖锐。
 
-This feature calculates the average pitch over the duration of a note and shifts the entire curve for the note so that it closer matches the exact pitch indicated by the note's vertical position in the piano roll.
+此功能计算音符持续时间内的平均音高，并移动音符的整个曲线，使其更接近音符在钢琴卷帘中的目标音高。
 
-In this example the note is somewhat sharp when Auto Pitch Tuning is executed without pitch correction. When re-run with the setting enabled, the note's pitch curve is shifted downward to be closer to the center of the note. The shape of the curve is not changed.
+在此示例中，当执行自动音高调校而不进行音高补正时，音高曲线有些尖锐。在启用该设置的情况下重新生成时，音符的音高曲线向下移动以更接近音符的中心。曲线的形状不会改变。
 
 <figure markdown>
-  ![Pitch Correction for a Note](../img/ai-functions/pitch-correction.png)
-  <figcaption>Pitch correction off (left) and on (right)</figcaption>
+  ![音高补正](../img/ai-functions/pitch-correction.png)
+  <figcaption>音高补正关闭（左）和打开（右）</figcaption>
 </figure>
 
-It is important to note that these corrections are calculated for each note, not in a moment-to-moment manner. Notice how the pitch curves move up or down in segments that align with the notes in the piano roll.
+要注意，这些更正是针对每个音符计算的，而不是以连续的方式计算的。注意音高曲线如何对应钢琴卷帘中的音符向上或向下移动。
 
-This video shows a comparison of the same sequence without (before) and with (after) pitch correction enabled.
+该视频显示了未启用（之前）和启用（之后）音高校正的比较。
 
 ![type:video](../img/ai-functions/pitch-correction.mp4)
 
-### Rerun with New Random Seed
+### 以新的随机数重新生成
 
-The "Rerun with New Random Seed" option (++alt+r++) will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".
+“以新的随机数重新生成”选项（++alt+r++）将生成不同的音高曲线，即使音符的上下文未更改也是如此。这可用于生成不同的重录。
 
-## Customized Style Options
+## 自定义风格选项
 
-!!! note "Pro Feature - Auto Pitch Tuning (Customized Style) is only available in Synthesizer V Studio Pro."
+!!! note "Pro版功能 - 自动音高调校（自定义风格）选项仅在Synthesizer V Studio Pro中可用。"
 
-!!! warning "Speculative Information"
+!!! warning "推测性信息"
 
-    There is no clear guidance from Dreamtonics about this topic. The information below is based on user observation and may not be entirely accurate.
+    关于此选项，Dreamtonics没有明确的说明。以下信息基于用户观察，可能并不完全准确。
 
-When executing the "Customized Style" version of Auto Pitch Tuning, additional sliders will be added to the dialog in addition to the usual expressiveness slider.
+执行“自定义风格”版本的自动音高调校时，除了通常的表现力滑块外，对话框中还有其他滑块。
 
-![Customized Style Dialog](../img/ai-functions/auto-pitch-tuning-customized-style.png)
+![自定义风格选项](../img/ai-functions/auto-pitch-tuning-customized-style.png)
 
-#### Vibrato 1
+#### 颤音1
 
-"Strong" settings will result in the AI engine being more "choosy" when applying AI-generated pitch deviations (both vibrato and overshoot). "Weak" settings will allow pitch deviations to be applied to more notes, more intensely.
+“强”设置将导致AI引擎在应用AI生成的音高偏差（颤音和衔接）时更加“挑剔”。“弱”设置将允许音高偏差应用于更多音符，更强烈。
 
-#### Vibrato 2
+#### 颤音2
 
-Affects the intensity of AI-generated vibrato.
+影响 AI 生成的颤音的强度。
 
-#### Overshoot
+#### 衔接力度
 
-Affects the intensity of pitch deviations extending past the note before and after pitch transitions.
+影响音高转换前后超出音符的音高偏差强度。
 
-![Overshoot](../img/ai-functions/overshoot.png)
+![超调](../img/ai-functions/overshoot.png)
 
 
 ---

@@ -1,113 +1,114 @@
-# The Top Menus in Detail
+# 顶部菜单
 
-This page covers any information about the top menus that does not fit on a different page, or links to the appropriate page for the relevant feature.
+此页面涵盖其他页面不包含的顶部菜单的信息，或指向相关功能的对应页面的链接。
 
-## File
-Options for creating, loading, and saving projects.
+## 文件
+用于创建、加载和保存项目的选项。
 
-When run as a VST/AU plugin, contains options for saving within the DAW project or externally (see [DAW Integration → Project Saving](../daw-integration/plugin.md#project-saving)).
+当作为 VST/AU 插件运行时，包含用于在 DAW 项目内或外部保存的选项（请参阅[DAW集成 → 保存项目](../daw-integration/plugin.md#project-saving)）。
 
-### Import/Export
+### 导入/导出
 
-**Import** and **Import as Tracks**
-: See [Managing Tracks → Importing Tracks](../quickstart/managing-tracks.md#importing-tracks)
+**导入**和**导入为音轨**
+: 请参阅[管理音轨 → 导入音轨](../quickstart/managing-tracks.md#importing-tracks)
 
-**Export**
-: Options for exporting the current project as MIDI, or the current track/group in UST format.
+**导出**
+: 用于将当前项目的轨道/音符组导出为 MIDI 或 UST 格式的的选项。
 
-## Edit
-**History**
-: Undo and redo functions.
+## 编辑
 
-### Selection
-Allows selection of all notes or parameters for the current track/group.
+### 历史
+撤消和重做功能。
 
-**Select Parameters for Notes**
-: See [Editing Parameters → Select Parameters for Notes](../parameters/editing-parameters.md#select-parameters-for-notes)
+### 选择
+允许选择当前轨道/音符组的所有音符或参数。
 
-**Delete Selection**
-: Deletes all selected notes and parameter points.
+**选择音符对应的参数**
+: 请参阅[编辑参数 → 选择音符的参数](../parameters/editing-parameters.md#select-parameters-for-notes)
 
-### Clipboard
-Copy, cut, and paste functions.
+**删除所选内容**
+: 删除所有选定的音符和参数点。
 
-## View
+### 剪贴板
+复制、剪切和粘贴功能。
 
-### Arrangement
-Grid snap settings for the arrangement panel.
+## 视图
 
-### Piano Roll
-Grid snap and tool selection settings for the piano roll (also accessible from the top of the piano roll).
+### 编曲
+编曲栏的网格吸附设置。
 
-**Show Melody from Other Tracks**
-: Shows horizontal lines indicating note positions and timings of the [other tracks](../quickstart/managing-tracks.md#creating-tracks) in the project.
+### 钢琴卷帘
+钢琴卷帘的网格吸附和工具选择设置（也可从钢琴卷帘的顶部访问）。
 
-### Side Panels
-Opens or closes each of the [side panels](../workspace/side-panels.md).
+**显示其他音轨的旋律**
+: 显示项目中[其他轨道](../quickstart/managing-tracks.md#creating-tracks)的音符位置和计时的水平线。
 
-## Modify
+### 侧面板
+打开或关闭每个[侧面板](../workspace/side-panels.md).
 
-### Notes
+## 修改
 
-**Insert Lyrics**
-: See [Batch Lyric Input](batch-lyrics.md)
+### 音符
 
-**Reset Options**
-: Options to reset the pitch, phonemes, and/or timing of the currently selected notes.
+**填入歌词**
+: 请参阅[批量输入歌词](batch-lyrics.md)
 
-### Parameters
-See [Editing Parameters → Simplify Parameters](../parameters/editing-parameters.md#simplify-parameters)
+**重置选项**
+: 用于重置当前所选音符的音高、音素和/或计时的选项。
 
-### Score Making
-**Snap to Grid**
-: Aligns all selected notes to the nearest grid marker based on the piano roll's current grid snap setting (default ++ctrl+g++).
+### 参数
+请参阅[编辑参数 → 简化参数](../parameters/editing-parameters.md#simplify-parameters)
 
-**Smart Quantization**
-: See [MIDI Controller Support → MIDI Recording](midi-controller.md#midi-recording)
+### 制谱
+**吸附到网格**
+: 根据钢琴卷帘的当前网格吸附设置（默认++ctrl+g++）将所有选定的音符与最近的网格标记对齐.
 
-**Remove Short Silences**
-: See [Editing Notes → Short Silences](../quickstart/editing-notes.md#short-silences)
+**智能量化**
+: 请参阅[MIDI控制器支持 → MIDI录制](midi-controller.md#midi-recording)
 
-**Transpose** and **Shift Up/Down by an Octave**
-: Moves the selected notes the specified number of semitones (or a full octave) up or down. Use negative values in the "Transpose" dialog to lower the pitch.
+**移除短的无声间隙**
+: 请参阅[编辑音符 → 短间隙](../quickstart/editing-notes.md#short-silences)
 
-**Group Options**
-: See [Groups](groups.md)
+**移调**和**升高/降低八度**
+: 将所选音符向上或向下移动指定数量的半音（或全八度）。在“移调”对话框中使用负值来降低音调。
 
-## Auto-Process
+**音符组选项**
+: 请参阅[音符组](groups.md)
 
-### Pitch
-See [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md)
+## 自动处理
 
-### Melody
-See [Note Ornamentation](note-ornamentation.md)
+### 音高
+请参阅[自动音高调校](../ai-functions/auto-pitch-tuning.md)
 
-### AI Retakes
-See [AI Retakes](../ai-functions/ai-retakes.md)
+### 旋律
+请参阅[自动修饰音符](note-ornamentation.md)
 
-## Project
+### AI重录
+请参阅[AI重录](../ai-functions/ai-retakes.md)
 
-### Tracks
-See [Arrangement](../workspace/arrangement.md) and [Managing Tracks](../quickstart/managing-tracks.md)
+## 项目
 
-### Groups
-See [Groups](groups.md)
+### 音轨
+请参阅[编曲栏](../workspace/arrangement.md)和[管理轨道](../quickstart/managing-tracks.md)
 
-## Transport
-See [Playback](../quickstart/playback.md)
+### 音符组
+请参阅[音符组](groups.md)
 
-## Scripts
-See [Scripting](scripting.md)
+## 走带控制
+请参阅[播放控件](../quickstart/playback.md)
 
-## Misc
-**Show Help (Online)**
-: Opens the Dreamtonics website in your web browser, with links to official resources.
+## 脚本
+请参阅[脚本](scripting.md)
 
-**Neural Networks Performance Tuner**
-: Opens the benchmarking tool to optimize AI engine performance based on your device's hardware.
+## 其他
+**显示帮助（在线）**
+: 在您的浏览器中打开Dreamtonics网站，其中包含指向官方资源的链接。
 
-**About**
-: Displays information about the current software version, system specifications, and third party licenses.
+**人工神经网络性能调整工具**
+: 打开基准测试工具，根据设备的硬件优化 AI 引擎性能。
+
+**关于**
+: 显示有关当前软件版本、系统规格和第三方许可证的信息。
 
 ---
 

@@ -1,78 +1,78 @@
-# Pitch Mode: Rap
+# 音高模式：说唱
 
-"Rap" Pitch Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter.
+“说唱”音高模式会将 AI 生成的音高偏差添加到您的音符中，这些音符经过建模以模仿人类的说唱，并允许使用说唱音高参数。
 
 !!! warning "警告"
 
-    Rap Mode is only available for English and Mandarin Chinese. Japanese support is currently in development.
+    说唱模式仅适用于英语和普通话。日语相关支持目前正在开发中。
 
-## Enabling Rap Mode
+## 启用说唱模式
 
-Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.
+可以从“音符属性”菜单中为音符启用说唱模式。使用说唱模式的音符在钢琴卷帘中为红色。
 
-Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
+请注意，“手动”按钮为暗色时，表示手动音高模式已禁用，并且将自动生成音高曲线。
 
-![Rap Mode](../img/ai-functions/pitch-mode-rap.png)
+![说唱模式](../img/ai-functions/pitch-mode-rap.png)
 
-!!! info
+!!! info "提示"
 
-    The pitch deviations introduced by Rap Mode are context-specific.
+    说唱模式生成的音高偏差是特定于上下文的。
 
-    A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the pitch deviations for the note will be recalculated.
+    音符的“上下文”包括其音高、持续时间和音素，以及之前和之后音符的同种属性。如果这些因素中的任何一个产生变化，将会重新计算音符的音高偏差。
 
-Enabling Rap Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
+启用说唱模式还允许使用[AI重录](ai-retakes.md)功能。
 
-### Rap Accent
+### 说唱音调
 
-The Rap Accent dropdown can be used to produce variations of a note.
+“说唱音调”下拉列表可用于生成音符的变体。
 
-This option is only available for Mandarin Chinese.
+此选项仅适用于普通话。
 
-![Rap Accent dropdown](../img/ai-functions/rap-accent.png)
+![说唱音调](../img/ai-functions/rap-accent.png)
 
-### Intonation
+### 音高
 
-Causes the pitch of the note to rise or fall over its duration.
+使音符的音高在其持续时间内上升或下降。
 
-The value of this slider is directly linked to the upward or downward curve of the Rap Intonation parameter for the note.
+此滑块的值链接到音符说唱音高参数的向上或向下曲线。
 
 ![type:video](../img/ai-functions/rap-intonation-slider-2.mp4)
 
-### Tone
+### 音区
 
-Modifies the overall pitch of the note to be higher or lower, without affecting the change in intonation over its duration. The value is represented in semitones.
+将音符的整体音高修改为更高或更低，而不影响其持续时间内语调的变化。该值以半音表示。
 
-The value of this slider is directly linked to the vertical position of the Rap Intonation parameter for the note.
+此滑块的值链接到音符说唱音高参数的垂直位置。
 
 ![type:video](../img/ai-functions/rap-tone-slider-2.mp4)
 
-## The Rap Intonation Parameter
+## 说唱音高参数
 
-The Rap Intonation parameter allows easy editing of pitch movement and intonation throughout a note or phrase. Unlike other parameters, Rap Intonation is represented as a series of arrows rather than a continuous curve.
+说唱音高参数允许在音符或短语中轻松编辑音高和音区。与其他参数不同，说唱语调表示为一系列箭头，而不是连续曲线。
 
-![The Rap Intonation Parameter](../img/parameters/rap-intonation.png)
+![说唱音高参数](../img/parameters/rap-intonation.png)
 
-Each arrow represents the pitch movement over the duration of the associated note. The position of each arrow is directly linked to the sliders in the Note Properties panel.
+每个箭头表示关联音符持续时间内的音高移动。每个箭头的位置链接到“音符属性”面板中的音区。
 
-To modify the arrow's vertical position (Tone), click and drag the line portion of the arrow. To change the curve (Intonation), click and drag the head of the arrow instead.
+要修改箭头的垂直位置（音区），请单击并拖动箭头的线条部分。要更改曲线朝向（音高），请单击并拖动箭头的头部。
 
 ![type:video](../img/parameters/rap-intonation-2.mp4)
 
-## Disabling Rap Mode
+## 禁用说唱模式
 
-If you switch to [Manual Pitch Mode](../advanced/pitch-mode-manual.md) after Rap Mode has already been active:
+如果您在启用说唱模式时切换到[手动音高模式](../advanced/pitch-mode-manual.md)：
 
-* The generated pitch deviations will be moved to the parameters panel for further manual editing
-* The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel
-* The Rap Intonation parameter will no longer be available for the note, but the setting will not be lost and intonation editing can be restored by re-enabling Rap Mode
+* 生成的音高偏差将移至参数面板，以便进一步手动编辑
+* 颤音深度将默认设置为零，而不是从“歌声”面板中的默认设置继承
+* 说唱音高参数将不再可用，但设置不会丢失，您可以通过重新启用说唱模式来恢复说唱音高参数
 
-This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Rap Mode can be helpful if you want to make the generated pitch deviations persistent, such that they are not recalculated if the note's context changes.
+这意味着音符的音高曲线将与切换到手动音高模式之前相同，如果要使生成的音高偏差持久存在，则可以考虑禁用说唱模式，这样在音符的上下文更改时就不会重新计算它们。
 
-## Switching from Manual Pitch Mode to Rap Mode
+## 从手动音高模式切换到说唱模式
 
-Changing a note from Manual Pitch Mode to Rap Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.
+将音符从手动音高模式更改为说唱音高模式将覆盖参数面板中现有的音高偏差。切换回手动音高模式不会恢复被覆盖的音高偏差。
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

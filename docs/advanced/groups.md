@@ -1,99 +1,99 @@
-# Groups
+# 音符组
 
-When your song has multiple phrases that are the same, groups can help avoid repeating the same work multiple times.
+当您的歌曲包含多个相同的乐句时，音符组可以帮助您避免多次出现重复的音符。
 
-## Grouping Notes
+## 创建音符组
 
-Select the notes and select "Merge Into Group" from the right click menu or "Modify" top menu (default ++alt+g++).
+选择音符，然后从右键菜单中选择“创建音符组”或在“修改”顶部菜单中选择（默认 ++alt+g++）。
 
-![Merge Into Group](../img/advanced/merge-into-group.png)
+![创建音符组](../img/advanced/merge-into-group.png)
 
-Once a group has been created, it will be indicated in the Arrangement panel, listed in the Library panel, and have a start marker at the bottom of the Piano Roll.
+创建音符组后，它将在“编曲”面板中显示，在“音符组库”面板中列出，并在钢琴卷帘的底部有一个开始标记。
 
-![Group](../img/advanced/groups.png)
+![音符组](../img/advanced/groups.png)
 
-### Managing Groups
+### 管理音符组
 
-Groups can be renamed in the Library panel by double-clicking their name, and can be reordered by dragging the green handle to their left.
+可以在“音符组库”面板中通过双击音符组的名称来重命名，也可以通过拖动左侧绿色控制点来重新排序。
 
-![Renaming a Group](../img/advanced/group-rename.png)
+![重命名音符组](../img/advanced/group-rename.png)
 
-A group can be dragged to any point in the Arrangement.
+可以将音符组拖动到编曲栏中的任何位置。
 
-Unlike individual notes, groups can be moved, copied, and pasted within the arrangement panel.
+与单个音符不同，可以在编曲栏中移动、复制和粘贴音符组。
 
 ![type:video](../img/advanced/drag-group.mp4)
 
-To remove a group from the arrangement, select it and press ++delete++, or delete it from the right click menu.
+要从编曲栏中删除音符组，请选择该音符组并按++delete++，或从右键菜单中将其删除。
 
-Even if a group is not present in the arrangement, it will still remain in the Library. To delete a group entirely, right click it and select "Delete Group".
+即使某个音符组不在编曲栏中，它仍将保留在音符组库中。要完全删除音符组，请右键单击它并选择“删除音符组”。
 
-Disbanding a group (++alt+d++) will cause the notes to be ungrouped, but will not remove the group from the Library. The ungrouped notes can be modified freely without influencing the version of the group still present in the Library, even if that group no longer exists within any tracks. If the group is later dragged back into the arrangement, it will resemble the state of the notes from before their grouping was disbanded.
+解散音符组（++alt+d++）将导致音符取消分组，但不会从音符组库中删除该组。未分组的音符可以自由修改，而不会影响音符组库中仍然存在的音符组，即使该音符组不再存在于任何轨道中也是如此。如果该音符组稍后被拖回编曲栏中，它将处于解散音符组前的状态。
 
-![Deleting an Unused Group](../img/advanced/unused-group.png)
+![删除音符组](../img/advanced/unused-group.png)
 
-### Modifying a Group
+### 修改音符组
 
-To modify the contents of a group, double-click one of the notes or select the start marker at the bottom of the piano roll.
+要修改音符组的内容，请双击其中一个音符或单击钢琴卷帘底部的开始标记。
 
-The area outside the group will be darkened to indicate you are editing the group's contents instead of the track it is part of.
+音符组外的区域将变暗，以指示您正在编辑音符组的内容，而不是它所属的轨道。
 
-A group can have different voice settings (in the Voice panel) from its parent track. This includes base parameter values, vocal modes, and even a different singer. If these values are not set they will be inherited from the parent track.
+一个音符组可以具有与其父轨道不同的歌声设置（在“歌声”面板中）。这包括基本参数值、声线参数，甚至不同的歌手。如果未设置这些值，它们将从父轨道继承。
 
-![Entering a Group](../img/advanced/group-entered.png)
+![编辑音符组](../img/advanced/group-entered.png)
 
-You can also navigate between groups by right clicking on unoccupied space in the piano roll.
+您还可以通过右键单击钢琴卷帘中的空白位置来在音符组之间导航。
 
-![Navigating Groups by Right Click](../img/advanced/group-enter-rightclick.png)
+![右键在音符组间导航](../img/advanced/group-enter-rightclick.png)
 
-## Multiple Instances of the Same Group
+## 同一音符组的多个实例
 
-The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances are listed in the Library panel along with the respective measures they start in.
+同一音符组可以存在于编曲栏中的多个位置，编曲栏中每个存在的音符组都被称为该音符组的“实例”，所有实例以及它们开始的位置都在“音符组库”面板中可见。
 
-Group instances remain linked so that changes to one will affect all the others. This includes changes to the notes as well as parameter curves.
+音符组实例保持链接状态，因此对一个实例的更改将影响所有其他实例。这包括对音符和参数曲线的更改。
 
 ![type:video](../img/advanced/group-link.mp4)
 
-To remove this linked behavior, right click on one of the groups and select "Dissociate Group".
+要删除此链接行为，请右键单击其中一个音符组，然后选择“分离为独立的音符组”。
 
-![Dissociating a Group](../img/advanced/dissociate-group.png)
+![分离为独立的音符组](../img/advanced/dissociate-group.png)
 
-Once the instance has been dissociated, it will be an instance of a new, separate group and can be modified without influencing the other instances of the original group.
+实例分离后，它将是一个新的音符组的实例，并且可以在不影响原始音符组其他实例的情况下进行修改。
 
 ![type:video](../img/advanced/modify-group.mp4)
 
-If you select "Disband Group" instead of "Dissociate Group", the selected group instance will revert to ungrouped notes, while other instances of the same group will not be affected.
+如果选择“解散音符组”而不是“分离为独立的音符组”，则所选音符组实例将恢复为未分组的音符，而同一音符组的其他实例将不受影响。
 
-Group instances are treated as separate phrases and therefore do not smoothly transition between one another, even when directly adjacent to notes from another group or the parent track.
+组实例被视为单独的部分，因此不会在彼此之间平滑过渡，即使直接与另一个音符组或父轨道的音符相邻也是如此。
 
-### Pitch Offset
+### 音高偏移
 
-If your song has a key change but multiple phrases before and after that point are otherwise identical, you can add a pitch offset to individual instances of the group.
+如果您的歌曲有调性更改，但该位置之前和之后的多个乐句在其他方面相同，则可以将音高偏移添加到音符组的各个实例。
 
-Without entering the group to edit its contents, click and drag the group up or down. The instance will remain linked to the group it is a part of, but will be a certain pitch higher or lower than the other instances.
+在不选择音符组以编辑其内容的情况下，单击并上下拖动音符组。该实例将保持链接到它所属的音符组，但将比其他实例升高或降低一定的音调。
 
 ![type:video](../img/advanced/group-pitch-offset.mp4)
 
-## Overlapping Groups
+## 音符组重叠
 
-Group instances do not interact with the contents of other groups present in the track, or with the contents of the parent track.
+音符组实例不与轨道中存在的其他音符组的内容或父轨道的内容交互。
 
-Unlike overlapping notes, groups that overlap can produce output simultaneously because they are treated as separate phrases and their synthesized output is calculated separately.
+与重叠音符不同，重叠的音符组可以同时产生输出，因为它们被视为单独的乐句，并且它们的合成输出是单独计算的。
 
-![Overlapping Groups](../img/advanced/overlapping-groups.png)
+![音符组重叠](../img/advanced/overlapping-groups.png)
 
-### Inherited Parameters
+### 继承的参数
 
-The main exception to the above rule is that group instances will inherit any parameter curves from the underlying parent track.
+上述规则的例外是音符组实例将从父轨道继承所有参数曲线。
 
-These inherited parameters will only apply to the group instance at the same point on the time axis and will have no effect on instances of the same group elsewhere in the track or project.
+这些继承的参数将仅应用于时间轴上同一位置的音符组实例，对轨道或项目中其他位置的同一音符组的实例没有影响。
 
 <figure markdown>
-  ![Inherited Pitch Deviation](../img/advanced/inherited-parameters.png)
-  <figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
+  ![音符组继承](../img/advanced/inherited-parameters.png)
+  <figcaption>音符组外的音高偏差会影响一个实例的音符。</figcaption>
 </figure>
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kIn3CRfI4xs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

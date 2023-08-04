@@ -14,7 +14,7 @@ hide:
 
 <!-- ![Synthesizer V Logo](/img/synthesizer-v.png) -->
 
-Synthesizer V Studio是一款于2020年7月发布的一款歌声合成器,并在2020年12月增加了AI歌声合成功能。
+Synthesizer V Studio是一款于2020年7月发布的歌声合成器,并在2020年12月增加了AI歌声合成功能。
 
 本软件由Dreamtonics与AH-Software联合开发, 支持的歌声数据库由Eclipsed Sounds等许可的第三方开发人员创建。
 

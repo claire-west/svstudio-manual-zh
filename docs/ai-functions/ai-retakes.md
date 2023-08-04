@@ -1,90 +1,89 @@
-# AI Retakes
+# AI重录
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    以下功能需要Synthesizer V Studio Pro.
 
-AI Retakes can be accessed via the [launch bar](../workspace/side-panels.md), and allow you to cycle through multiple different generated results for the specified note(s).
+可以通过[侧面板](../workspace/side-panels.md)访问AI重录，并可以浏览指定音符的多个不同重录结果。
 
-## Managing Takes
+## 管理重录
 
-![AI Retake Controls](../img/ai-functions/retakes-controls.png)
+![管理重录](../img/ai-functions/retakes-controls.png)
 
-### 1. New Take
-Generate new takes for the selected notes (default ++alt+t++).
+### 1. 新建重录
+为所选音符生成新的重录（默认++alt+t++）。
 
-### 2. Delete
-Remove the take.
+### 2. 删除
+删除重录
 
-### 3. Multi Delete
-Options to delete unselected takes ("Crop to Active Takes") or only delete non-marked takes ("Crop to Active/Liked Takes", default ++shift+alt+t++).
+### 3. 删除多个
+用于删除未使用的重录或仅删除未标记的重录（默认++shift+alt+t++）。
 
-### 4. Like
-Mark preferred takes.
+### 4. 喜欢
+标记首选重录。
 
-## Pitch
+## 音高重录
 
-To generate new takes, select one or more notes and click "Generate Take" from the AI Retakes panel.
+要生成新的重录，请选择一个或多个音符，然后在AI重录面板中单击“生成新的重录”。
 
-!!! info "Pitch retakes can only be generated for notes using "Sing" or "Rap" Pitch Modes."
+!!! info "音高重录只能为使用“歌唱”或“说唱”音高模式的音符生成。"
 
-![Generating New Takes](../img/ai-functions/retakes-new.png)
+![生成新重录](../img/ai-functions/retakes-new.png)
 
-Pitch retakes will produce varying pitch curves, and can be used to fine tune note transitions and vibrato.
+音高重录将产生不同的音高曲线，并可用于微调音符过渡和颤音。
 
-By selecting different takes from the list you can see the pitch line change according to the selection.
+通过从列表中选择不同的重录，您可以看到音高曲线根据选择而变化。
 
-!!! note
+!!! note "注意"
 
-    The pitch deviations introduced by the "Sing" and "Rap" Pitch Modes are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
-
+    “歌唱”和“说唱”音高模式引入的音高偏差是特定于上下文的，因此生成的重录也是如此。建议您确保所有音符都在适当的时间放置，并且在生成重录之前已插入所有相邻的呼吸音。
 
 <figure markdown>
   ![Side-by-side of Different Takes](../img/ai-functions/retakes-side-by-side-crop.png)
-  <figcaption>Comparing three different takes</figcaption>
+  <figcaption>比较三个不同的重录</figcaption>
 </figure>
 
-## Timbre
+## 音色重录
 
-Timbre retakes can be generated in the same manner as pitch retakes, but are also available in Manual Pitch Mode.
+音色重录可以采用与音高重录相同的方式生成，但需要在手动音高模式下使用。
 
-These takes will modify the various qualities of a sound which are unrelated to pitch, such as tone color, dynamics, enunciation, and more. This can be helpful for fine-tuning glottal sounds such as vocal fry, creating a smoother transition between notes, or adjusting the harshness of sibilant phonemes.
+这些重录将修改与音高无关的声音品质，例如音色、力度、发音等。这有助于微调声门声音，例如气泡音，在音符之间创建更平滑的过渡，或调整呼吸音的强度。
 
-![Timbre Retakes](../img/ai-functions/retakes-timbre.png)
+![音色重录](../img/ai-functions/retakes-timbre.png)
 
-## Expressiveness
+## 表现力
 
-The expressiveness slider can be used to reduce the amplitude of pitch or timbre deviations.
+表现力滑块可用于调整音高或音色偏差的幅度。
 
-When no notes are selected, this slider will affect the default expressiveness value for all notes in the track or group that have not had their expressiveness values set individually.
+如果未选择任何音符，则此滑块将影响轨道或音符组中尚未单独设置表现力值的音符的默认表现力。
 
-![Side-by-side of Expressiveness Values](../img/ai-functions/retakes-expressiveness-crop.png)
+![音符表现力滑块](../img/ai-functions/retakes-expressiveness-crop.png)
 
-## Randomness and Probability
+## 随机性和概率
 
-Generating new AI Retakes is comparable to rolling a die multiple times; the probability distribution and set of possible results does not change when a new "take" is generated, but you gain the ability to cycle through and select from many possibilites based on the same input or situation.
+生成新的 AI 重录相当于掷多次骰子，当生成新的重录时，概率分布和可能结果集不会改变，但您可以根据相同的输入或情况浏览并从许多可能性中进行选择。
 
-In programming terms, generating new retakes executes the same process multiple times, with a different [random seed](https://en.wikipedia.org/wiki/Random_seed) for each execution.
+在编程术语中，生成新的重录会执行多次相同的过程，每次执行都有不同的[随机种子](https://en.wikipedia.org/wiki/Random_seed)。
 
-### Influencing the Possible Results
+### 可能影响结果的因素
 
-The possible results for AI Retakes will vary based on multiple factors:
+AI 重录的结果可能因多种因素而异：
 
-* The selected voice database
-* The note's context (pitch, duration, phonemes, and those properties of the neighboring notes)
-* [Vocal Mode](vocal-modes.md) settings (only affects timbre retakes)
+* 选择的歌声数据库
+* 音符的上下文（音高、持续时间、音素和相邻音符的属性）
+* [声线](vocal-modes.md)设置（仅影响音色重录）
 
-If any of these factors change, the resulting AI Retakes may also be different – even if they have already been generated.
+如果这些因素中的任何一个发生变化，即使已经生成，AI重录的结果也可能有所不同。
 
-### Bias in Machine Learning Models
+### 机器学习模型中的偏差
 
-Each voice database (and vocal mode) contains certain biases based on the original recordings of the voice provider's singing.
+每个歌声数据库（和声线）都包含基于声库供应商歌声的原始录音的某些偏差。
 
-For voice databases that are inclined to use vocal fry, you may need to generate more timbre retakes to find one without that behavior. Similarly, some voice databases will have little to no bias toward that behavior, and therefore may not produce that result in any situation.
+对于倾向于使用人声的歌声数据库，您可能需要生成更多的音色重录才能找到没有这种行为的数据库。同样，一些歌声数据库对该行为几乎没有偏向，因此可能不会产生该结果。
 
-This same concept also applies to other aspects of the vocals, such as transitions, vibrato, dynamics, and more.
+同样的概念也适用于歌声的其他方面，例如过渡、颤音、力度等。
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

@@ -1,76 +1,76 @@
-# Pitch Mode: Sing
+# 音高模式：歌唱
 
-"Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato.
+“歌唱”音高模式（以前称为“即时模式”或“自动音高模式”）会将 AI 生成的音高偏差添加到您的音符中，这些音符经过建模以产生逼真的过渡、延音和颤音。
 
-Sing Mode is comparable to the preset libraries included with traditional software synthesizers and effects plugins; it can help new users get results quickly, acts as a starting point for further modification, and can help users learn what realistic pitch curves might look and sound like.
+歌唱模式可与传统软件合成器和效果插件中包含的预设库相媲美，它可以帮助新用户快速获得成果，并可以进一步修改，还可以帮助用户了解逼真的声音对应的音高曲线样式。
 
-Experienced users may prefer to use [Manual Pitch Mode](../advanced/pitch-mode-manual.md) for full control over the vocals, or in order to manually execute [Auto Pitch Tuning](auto-pitch-tuning.md) for greater customization of the AI-generated pitch curves.
+有经验的用户可能更喜欢使用手动音高模式来完全控制人声，或者为了使用[手动音高模式](../advanced/pitch-mode-manual.md)或修改[自动音高调教](auto-pitch-tuning.md)参数来更好地自定义 AI 生成的音高曲线。
 
-## Enabling Sing Mode
+## 启用歌唱模式
 
-Sing mode can be enabled for notes from the Note Properties menu. Notes using Sing mode will be green in the Piano Roll.
+可以从“音符属性”菜单中为音符启用歌唱模式。使用歌唱模式的音符在钢琴卷中将为绿色。
 
-Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
+请注意，“手动”按钮为暗色时表示手动音高模式已禁用，并且将自动生成音高曲线。
 
-![Sing Mode](../img/ai-functions/pitch-mode-sing.png)
+![歌唱模式](../img/ai-functions/pitch-mode-sing.png)
 
-!!! info
+!!! info "提示"
 
-    The pitch deviations introduced by Sing Mode are context-specific.
+    歌唱模式引入的音高偏差是特定于上下文的。
 
-    A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the pitch deviations for the note will be recalculated.
+    音符的“上下文”包含其音高、持续时间和音素，以及之前和之后音符的同种属性。如果这些因素中的任何一个产生变化，将重新计算音符的音高偏差。
 
-Enabling Sing mode also allows the use of pitch [AI Retakes](ai-retakes.md).
+启用歌唱模式时还可以使用[AI重录](ai-retakes.md)功能。
 
-### Vibrato Modulation
+### 颤音调制
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The Vibrato Modulation setting is only available in Synthesizer V Studio Pro.
+    颤音调制设置仅在Synthesizer V Studio Pro中可用。
 
-The vibrato modulation setting affects the depth (amplitude) of the vibrato portion of the generated pitch deviations. This can be further modulated over the duration of the note using the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
+颤音调制设置会影响生成颤音的深度（振幅），这也可以在音符的持续时间内使用[颤音包络](../parameters/editing-parameters.md#vibrato-envelope)参数调整。
 
-The default value of the vibrato modulation slider is set in the Voice panel.
+颤音调制参数的默认值可在“歌声”面板中设置。
 
 ![Sing Mode Default Settings](../img/ai-functions/sing-mode-defaults.png)
 
-### Improvise Note Attack and Release
+### 即兴发挥音符的起音和收音
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The Improvise Note Attack and Release setting is only available in Synthesizer V Studio Pro.
+    即兴发挥音符的起音和收音功能仅在Synthesizer V Studio Pro中可用。
 
-This setting will cause the generated pitch transitions to deviate further from the note's exact pitch. The improvisation will be most evident between notes with larger pitch differences.
+此设置将导致生成的音高转变进一步偏离音符的目标音高，即兴发挥在音高差异较大的音符之间最为明显。
 
-Improvise Note Attack and Release can only be set for the entire track/group in the Voice panel.
+此设置只能在歌声面板中为整个轨道/音符组设置。
 
 <figure markdown>
   ![Improvise Note Attack and Release](../img/ai-functions/improvise-attack-and-release-crop.png)
-  <figcaption>A sequence with Improvise Note Attack and Release disabled (left) and enabled (right)</figcaption>
+  <figcaption>禁用此设置（左）和启用此设置（右）的区别</figcaption>
 </figure>
 
-## Disabling Sing Mode
+## 禁用歌唱模式
 
-If you enable Manual Pitch Mode after Sing Mode has already been active:
+如果在歌唱模式已启用时启用手动音高模式：
 
-* The generated pitch deviations will be moved to the parameters panel for further manual editing
-* The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel
+* 生成的音高偏差将移至参数面板，以便进一步手动编辑
+* 颤音深度将默认设置为零，并不会从“歌声”面板中的默认设置继承。
 
-This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Sing Mode can be helpful if you want to "freeze" the generated pitch deviations, such that they are not recalculated if the note's context changes.
+这意味着音符的音高曲线将与切换到手动音高模式之前相同。如果要“冻结”生成的音高偏差，可以考虑禁用“歌唱模式”，这样在音符的上下文更改时就不会重新计算它们。
 
-This behavior can be changed by disabling the "From Sing to Manual mode" option in the settings panel.
+可以通过禁用设置面板中的“从歌唱模式到手动模式”选项来更改此行为。
 
-![Preserve Manual Pitch Deviations](../img/ai-functions/preserve-sing-to-manual.png)
+![模式更换时的继承](../img/ai-functions/preserve-sing-to-manual.png)
 
-## Switching from Manual Pitch Mode to Sing Mode
+## 从手动音高模式切换到歌唱模式
 
-Changing a note from Manual Pitch Mode to Sing Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.
+将音符从手动音高模式更改为歌唱模式将覆盖参数面板中现有的音高偏差。切换回手动音高模式不会恢复被覆盖的音高偏差。
 
-This behavior can be changed by enabling the "From Manual to Sing mode" option in the settings panel.
+可以通过在设置面板中启用“从手动到歌唱模式”选项来更改此行为。
 
-![Preserve Manual Pitch Deviations](../img/ai-functions/preserve-manual-to-sing.png)
+![模式更换时的继承](../img/ai-functions/preserve-manual-to-sing.png)
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

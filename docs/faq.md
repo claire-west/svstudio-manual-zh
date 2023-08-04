@@ -1,90 +1,91 @@
-# Frequently Asked Questions
+# 常见问题
 
-Below are common questions not answered elsewhere in the documentation.
+以下是文档中其他部分未回答的常见问题。
 
 ---
 
-## About Synthesizer V Studio
+## 关于Synthesizer V Studio
 
-### Can I use Synthesizer V Studio for commercial purposes?
-Yes, both the Basic and Pro editions can be used for commercial purposes with no limit on revenue.
+### 我可以将Synthesizer V Studio用于商业目的吗？
+是的，Basic版和Pro版都可以用于商业目的，没有收入限制。
 
-Each voice database has separate terms. You can find the license for each voice database in its installation directory.
+每个歌声数据库都有单独的条款，您可以在每个歌声数据库的安装目录中找到其许可证。
 
-The terms for Dreamtonics voice databases can be found on the [Dreamtonics website](https://dreamtonics.com/en/terms/).
+Dreamtonics歌声数据库的条款可以在[Dreamtonics官网](https://dreamtonics.com/en/terms/)上找到。
 
-### What is the difference between "Basic" and "Pro"?
+### Basic版和Pro版有什么区别？
 
-The Basic edition of Synthesizer V Studio has a limited feature set compared to the Pro edition. The list of features that are limited or unavailable in the Basic edition can be found on the store page for [Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/).
+与Pro版相比，Synthesizer V Studio Basic功能有限，Basic版中受限或不可用的功能列表可以在[Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/)的商店页面上找到。
 
-This documentation will indicate where the Pro edition is required to use a feature (such as on the [Vocal Modes](ai-functions/vocal-modes.md) page).
+本文档将标注需要Pro版的功能（例如在[声线参数](ai-functions/vocal-modes.md)页面上）。
 
-### What are "Lite" voice databases?
-Lite voice databases are lower quality versions of paid products, which are available for free but have limited functionality.
+### 什么是“精简版（Lite版）”歌声数据库？
 
-- No vocal mode support
-- No cross-lingual support
-- Reduced vocal range
-- Lower quality output (more noise/artifacts)
-    - Lite voice databases are restricted to the "Prefer Speed" render mode in the Voice panel
-- Less natural generated pitch patterns
+精简版语音数据库是付费产品的低质量版本，可免费获得，但功能有限。
 
-Lite voice databases are subject to the following terms:
+- 不支持声线参数
+- 没有跨语言支持
+- 音域缩小
+- 低质量输出（更多噪声/伪影）
+    - 精简版歌声数据库仅限于“语音”面板中的“首选速度”渲染模式
+- 不太自然的音高模式
 
-- You may not use the Lite version for commercial purposes
-- You may not publish your work using the Lite version on behalf of an organization
-- If you wish to publish a work created using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used
-- You should acknowledge that the Lite version does not represent the quality of the full version of the same voice database. Dreamtonics makes no quality or quantity guarantee on the Lite version of a voice database.
+精简语音数据库受以下条款的约束：
 
-### What are "FLT" voice databases?
-"Feature-Limited Trial" voice databases are free versions of paid products with a limited set of features, however they are different from "lite" voice databases in that they do not have reduced output quality. FLT voice databases are primarily used as preview versions of in-development products (as opposed to "lite" voice databases which are restricted version of released products).
+- 您不得将精简版用于商业目的
+- 您不得代表组织使用精简版发布您的作品
+- 如果您希望发布使用精简版创建的作品，您必须清楚地说明所使用的歌声数据库的名称以及使用精简版的事实
+- 您应该知晓，精简版并不代表同一歌声数据库的完整版本的质量，Dreamtonics对歌声数据库的精简版不作质量或数量保证。
 
-- A maximum of one track for each FLT voice.
-- Export: output limited to the first 45 seconds.
-- AI Retakes: Pitch retakes only.
-- Vocal Mode and Cross-Lingual Synthesis: limited options.
-- Use in the standalone editor only.
-- Non-commercial usage only.
+### 什么是"FLT（功能限制版）"歌声数据库？
+“功能限制版”歌声数据库是付费产品的免费版本，具有有限的功能，但它们与精简版歌声数据库的不同之处在于它们不会降低输出质量。FLT 歌声数据库主要用作开发中产品的预览版本（与精简版语音数据库相反，后者是已发布产品的受限版本）。
 
-### Where are my settings saved?
+- 每个 FLT 声库最多有一个轨道。
+- 导出：输出限制为前 45 秒。
+- AI重录：仅音高重录。
+- 声线参数和跨语言合成：有限的选项。
+- 仅可在独立编辑器中使用。
+- 仅限非商业用途。
 
-Settings are saved in a file called `settings.xml`. You can find this in the following locations based on your operating system:
+### 我的设置保存在哪里？
 
-|Operating System|File Location|
+设置保存在名为`settings.xml`的文件中。您可以根据您的操作系统在以下位置找到它：
+
+|操作系统|文件位置|
 |---|---|
 |Windows|`Documents\Dreamtonics\Synthesizer V Studio\settings`|
 |MacOS|`/Library/Application Support/Dreamtonics/settings`|
-|Linux|`<your installation directory>/settings`<br/>For example:<br/>`/opt/Synthesizer V Studio Pro/settings/settings.xml`|
+|Linux|`<your installation directory>/settings`<br/>例如：<br/>`/opt/Synthesizer V Studio Pro/settings/settings.xml`|
 
-If the software settings are not being saved successfully, or are reset each time the software launches, this is usually because the application does not have suitable permissions to access this folder. This can be resolved by either reinstalling the software, or granting the appropriate file permissions.
+如果软件设置未成功保存，或者每次软件启动时都重置，这通常是因为应用程序没有访问此文件夹的适当权限。这可以通过重新安装软件或授予适当的文件权限来解决。
 
-### Where is the "Track Manager"?
+### “轨道管理器”在哪里？
 
-The original version of Synthesizer V had a separate window for managing tracks. In Synthesizer V Studio, all [track management](quickstart/managing-tracks.md) is done via the Arrangement panel.
+Synthesizer V的原始版本有一个单独的窗口来管理轨道。在 Synthesizer V Studio 中，所有[管理音轨](quickstart/managing-tracks.md) 都是通过编曲栏完成的。
 
-### The original manual has a page for "Glottal Effects", why can't I find anything about that here?
+### 原始手册有一页“声门效果”，为什么我在这里找不到任何关于它的内容？
 
-Glottal effects have not yet been implemented for Synthesizer V Studio.
+很遗憾，声门效果尚未在Synthesizer V Studio中实现。
 
-## About This Website
+## 关于本网站
 
-### The keyboard combinations aren't working on Mac, why?
+### 键盘快捷键在Mac上不起作用，为什么？
 
-Mac has a slightly different keyboard layout than other devices. Generally where you see ++ctrl++ Mac users will want to press ++cmd++ instead, and where you see ++alt++ it's usually ++opt++ on Mac.
+Mac 的键盘布局与其他设备略有不同。一般你看到++ctrl++的地方，Mac用户通常会按++cmd++，相反，你看到的++alt++在Mac上通常是++opt++。
 
-### Why do some examples show notes in Manual Pitch Mode, but they don't have an indicator in the corner?
+### 为什么有些示例在手动音高模式下音符的角落没有标志？
 
-Pitch modes were handled differently prior to version 1.9.0, and there was no note-level indicator because the AI-generated pitch deviations ("Instant Mode") were a project-wide setting.
+在 1.9.0 版之前，音高模式的处理方式不同，并且没有音符级指示器，因为 AI 生成的音高偏差（“即时模式”）是项目范围的设置。
 
-### How can I access the manual offline?
+### 如何离线访问手册？
 
-You can download an offline version of the manual by following the download link below. You must unzip the folder and then open the "index.html" file in your web browser.
+您可以通过下面的下载链接下载手册的离线版本。您必须解压缩文件夹，然后在 Web 浏览器中打开“index.html”文件。
 
-Keep in mind that unlike the online version, the offline manual will need to be redownloaded to see any updates or corrections. This can be done by extracting the latest zip download to the same location (overwriting the older files).
+请记住，与在线版本不同，离线手册需要重新下载才能看到更新。这可以通过将下载最新的zip并解压缩到同一位置（覆盖旧文件）来完成。
 
-A PDF version is also available, however due to the format it does not include video examples or have the benefit of an improved navigation/serach system.
+PDF版本也可用，但由于格式的原因，它不包括视频示例或在线版具有的导航和搜索功能。
 
-[Download](https://github.com/claire-west/svstudio-manual-zh/releases/tag/latest){ .md-button }
+[下载](https://github.com/claire-west/svstudio-manual-zh/releases/tag/latest){ .md-button }
 
 ---
 

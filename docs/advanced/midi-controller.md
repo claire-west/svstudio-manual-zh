@@ -1,52 +1,52 @@
-# MIDI Controller Support
+# MIDI控制器支持
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    此功能需要Synthesizer V Studio Pro.
 
-You can record melodies to the piano roll in real-time using a MIDI controller.
+您可以使用 MIDI 控制器将旋律实时录制到钢琴卷帘中。
 
-## Setup
-Select your MIDI controller in the "Audio" section of the Settings panel.
+## 设置
+在“设置”面板的“音频”部分中选择您的 MIDI 控制器。
 
-![MIDI Controller Selection](../img/advanced/midi-controller.png)
+![MIDI控制器选择](../img/advanced/midi-controller.png)
 
-## MIDI Recording
-To begin recording, click the record button in the transport controls located at the top of the piano roll or arrangement panel (whichever is focused by user input), or press the associated hotkey (default ++num-asterisk++).
+## MIDI录制
+要开始录制，请单击位于钢琴卷帘或编曲面板顶部的播放控件中的录制按钮（以焦点位置为准），或使用快捷键（默认++num-asterisk++）.
 
-You may also want to enable the metronome option to the left of the Play button.
+您可能还希望启用“播放”按钮左侧的节拍器选项。
 
-Stop recording by pressing the record button again, the stop button, or by pressing ++space++.
+要停止录制，您可以再次按录制按钮、停止按钮或按 ++space++。
 
-![Record Button and Metronome](../img/advanced/record-button.png)
+![录制按钮和节拍器](../img/advanced/record-button.png)
 
-After recording your melody, a dialog window will prompt for additional action.
+录制旋律后，将弹出对话框进一步操作。
 
-![MIDI Recording Dialog](../img/advanced/midi-record-dialog.png)
+![MIDI录制对话框](../img/advanced/midi-record-dialog.png)
 
-"Snap to Grid" will quantize the note lengths based on the current grid snap setting.
+“吸附到网格”将根据当前对齐设置量化音符长度。
 
-"Smart Quantization" will estimate a grid snap setting appropriate to your recorded input, instead of using the current snap setting.
+“智能量化”将估计适合您的录制的网格对齐设置，而不是使用当前的对齐设置。
 
-![MIDI Recording Dialog](../img/advanced/midi-record-dialog-2.png)
+![MIDI录制对话框](../img/advanced/midi-record-dialog-2.png)
 
-After pressing "OK", the note timings will be set to the appropriate lengths.
+按“确定”后，音符将设置为适当的长度。
 
-To leave the notes at their recorded timings, click "Cancel" to abort the dialog.
+要将录制音符的原时长保留，请单击“取消”以关闭对话框。
 
-Snap to Grid and Smart Quantization can be executed at any time via the "Modify" top menu.
+吸附到网格和智能量化可以随时通过“修改”顶部菜单执行。
 
-![Quantized Notes](../img/advanced/midi-record-quantized.png)
+![对齐音符](../img/advanced/midi-record-quantized.png)
 
-## Recording Options
-The Settings panel has some additional settings for MIDI recording, such as whether to play the metronome sound during normal playback, and whether to overwrite existing notes while recording.
+## 录制选项
+“设置”面板具有一些用于 MIDI 录制的附加设置，例如是否在正常播放期间播放节拍器声音，以及在录制时是否覆盖既有音符。
 
-![Recording Options](../img/advanced/midi-recording-options.png)
+![R录制选项](../img/advanced/midi-recording-options.png)
 
-## MMC Support
-If your MIDI controller has playback controls, these can be used to navigate the piano roll and trigger playback within Synthesizer V Studio.
+## MMC支持
+如果您的 MIDI 控制器具有播放控件，则这些控件可用于导航钢琴卷帘并在Synthesizer V Studio 中触发播放。
 
-## Video Demonstration
+## 视频演示
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KxwLaLn4zbY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 

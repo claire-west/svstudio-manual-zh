@@ -1,100 +1,100 @@
-# Scripting
+# 脚本
 
-!!! note "Pro Feature"
+!!! note "Pro版功能"
 
-    The features described below require Synthesizer V Studio Pro.
+    以下功能需要Synthesizer V Studio Pro。
 
-Synthesizer V Studio Pro supports scripting with JavaScript and LUA. Users can augment the features of the editor with their own scripts.
+Synthesizer V Studio Pro 支持使用 JavaScript 和 LUA 编写脚本。用户可以使用自己的脚本来增强编辑器的功能。
 
-## Using Scripts
+## 使用脚本
 
-Some scripts are included with Synthesizer V Studio Pro. These scripts can be accessed via the "Scripts" top menu.
+一些脚本包含在Synthesizer V Studio Pro中，这些脚本可以通过“脚本”顶部菜单访问。
 
-Select a script from the dropdown to execute it.
+从下拉列表中选择一个脚本以执行它。
 
-![Scripts Dropdown](../img/advanced/scripts.png)
+![脚本下拉列表](../img/advanced/scripts.png)
 
-### Adding New Scripts
+### 添加新脚本
 
-Selecting "Open Scripts Folder" will open your operating system's file browser with the scripts folder highlighted.
+选择“打开脚本文件夹”将打开操作系统的文件浏览器，并显示脚本文件夹。
 
-Drag any new scripts into this "scripts" folder and then select "Rescan" or restart Synthesizer V Studio. The new scripts will now appear in the dropdown.
+将任何新脚本拖到此脚本文件夹中，然后选择“重新扫描”或重新启动Synthesizer V Studio。新脚本现在将显示在下拉列表中。
 
-![Scripts Folder](../img/advanced/scripts-open-folder.png)
+![脚本文件夹](../img/advanced/scripts-open-folder.png)
 
-This folder will be in the following locations based on your operating system:
+根据您的操作系统，此文件夹将位于以下位置：
 
-|Operating System|Folder Location|
+|操作系统|文件夹位置|
 |---|---|
 |Windows|`Documents\Dreamtonics\Synthesizer V Studio\scripts`|
 |MacOS|`/Library/Application Support/Dreamtonics/scripts`|
-|Linux|`<your installation directory>/scripts`<br/>For example:<br/>`/opt/Synthesizer V Studio Pro/scripts`|
+|Linux|`<your installation directory>/scripts`<br/>例如<br/>`/opt/Synthesizer V Studio Pro/scripts`|
 
-### Assigning Keybinds to Scripts
+### 给脚本分配快捷键
 
-Scripts can be assigned a hotkey from the Keybinds section at the bottom of the Settings panel.
+可以从“设置”面板底部的“快捷键”部分为脚本分配快捷键。
 
-![Assigning Hotkeys to Scripts](../img/advanced/scripts-keybind.png)
+![给脚本分配快捷键](../img/advanced/scripts-keybind.png)
 
-## Creating Scripts
+## 创建脚本
 
-Visit the [official scripting manual](https://resource.dreamtonics.com/scripting/) for information on creating your own scripts.
+有关如何创建自己的脚本，请访问[官方脚本手册](https://resource.dreamtonics.com/scripting/)。
 
-### Undocumented Functions and Properties
+### 未记录的函数和属性
 
-There are some scripting capabilities not mentioned in the official documentation.
+官方文档中未提及一些脚本功能。
 
-#### Tone Shift and Vocal Modes
+#### 音区偏移和声线
 
-!!! info
+!!! info "信息"
 
-    Scripts using Tone Shift should declare a `minEditorVersion` of at least **65792**.
+    使用音区偏移的脚本`minEditorVersion`应至少声明为**65792**。
 
-    Scripts using Vocal Modes should require a version of **67072** or higher.
+    使用声线的脚本需要**67072**或更高版本。
 
-The Tone Shift and Vocal Mode Automation definitions are as follows:
+音区偏移和声线的自动化对象定义如下：
 
 |`displayName`|`typeName`|`range`|`defaultValue`|
 |---|---|---|---|
 |"Tone Shift"|"toneShift"|-800, 800|0|
 |"`<Vocal Mode Name>`"|"vocalMode_`<Vocal Mode Name>`"|-150, 150|0|
 
-For example, when fetching a `NoteGroup`'s Automation object for the "Soft" vocal mode, the function would be `noteGroup.getParameter("vocalMode_Soft")`.
+例如，当为"Soft"声线获取`NoteGroup`的自动化对象时，函数将是`noteGroup.getParameter("vocalMode_Soft")`。
 
 !!! warning "警告"
 
-    Using `getParameter()` for a vocal mode will automatically initialize it for the track, even if the provided vocal mode name does not exist.
+    为声线使用`getParameter()`将自动为轨道初始化它，即使提供的声线名称不存在也是如此。
 
-#### `Note` properties and functions
+#### `Note`属性和函数
 
-In version 1.9.0b2 some additional bindings were added to the `Note` class to enable scripting access to note-level language selection, pitch modes, and rap features.
+在 1.9.0b2 版本中，向`Note` 类中添加了一些额外的绑定，以允许脚本访问音符级语言选择、音高模式和说唱功能。
 
-!!! info
+!!! info "信息"
 
-    Scripts using these additional bindings should declare a `minEditorVersion` of at least **67840**.
+    使用这些附加绑定的脚本`minEditorVersion`应至少声明为**67840**。
 
-`note.getRapAccent()` returns an integer from 1-5 (only applicable for Mandarin Chinese rap).
+`note.getRapAccent()`返回一个介于 1-5 之间的整数（仅适用于普通话说唱）。
 
-`note.setRapAccent(integer)` (only applicable for Mandarin Chinese rap).
+`note.setRapAccent(integer)`（仅适用于普通话说唱）。
 
-`note.getMusicalType()` returns a string ("sing" or "rap") based on the selected pitch mode.
+`note.getMusicalType()`返回基于所选音高模式的字符串（“唱”或“说唱”）。
 
 `note.setMusicalType(string)`
 
-`note.getPitchAutoMode()` returns an integer indicating whether the pitch mode is set to manual (0) or auto (1).
+`note.getPitchAutoMode()`返回一个整数，表示音高模式是设置为手动 （0） 还是自动 （1）。
 
 `note.setPitchAutoMode(integer)`
 
-`note.getLanguageOverride()` returns a string representing the note's selected language ("japanese", "english", "mandarin", "cantonese").
+`note.getLanguageOverride()`返回一个字符串，表示笔记的选定语言("japanese", "english", "mandarin", "cantonese").
 
 `note.setLanguageOverride(string)`
 
 
-Additionally, the following new properties are present on the attributes object:
+此外，属性对象上还存在以下新属性：
 
-`rIntonation`: `number` rap intonation (-0.5 to 0.5)
+`rIntonation`: `number` 说唱音高 (-0.5 到 0.5)
 
-`rTone`: `number` rap tone (semitones, from -5 to 1)
+`rTone`: `number` 说唱音区 (半音，从 -5 到 1)
 
 ---
 
