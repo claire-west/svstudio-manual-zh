@@ -21,7 +21,7 @@
         <link rel="next" href="../groups/">
       
       <link rel="icon" href="../../img/icon.ico">
-      <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
     
     
       
@@ -128,7 +128,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#user-dictionaries" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -957,23 +957,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#creating-a-dictionary" class="md-nav__link">
-    Creating a Dictionary
+  <a href="#_2" class="md-nav__link">
+    创建词典
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-dictionary-entries" class="md-nav__link">
-    Adding Dictionary Entries
+  <a href="#_3" class="md-nav__link">
+    添加字典条目
   </a>
   
-    <nav class="md-nav" aria-label="Adding Dictionary Entries">
+    <nav class="md-nav" aria-label="添加字典条目">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#removing-dictionary-entries" class="md-nav__link">
-    Removing Dictionary Entries
+  <a href="#_4" class="md-nav__link">
+    删除字典条目
   </a>
   
 </li>
@@ -984,8 +984,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dictionaries-and-cross-lingual-synthesis" class="md-nav__link">
-    Dictionaries and Cross-lingual Synthesis
+  <a href="#_5" class="md-nav__link">
+    词典和跨语言合成
   </a>
   
 </li>
@@ -1034,7 +1034,7 @@
   
     <li class="md-nav__item">
       <a href="../note-detuning/" class="md-nav__link">
-        音符偏移
+        音符失谐
       </a>
     </li>
   
@@ -1048,7 +1048,7 @@
   
     <li class="md-nav__item">
       <a href="../midi-controller/" class="md-nav__link">
-        MIDI设备支持
+        MIDI控制器支持
       </a>
     </li>
   
@@ -1197,7 +1197,7 @@
   
     <li class="md-nav__item">
       <a href="../../keybinds/" class="md-nav__link">
-        快捷键
+        默认快捷键
       </a>
     </li>
   
@@ -1265,23 +1265,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#creating-a-dictionary" class="md-nav__link">
-    Creating a Dictionary
+  <a href="#_2" class="md-nav__link">
+    创建词典
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-dictionary-entries" class="md-nav__link">
-    Adding Dictionary Entries
+  <a href="#_3" class="md-nav__link">
+    添加字典条目
   </a>
   
-    <nav class="md-nav" aria-label="Adding Dictionary Entries">
+    <nav class="md-nav" aria-label="添加字典条目">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#removing-dictionary-entries" class="md-nav__link">
-    Removing Dictionary Entries
+  <a href="#_4" class="md-nav__link">
+    删除字典条目
   </a>
   
 </li>
@@ -1292,8 +1292,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dictionaries-and-cross-lingual-synthesis" class="md-nav__link">
-    Dictionaries and Cross-lingual Synthesis
+  <a href="#_5" class="md-nav__link">
+    词典和跨语言合成
   </a>
   
 </li>
@@ -1316,43 +1316,43 @@
   
 
 
-<div><h1 id="user-dictionaries">User Dictionaries</h1>
-<p>Dictionaries can be used to customize word-to-phoneme conversion.</p>
-<p>When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a <a href="../../note-properties/editing-phonemes/#changing-a-notes-phonemes">modified phoneme sequence</a>.</p>
-<p>The Dictionary panel can be accessed from the launch bar.</p>
-<p><a class="glightbox" href="../../img/advanced/dictionary-panel.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="The Dictionary Panel" src="../../img/advanced/dictionary-panel.png"></a></p>
-<h2 id="creating-a-dictionary">Creating a Dictionary</h2>
-<p>To create a dictionary, open the Dictionary panel and click "New".</p>
-<p>Upon creating a dictionary, the currently active track will have the new dictionary selected. Other tracks will still be using the software defaults and must have their dictionary selected via the dropdown.</p>
-<p>Each track/group can have a different active dictionary to suit different pronunciations or accents for each vocal layer or singer.</p>
-<p><a class="glightbox" href="../../img/advanced/dictionary-new.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Creating a Dictionary" src="../../img/advanced/dictionary-new.png"></a></p>
-<h2 id="adding-dictionary-entries">Adding Dictionary Entries</h2>
-<p>Add dictionary entries by entering the word and the desired phoneme sequence to be used.</p>
-<p><a class="glightbox" href="../../img/advanced/dictionary-new-entry.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Adding a Dictionary Entry" src="../../img/advanced/dictionary-new-entry.png"></a></p>
-<p>Once a word is present in the active dictionary, all instances of that word in the track/group will use the new phoneme sequence unless their phonemes have been set manually.</p>
+<div><h1 id="_1">用户词典</h1>
+<p>字典可用于自定义单词到音素的转换。</p>
+<p>当音符的歌词转换为音素时，它将首先检查当前所选词典中的条目。如果没有自定义条目或未选择字典，则将使用默认音素转换。如果同一个单词在项目中多次出现，并且您希望该单词的所有实例都使用<a href="../../note-properties/editing-phonemes/#changing-a-notes-phonemes">修改后的音素序列</a>，则这可能会有所帮助。</p>
+<p>可以从侧面板访问“词典”面板。</p>
+<p><a class="glightbox" href="../../img/advanced/dictionary-panel.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="词典面板" src="../../img/advanced/dictionary-panel.png"></a></p>
+<h2 id="_2">创建词典</h2>
+<p>要创建词典，请打开词典面板并单击“新建”。</p>
+<p>创建词典后，当前所选轨道将使用新词典。其它轨道不受其影响。</p>
+<p>每个轨道/音符组都可以使用不同的词典，以适应不同声库或歌手的不同发音或声线。</p>
+<p><a class="glightbox" href="../../img/advanced/dictionary-new.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="新建词典" src="../../img/advanced/dictionary-new.png"></a></p>
+<h2 id="_3">添加字典条目</h2>
+<p>通过输入要使用的单词和所需的音素序列来添加字典条目。</p>
+<p><a class="glightbox" href="../../img/advanced/dictionary-new-entry.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="添加字典条目" src="../../img/advanced/dictionary-new-entry.png"></a></p>
+<p>一旦某个单词出现在正在使用的词典中，该单词在此轨道/音符组组中的所有实例都将使用新的音素序列，除非它们的音素是手动设置的。</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The dictionary will only override word-to-phoneme conversion. For example, the entry above maps "hello" to <code>hh eh l ow</code> instead of the default <code>hh ax l ow</code>, since these are both common pronunciations of the word based on the speaker's accent.</p>
-<p>Attempting to enter the original phoneme sequence (<code>hh ax l ow</code>) in the first text box will not result in those phonemes being replaced for a note that has "hello" entered as the lyric.</p>
+<p class="admonition-title">注意</p>
+<p>字典只会覆盖单词到音素的转换。例如，上面的条目将“hello”映射到<code>hh eh l ow</code>而不使用默认的<code>hh ax l ow</code>，因为这些都是基于说话者不同口音的常见发音。</p>
+<p>尝试在“单词”文本框中输入原始音素序列(<code>hh ax l ow</code>)不会将输入的音素替换为输入了“hello”作为歌词的音符。</p>
 </div>
-<p>Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry. Dictionary entries will not overwrite phonemes for notes that have had their phonemes manually set (green text).</p>
-<p><a class="glightbox" href="../../img/advanced/dictionary-conversion.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionary Phoneme Conversion" src="../../img/advanced/dictionary-conversion.png"></a></p>
-<h3 id="removing-dictionary-entries">Removing Dictionary Entries</h3>
-<p>To remove a dictionary entry, select it from the list and select "Remove".</p>
-<p><a class="glightbox" href="../../img/advanced/dictionary-remove.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionary Phoneme Conversion" src="../../img/advanced/dictionary-remove.png"></a></p>
-<h2 id="dictionaries-and-cross-lingual-synthesis">Dictionaries and Cross-lingual Synthesis</h2>
+<p>请注意，音符上方的音素文本为白色，表示它基于歌词到音素的自动转换，而不是手动输入。字典条目不会覆盖已手动设置音素的音符（绿色文本）。</p>
+<p><a class="glightbox" href="../../img/advanced/dictionary-conversion.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="字典音素转换" src="../../img/advanced/dictionary-conversion.png"></a></p>
+<h3 id="_4">删除字典条目</h3>
+<p>要删除字典条目，请从列表中选择它，然后选择“删除”。</p>
+<p><a class="glightbox" href="../../img/advanced/dictionary-remove.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="删除字典条目" src="../../img/advanced/dictionary-remove.png"></a></p>
+<h2 id="_5">词典和跨语言合成</h2>
 <div class="admonition note">
-<p class="admonition-title">Pro Feature</p>
-<p>Cross-lingual Synthesis requires Synthesizer V Studio Pro.</p>
+<p class="admonition-title">Pro版功能</p>
+<p>跨语言合成需要Synthesizer V Studio Pro。</p>
 </div>
-<p>The dictionary list will always be loaded based on the current voice database's native language, even if that does not match the current language selected for cross-lingual synthesis.</p>
-<p>For example, to use an English dictionary with a native-Japanese voice database you would first need to move or copy the dictionary file into the <code>dicts/japanese-romaji</code> folder, even though the phoneme notation being used via cross-lingual synthesis is arpabet.</p>
-<p>The <code>dicts</code> folder can be found in the following locations for each operating system:</p>
+<p>字典列表将始终基于当前歌声数据库的母语加载，即使该语言与当前选择的语言不匹配。</p>
+<p>例如，要将英语词典与母语日语歌声数据库一起使用，您首先需要将词典文件移动或复制到<code>dicts/japanese-romaji</code>文件夹中，即使跨语言合成使用的音素标准是arpabet.</p>
+<p>可以在每个操作系统的以下位置找到<code>dicts</code>文件夹：</p>
 <table>
 <thead>
 <tr>
-<th>Operating System</th>
-<th>Folder Location</th>
+<th>操作系统</th>
+<th>文件夹位置</th>
 </tr>
 </thead>
 <tbody>
@@ -1366,13 +1366,13 @@
 </tr>
 <tr>
 <td>Linux</td>
-<td><code>&lt;your installation directory&gt;/dicts</code><br>For example:<br><code>/opt/Synthesizer V Studio Pro/dicts</code></td>
+<td><code>&lt;your installation directory&gt;/dicts</code><br>例如：<br><code>/opt/Synthesizer V Studio Pro/dicts</code></td>
 </tr>
 </tbody>
 </table>
-<p>For easy access, the dictionaries folder is located in the same location as the <a href="">scripts</a> folder, and can therefore be located in the same manner by selecting "Open Scripts Folder" from the "Scripts" top menu.</p>
-<p><a class="glightbox" href="../../img/advanced/scripts-open-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Scripts Folder" src="../../img/advanced/scripts-open-folder.png"></a></p>
-<p><a class="glightbox" href="../../img/advanced/dicts-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionaries Folder" src="../../img/advanced/dicts-folder.png"></a></p>
+<p>字典文件夹与脚本文件夹位于同一位置，因此可以通过从“脚本”顶部菜单中选择“打开脚本文件夹”来找到该文件夹。</p>
+<p><a class="glightbox" href="../../img/advanced/scripts-open-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="脚本文件夹" src="../../img/advanced/scripts-open-folder.png"></a></p>
+<p><a class="glightbox" href="../../img/advanced/dicts-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="字典文件夹" src="../../img/advanced/dicts-folder.png"></a></p>
 <hr>
 <p><a href="https://github.com/claire-west/svstudio-manual-zh/issues/new?template=report-a-problem.md&amp;title=%5BPage:%20User%20Dictionaries%5D">报告问题</a></p></div>
 
@@ -1381,7 +1381,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-30T03:03:00+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-08-04T14:28:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-08-04</span>
       
         <br>
         创建日期:
