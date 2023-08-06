@@ -6,12 +6,6 @@ hide:
 
 # Synthesizer V Studio
 
-!!! warning "公告"
-
-    本翻译工作正在进行中。您可以通过 [GitHub 存储库](https://github.com/claire-west/svstudio-manual-zh) 或查看 [英文网站](https://manual.synthv.info/) 提供翻译。本信息由 [DeepL](https://www.deepl.com/translator) 翻译。
-
-    This translation is a work in progress. You can contribute translations via the [GitHub repository](https://github.com/claire-west/svstudio-manual-zh) or view the original [English website](https://manual.synthv.info/).
-
 <!-- ![Synthesizer V Logo](/img/synthesizer-v.png) -->
 
 Synthesizer V Studio是一款于2020年7月发布的歌声合成器,并在2020年12月增加了AI歌声合成功能。
