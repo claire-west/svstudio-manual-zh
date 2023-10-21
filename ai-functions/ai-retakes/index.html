@@ -1094,14 +1094,21 @@
         
           <li class="md-nav__item">
   <a href="#3" class="md-nav__link">
-    3. 删除多个
+    3. 全局设置
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
-    4. 喜欢
+    4. 删除多个
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 喜欢
   </a>
   
 </li>
@@ -1134,6 +1141,13 @@
       
         <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
+    增强
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
     随机性和概率
   </a>
   
@@ -1141,14 +1155,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     可能影响结果的因素
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     机器学习模型中的偏差
   </a>
   
@@ -1160,7 +1174,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     视频演示
   </a>
   
@@ -1682,14 +1696,21 @@
         
           <li class="md-nav__item">
   <a href="#3" class="md-nav__link">
-    3. 删除多个
+    3. 全局设置
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
-    4. 喜欢
+    4. 删除多个
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 喜欢
   </a>
   
 </li>
@@ -1722,6 +1743,13 @@
       
         <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
+    增强
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
     随机性和概率
   </a>
   
@@ -1729,14 +1757,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     可能影响结果的因素
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     机器学习模型中的偏差
   </a>
   
@@ -1748,7 +1776,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     视频演示
   </a>
   
@@ -1783,11 +1811,16 @@
 <h3 id="1">1. 新建重录</h3>
 <p>为所选音符生成新的重录（默认<span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-t">T</kbd></span>）。</p>
 <h3 id="2">2. 删除</h3>
-<p>删除重录</p>
-<h3 id="3">3. 删除多个</h3>
+<p>删除重录。</p>
+<h3 id="3">3. 全局设置</h3>
+<p>改变当前音轨/音符组所有重录的“表现力”和“强化”的基值。</p>
+<p>更改这些值将影响现有重录。要“锁定”音符的音高曲线，请将其音高模式更改为<a href="../../advanced/pitch-mode-manual/">手动</a>.</p>
+<h3 id="4">4. 删除多个</h3>
 <p>用于删除未使用的重录或仅删除未标记的重录（默认<span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-t">T</kbd></span>）。</p>
-<h3 id="4">4. 喜欢</h3>
-<p>标记首选重录。</p>
+<h3 id="5">5. 喜欢</h3>
+<p>标记喜欢的重录。</p>
+<p>如果你<a href="../../setup/#ai-retakes-feedback-data">选择加入反馈采集</a>，将会发送当前选中的重录中的少量数据到 Dreamtonics。该信息将用于在未来的软件更新中改进生成的音高模型。</p>
+<p>如果未选择加入，或选择退出反馈收集后，此功能仅作为您的偏好的书签，并且不会将任何项目数据传输到 Dreamtonics。</p>
 <h2 id="_2">音高重录</h2>
 <p>要生成新的重录，请选择一个或多个音符，然后在AI重录面板中单击“生成新的重录”。</p>
 <div class="admonition info">
@@ -1810,13 +1843,15 @@
 <p>这些重录将修改与音高无关的声音品质，例如音色、力度、发音等。这有助于微调声门声音，例如气泡音，在音符之间创建更平滑的过渡，或调整呼吸音的强度。</p>
 <p><a class="glightbox" href="../../img/ai-functions/retakes-timbre.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="音色重录" src="../../img/ai-functions/retakes-timbre.png"></a></p>
 <h2 id="_4">表现力</h2>
-<p>表现力滑块可用于调整音高或音色偏差的幅度。</p>
-<p>如果未选择任何音符，则此滑块将影响轨道或音符组中尚未单独设置表现力值的音符的默认表现力。</p>
+<p>表现力滑块可用于调整音高或音色偏差的幅度/强度。</p>
 <p><a class="glightbox" href="../../img/ai-functions/retakes-expressiveness-crop.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="音符表现力滑块" src="../../img/ai-functions/retakes-expressiveness-crop.png"></a></p>
-<h2 id="_5">随机性和概率</h2>
+<h2 id="_5">增强</h2>
+<p>增强滑块可调整生成的重录受从其他用户收集的反馈的影响。</p>
+<p>基于反馈的增强仅适用于音高重录。</p>
+<h2 id="_6">随机性和概率</h2>
 <p>生成新的 AI 重录相当于掷多次骰子，当生成新的重录时，概率分布和可能结果集不会改变，但您可以根据相同的输入或情况浏览并从许多可能性中进行选择。</p>
 <p>在编程术语中，生成新的重录会执行多次相同的过程，每次执行都有不同的<a href="https://en.wikipedia.org/wiki/Random_seed">随机种子</a>。</p>
-<h3 id="_6">可能影响结果的因素</h3>
+<h3 id="_7">可能影响结果的因素</h3>
 <p>AI 重录的结果可能因多种因素而异：</p>
 <ul>
 <li>选择的歌声数据库</li>
@@ -1824,11 +1859,11 @@
 <li><a href="../vocal-modes/">声线</a>设置（仅影响音色重录）</li>
 </ul>
 <p>如果这些因素中的任何一个发生变化，即使已经生成，AI重录的结果也可能有所不同。</p>
-<h3 id="_7">机器学习模型中的偏差</h3>
+<h3 id="_8">机器学习模型中的偏差</h3>
 <p>每个歌声数据库（和声线）都包含基于声库供应商歌声的原始录音的某些偏差。</p>
 <p>对于倾向于使用人声的歌声数据库，您可能需要生成更多的音色重录才能找到没有这种行为的数据库。同样，一些歌声数据库对该行为几乎没有偏向，因此可能不会产生该结果。</p>
 <p>同样的概念也适用于歌声的其他方面，例如过渡、颤音、力度等。</p>
-<h2 id="_8">视频演示</h2>
+<h2 id="_9">视频演示</h2>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 <hr>
@@ -1839,7 +1874,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-08-04T14:28:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-08-04</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-10-21T04:14:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-10-21</span>
       
         <br>
         创建日期:

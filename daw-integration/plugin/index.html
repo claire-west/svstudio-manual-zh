@@ -1660,7 +1660,7 @@
 <h2 id="_1">保存项目</h2>
 <p>当Synthesizer V Studio用作 DAW 中的乐器时，会在“文件”顶部菜单下添加其他设置。</p>
 <p>如果选择“保存在宿主内部”，则Synthesizer V Studio项目 （SVP） 文件将嵌入到 DAW 项目中。</p>
-<p>要将外部 SVP 文件与您的 DAW 项目分开保存，请选择“保存到外部文件”。</p>
+<p>要将外部 SVP 文件与您的 DAW 项目分开保存，请选择“保存到外部文件”。如果您打算创建项目的 SVP 备份，请确保在保存外部文件后切换回“保存在宿主内部”。</p>
 <p><a class="glightbox" href="../../img/daw-integration/save-inside-host.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="保存在宿主内" src="../../img/daw-integration/save-inside-host.png"></a></p>
 <div class="admonition warning">
 <p class="admonition-title">保存到外部文件</p>
@@ -1677,12 +1677,16 @@
 <dt>主通道 - 合并</dt>
 <dd>所有的音频输出均使用单通道。</dd>
 <dt>主通道 - 气声分离</dt>
-<dd>使用两个通道，一个用于所有轨道的主输出，另一个用于所有轨道的气声隔离。</dd>
+<dd>使用两个通道，一个用于所有轨道的发声，另一个用于所有轨道的气声隔离。</dd>
 <dt>各音轨 - 合并</dt>
 <dd>每个轨道使用一个通道。</dd>
 <dt>各音轨 - 气声分离</dt>
-<dd>每个轨道使用两个输出通道，一个用于主输出，另一个用于气声隔离。</dd>
+<dd>每个轨道使用两个输出通道，一个用于发声，另一个用于气声隔离。</dd>
 </dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>选择“气声隔离”选项将从主输出中删除气声，产生的输出仅包含基础发声。在这种情况下，必须在混音过程中重新组合以获得完整的结果。</p>
+</div>
 <h2 id="_4">视频演示</h2>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMm7piaJ0ss" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
@@ -1697,7 +1701,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-08-04T14:28:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-08-04</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-10-21T04:14:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-10-21</span>
       
         <br>
         创建日期:

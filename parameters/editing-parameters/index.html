@@ -1927,6 +1927,12 @@
 <h3 id="_3">举个栗子</h3>
 <p>在这个例子中，SOLARIA的“Light”声线参数和气声参数在歌声的持续时间内被修改。</p>
 <p>曲线在给定时间点的垂直位置决定了该时刻其各自参数或声线参数的值。例如，前景中显示的“Light”声线参数曲线在歌词开始时约为 105%，然后缓慢下降到 30% 左右，在歌词末尾附近逐渐增加到大约 135%。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>参数曲线与其沿时间轴的水平位置相关，而不是与同一时间点的音符相关。</p>
+<p>这意味着移动、复制或分组音符序列不会包含该序列持续时间内的参数值，除非您使用<a href="#select-parameters-for-notes">选择音符参数</a> 功能来选择它们。</p>
+<p>某些参数（例如音高偏差）将特定于它们所排列的音符，因此应与其各自的音符一起移动/复制/分组。其他参数（例如声线参数）通常应用于整个乐句，因此将这些曲线与特定音符一起移动可能并不常用。</p>
+</div>
 <p><a class="glightbox" href="../../img/parameters/parameter-curve-example.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="基本参数调整" src="../../img/parameters/parameter-curve-example.png"></a></p>
 <h2 id="_4">基础值</h2>
 <p>大多数参数的基值可以在“歌声”面板中设置。参数面板中的曲线将修改此基础设置的值。</p>
@@ -2020,6 +2026,7 @@
 <h3 id="_17">选择音符对应的参数</h3>
 <p>“选择音符对应的参数”选项可以在“编辑”顶部菜单下找到，也可以右键单击选定的音符。</p>
 <p>此选项将为当前选定的音符选择包含所有参数类型的参数点，即使它们在“参数”面板中暂未显示。</p>
+<p>这常用于复制或为音符编组时保留关联的参数曲线。</p>
 <p>有关使用快捷键一次选择多个音符的方法，请参阅<a href="../../quickstart/editing-notes/#selecting-notes">编辑音符</a>。</p>
 <p><a class="glightbox" href="../../img/parameters/move-params-with-notes.mp4" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><div class="video-container"><video style="width:initial;height:initial" controls alt="type:video"><source src="../../img/parameters/move-params-with-notes.mp4" type="video/mp4"></source></video></div></a></p>
 <h3 id="_18">简化参数</h3>
@@ -2037,7 +2044,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-08-01T12:59:31+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-08-01</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-10-21T04:14:23+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-10-21</span>
       
         <br>
         创建日期:
