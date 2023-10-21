@@ -12,7 +12,7 @@
 
 ### 现有轨道
 
-删除或复制轨道（请参阅[管理音轨](../quickstart/managing-tracks.md)）。
+删除、复制或改变轨道颜色（请参阅[管理音轨](../quickstart/managing-tracks.md)）。
 
 ### 轨道下方的空白区域
 
@@ -58,6 +58,7 @@
 * 在当前鼠标位置拆分音符
 * 合并所选音符
 * 打开所选内容的“[插入歌词](batch-lyrics.md)”对话框
+* 将选区的歌词向前或向后转移
 * 重置音符的各个方面
 * 生成或裁剪[AI重录](../ai-functions/ai-retakes.md)
 * 重新计算所选音符的音高（使用[歌唱](../ai-functions/pitch-mode-sing.md)或[说唱](../ai-functions/pitch-mode-rap.md)音高模式时强制重新渲染）

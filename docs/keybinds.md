@@ -33,6 +33,8 @@ Synthesizer V Studio中的大多数快捷键直接映射到可通过应用程序
 |视图 - 音符属性面板                       |++ctrl+b++             |++cmd+b++       |
 |修改 - 填入歌词（批量输入）                |++ctrl+l++             |++cmd+l++       |
 |修改 - 简化参数                           |++alt+s++              |++opt+s++       |
+|修改 - 向前转移音符                       |++ctrl+shift+right++   |++cmd+shift+right++|
+|修改 - 向后转移音符                       |++ctrl+shift+left++    |++cmd+shift+left++ |
 |修改 - 创建锚点                           |++alt+a++              |++opt+a++       |
 |修改 - 吸附到网格                         |++ctrl+g++             |++cmd+g++       |
 |修改 - 移调                              |++ctrl+t++             |++cmd+t++       |

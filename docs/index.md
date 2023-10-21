@@ -20,25 +20,17 @@ Synthesizer V Studio是一款于2020年7月发布的歌声合成器,并在2020�
 
 本网站不隶属于Dreamtonics。
 
-??? info "1.9.0 更新现已推出！（点击这里获取更多信息）"
+??? info "1.10.0 更新现已推出！（点击这里获取更多信息）"
 
-    Dreamtonics发布了Synthesizer V Studio版本1.9.0，重制了自动音高调校，增加了说唱模式和粤语的跨语言合成功能。
-
-    以下链接介绍了更新和新功能:
-
-    * [音高转变和颤音调制](note-properties/pitch-transition-and-vibrato.md)概述了新的音高模式选项
-    * [音高模式：歌唱](ai-functions/pitch-mode-sing.md) 有关“歌唱”模式的信息，该模式是原“自动音高调校”功能。
-    * [音高模式：说唱](ai-functions/pitch-mode-rap.md) 与说唱功能有关的信息
-    * [音高模式：手动](advanced/pitch-mode-manual.md) 手动调节音高转变和颤音等相关内容（原“音高转变和颤音”页面）
-    * [新音素表](phonemes.md) 由TiredBee提供的粤语音素对照表。
+    Dreamtonics发布了Synthesizer V Studio版本1.10.0，其中包含基于用户反馈改进的音高模型和一系列 UX 改进。
 
     有关更新软件的说明，请参阅[安装和激活](setup.md#updating-the-software).
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZKwGR08kCSk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
     来自Dreamtonics的更新说明：
 
-    * [Synthesizer V Studio 1.9.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-9-0-final-update/)
+    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-10-0-final-update/)
 
 ---
 

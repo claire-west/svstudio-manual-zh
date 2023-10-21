@@ -112,7 +112,7 @@
 : 将在启动时检查Synthesizer V Studio和已安装的歌声数据库的更新。
 
 **配置诊断数据采集**
-: 向Dreamtonics匿名发送使用信息以改进软件。
+: 显示[诊断数据采集许可](../setup.md#telemetry-consent)对话框。
 
 ### 音频
 单独启动时，包含与设备的音频硬件相关的选项。
